@@ -1,0 +1,187 @@
+html, body {
+  margin: 0;
+  background-color: #fff0dd;
+  scroll-behavior: smooth;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+.title {
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 5px;
+  top: 0px;
+  text-align: center;
+  margin: auto;
+}
+.main {
+  margin: auto;
+  width: 800px;
+}
+.person {
+  background-size: 400px;
+  margin-top: 100px;
+}
+.infobox.thousand {
+  height: 1000px !important;
+  max-width: 100%;
+  width: 100%;
+  background-color: #ff00008c;
+}
+.prisoners {
+  background-image: url('img/ex.svg');
+  height: 2875000px;
+  background-position: 0px 60px;
+}
+.prisoners .title {
+  position: sticky;
+  background-color: #fff0dd;
+  z-index: 20;
+}
+.infobox.first {
+  margin-top: 50000px;
+}
+.infobox,
+.thousand .infobox-inner {
+  margin: auto;
+  max-width: 75%;
+}
+.infobox {
+  font-family: sans-serif;
+  margin-top: 10000px;
+  height: 15000px;
+}
+.android .infobox {
+  height: 60000px;
+}
+.infobox.close {
+  margin-top: 1000px;
+}
+.infobox-inner {
+  font-size: 18px;
+  position: sticky;
+  top: 200px;
+  padding: 10px;
+  background-color: #57c8ff;
+  display: inline-block;
+  box-shadow: -5px 5px 5px #505050;
+}
+.image {
+  margin-top: 25px;
+}
+.image .infobox-inner {
+  background-color: white;
+  top: 100px;
+  box-shadow: -2px 2px 5px grey;
+  border: 1px solid #b9b9b9;
+}
+.image .infobox-inner img {
+  width: 100%;
+  height: auto;
+}
+.list-of-states {
+  columns: 3;
+  font-size: 12px;
+}
+.state-incarcerated {
+  color: red;
+  font-weight: bold;
+}
+.infobox-inner > h2 {
+  margin-top: 0;
+}
+.bar {
+  background-color: grey;
+  margin: 10px 0;
+  padding: 10px;
+  color: white;
+}
+.bar.highlighted {
+  background-color: #a20000;
+}
+p:first-child {
+  margin-top: 0;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+.floyd {
+  height: 40000px;
+  display: flex;
+  align-items: flex-start;
+}
+.floyd .infobox-inner {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+.floyd .infobox-inner.icon {
+  background-image: url(img/incarcerated.svg);
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: 12px 25px;
+  height: 40px;
+}
+.floyd .infobox-inner.text {
+  height: 20000px;
+  display: flex;
+  align-items: flex-start;
+}
+.highlight {
+  background-color: #57c8ff;
+  display: block;
+  padding: 15px;
+  box-shadow: -5px 5px 5px #505050;
+}
+.arrow {
+  padding-top: 7px;
+  position: relative;
+  right: 3px;
+  color: #57c7ff;
+  font-size: 30px;
+}
+.fixed {
+  position: fixed;
+}
+.counter {
+  bottom: 0;
+  width: 800px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #fff1dd;
+  padding: 10px 0;
+}
+@media (max-width: 799px) {
+  .counter,
+  .main {
+    width: 360px;
+  }
+  .thousand {
+    height: 4440px !important;
+  }
+  .prisoners {
+    background-size: 360px;
+    height: 5175000px;
+  }
+  .title {
+    background-color: #fff0dd;
+    position: sticky;
+  }
+  .infobox.thousand {
+    width: 100%;
+    max-width: 100%;
+  }
+  .infobox,
+  .thousand .infobox-inner {
+    max-width: 95%;
+  }
+  .infobox-inner {
+    border-width: 3px;
+  }
+
+}
+@media (max-width: 374px) {
+
+}

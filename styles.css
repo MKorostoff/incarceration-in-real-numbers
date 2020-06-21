@@ -132,14 +132,47 @@ h1 {
   width: 25%;
   color: black;
   margin: 0 10px;
-  font-size: 16px;
+  font-size: 12px;
   padding: 5px;
   background-color: yellowgreen;
   box-shadow: -2px 4px 4px black;
 }
-.vertical-bars .bar span {
+.vertical-bars .bar .bar-label {
   position: sticky;
   top: 60px;
+  height: 60px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  margin-bottom: 30px;
+}
+.vertical-bars .bar .bar-number {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  position: sticky;
+  top: 120px;
+}
+.vertical-bars .bar .sub-infobox {
+  margin-left: -130px;
+  background-color: white;
+  display: inline-block;
+  padding: 5px;
+  border: 3px solid #9bce31;
+  font-size: 13px;
+  position: relative;
+  z-index: 30;
+  left: -140px;
+  box-shadow: -2px 2px 4px grey;
+}
+.vertical-bars .bar .sub-infobox .connector {
+  width: 50px;
+  height: 0;
+  border-top: 8px solid #9bce31;
+  position: absolute;
+  left: 214px;
+  top: 40%;
+  margin-bottom: -8px;
 }
 .correctional-population .infobox-inner {
   height: 430px;

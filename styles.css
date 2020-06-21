@@ -2,15 +2,32 @@ html, body {
   margin: 0;
   background-color: #fff0dd;
   scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+.spacer {
+  height: 1px;
+}
+.padder {
+  height: 20px;
+  margin-top: 150px;
+}
+.padder,
+.scroll-down,
+.title {
+  background-color: #e2dcc6;
+}
+.scroll-down {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
 }
 h1 {
   font-family: sans-serif;
-  font-size: 40px;
+  margin: 0;
+  font-size: 20px;
   text-align: center;
 }
 .title {
-  font-family: sans-serif;
-  font-size: 20px;
   padding: 5px;
   top: 0px;
   text-align: center;
@@ -22,7 +39,6 @@ h1 {
 }
 .person {
   background-size: 400px;
-  margin-top: 100px;
 }
 .infobox.thousand {
   height: 1000px !important;
@@ -33,11 +49,9 @@ h1 {
 .prisoners {
   background-image: url('img/ex.svg');
   height: 2875000px;
-  background-position: 0px 60px;
 }
 .prisoners .title {
   position: sticky;
-  background-color: #fff0dd;
   z-index: 20;
 }
 .infobox.first {
@@ -53,6 +67,12 @@ h1 {
   margin-top: 10000px;
   height: 15000px;
 }
+.infobox.correctional-population {
+  height: 5000px;
+}
+.correctional-population + .infobox {
+  margin-top: 18000px;
+}
 .android .infobox {
   height: 60000px;
 }
@@ -61,12 +81,12 @@ h1 {
 }
 .infobox-inner {
   font-size: 18px;
-  position: sticky;
   top: 200px;
   padding: 10px;
   background-color: #57c8ff;
-  display: inline-block;
   box-shadow: -5px 5px 5px #505050;
+  display: inline-block;
+  position: sticky;
 }
 .image {
   margin-top: 25px;
@@ -92,6 +112,10 @@ h1 {
 .infobox-inner > h2 {
   margin-top: 0;
 }
+.infobox.chart .infobox-inner {
+  top: 100px;
+  width: 100%;
+}
 .bar {
   background-color: grey;
   margin: 10px 0;
@@ -100,6 +124,25 @@ h1 {
 }
 .bar.highlighted {
   background-color: #a20000;
+}
+.vertical-bars {
+  display: flex;
+}
+.vertical-bars .bar {
+  width: 25%;
+  color: black;
+  margin: 0 10px;
+  font-size: 16px;
+  padding: 5px;
+  background-color: yellowgreen;
+  box-shadow: -2px 4px 4px black;
+}
+.vertical-bars .bar span {
+  position: sticky;
+  top: 60px;
+}
+.correctional-population .infobox-inner {
+  height: 430px;
 }
 p:first-child {
   margin-top: 0;
@@ -142,21 +185,24 @@ p:last-child {
   color: #57c7ff;
   font-size: 30px;
 }
-.fixed {
-  position: fixed;
-}
 .counter {
-  bottom: 0;
-  width: 800px;
-  text-align: center;
   font-family: sans-serif;
-  background-color: #fff1dd;
-  padding: 10px 0;
+  position: absolute;
+  right: 20px;
+  top: 20px;
 }
 @media (max-width: 799px) {
   .counter,
   .main {
     width: 360px;
+  }
+  .counter {
+    top: 42px;
+    left: 0;
+    font-size: 12px;
+    background-color: #e2dcc6;
+    line-height: 20px;
+    font-weight: bold;
   }
   .thousand {
     height: 4440px !important;
@@ -166,8 +212,14 @@ p:last-child {
     height: 5175000px;
   }
   .title {
-    background-color: #fff0dd;
     position: sticky;
+  }
+  h1 {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .scroll-down {
+    font-size: 14px;
   }
   .infobox.thousand {
     width: 100%;
@@ -179,6 +231,16 @@ p:last-child {
   }
   .infobox-inner {
     border-width: 3px;
+  }
+  .infobox.chart .infobox-inner {
+    width: 93%;
+  }
+  .vertical-bars .bar {
+    width: 16%;
+    font-size: 10px;
+  }
+  .vertical-bars .bar.family {
+    display: none;
   }
 
 }

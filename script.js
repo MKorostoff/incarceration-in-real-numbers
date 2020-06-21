@@ -1,5 +1,6 @@
 var prisoners = document.getElementById('prisoners');
 var counter = document.getElementById('counter');
+var title = document.getElementById('title');
 var scroll_count = 0;
 
 var ua = navigator.userAgent.toLowerCase();
@@ -10,13 +11,12 @@ if (isAndroid) {
 
 window.addEventListener('scroll', function(e) {
   scroll_count = getScrollCount();
-  if (scroll_count > 10000) {
-    counter.classList = 'counter fixed';
+  if (scroll_count > 55320) {
+    counter.innerHTML = scroll_count.toLocaleString();
   }
   else {
-    counter.classList = 'counter';
+    counter.innerHTML = '';
   }
-  counter.innerHTML = scroll_count.toLocaleString();
 });
 
 function getScrollCount() {

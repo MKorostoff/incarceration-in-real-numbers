@@ -7,10 +7,12 @@
 </head>
 <body>
 <div class="main">
-  <h1>Can we talk about incarceration?</h1>
-
   <div id="prisoners" class="person prisoners">
-    <h2 class="title">Americans jailed or imprisoned<br>(about 2.3 million)</h2>
+    <div class="spacer"></div>
+    <div class="padder"></div>
+    <div id="title" class="title"><h1>The actual number of Americans jailed or imprisoned,<br>about 2.3 million</h1><span id="counter" class="counter"></span></div>
+    <div class="scroll-down">(Scroll down)</div>
+
 
     <div class="infobox first">
       <div class="infobox-inner">It is almost impossible to comprehend the amount of incarcerated Americans.</div>
@@ -31,15 +33,16 @@
       </div>
     </div>
 
-    <div class="infobox chart">
-      <div class="infobox-inner" style="width: 100%;">
+    <div class="infobox chart correctional-population">
+      <div class="infobox-inner" style="height: 430px;">
         <h2>People incarcerated</h2>
-        <div class="bar">Currently Incarcerated (2.3M)</div>
-        <div class="bar">Americans who will be incarcerated for any length of time this year (4.9M)</div>
-        <div class="bar">Americans on probation and parole (6.7M)</div>
-        <div class="bar">Americans currently alive who will go to prison for length of time during their lifetime. Not jail, prison. (16.8M)</div>
-        <div class="bar">American adults who have ever had </div>
-        <div class="bar">Americans with a criminal record currently (77M)</div>
+        <div class="vertical-bars">
+          <div style="height: 345px;" class="bar"><span>Currently incarcerated (2.3M)</span></div>
+          <div style="height: 660px;" class="bar"><span>Will be incarcerated this year (4.9M)</span></div>
+          <div style="height: 2520px;" class="bar"><span>Alive currently, will go to prison ever (16.8M)</span></div>
+          <div style="height: 11550px;" class="bar"><span>Has criminal record (77M)</span></div>
+          <div style="height: 16950px;" class="bar family"><span>Had an immediate family member incarcerated (113M)</span></div>
+        </div>
       </div>
     </div>
 
@@ -123,7 +126,6 @@
 
 
   </div>
-  <div id="counter" class="counter"></div>
 </div>
 <script type="text/javascript" src="script.js"></script>
 </body>

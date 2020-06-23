@@ -70,15 +70,19 @@ h1 {
 .infobox.correctional-population {
   height: 5000px;
 }
+.android .correctional-population + .infobox,
 .correctional-population + .infobox {
   margin-top: 18000px;
 }
-.android .infobox {
-  height: 60000px;
-}
 .infobox.close {
-  margin-top: 1000px;
+  margin-top: 3000px;
 }
+/*.android .infobox {
+  height: 3000px;
+}
+.android .infobox {
+  margin-top: 800px;
+}*/
 .infobox-inner {
   font-size: 18px;
   top: 200px;
@@ -121,9 +125,20 @@ h1 {
   margin: 10px 0;
   padding: 10px;
   color: white;
+  box-sizing: border-box;
 }
 .bar.highlighted {
   background-color: #a20000;
+}
+.over-bar-label {
+  font-size: 12px;
+  margin-top: 15px;
+}
+.over-bar-label + .bar {
+  margin: 0;
+  background-color: #e22e2e;
+  box-shadow: -2px 2px 4px black;
+  height: 40px;
 }
 .vertical-bars {
   display: flex;
@@ -142,37 +157,8 @@ h1 {
   top: 60px;
   height: 60px;
   text-align: center;
-  display: table-cell;
-  vertical-align: middle;
   margin-bottom: 30px;
-}
-.vertical-bars .bar .bar-number {
-  font-size: 18px;
-  text-align: center;
-  font-weight: bold;
-  position: sticky;
-  top: 120px;
-}
-.vertical-bars .bar .sub-infobox {
-  margin-left: -130px;
-  background-color: white;
-  display: inline-block;
-  padding: 5px;
-  border: 3px solid #9bce31;
-  font-size: 13px;
-  position: relative;
-  z-index: 30;
-  left: -140px;
-  box-shadow: -2px 2px 4px grey;
-}
-.vertical-bars .bar .sub-infobox .connector {
-  width: 50px;
-  height: 0;
-  border-top: 8px solid #9bce31;
-  position: absolute;
-  left: 214px;
-  top: 40%;
-  margin-bottom: -8px;
+  padding-top: 10px;
 }
 .correctional-population .infobox-inner {
   height: 430px;
@@ -269,11 +255,57 @@ p:last-child {
     width: 93%;
   }
   .vertical-bars .bar {
-    width: 16%;
+    width: 14%;
     font-size: 10px;
   }
-  .vertical-bars .bar.family {
-    display: none;
+  .vertical-bars .bar .bar-label {
+    width: 125px;
+    background-color: #ece62a;
+    height: auto;
+    padding: 5px;
+    display: block;
+    font-size: 14px;
+    text-align: left;
+    border: 2px dashed black;
+    top: 70px;
+  }
+  .vertical-bars .bar .bar-label.right {
+    margin-left: 48px;
+  }
+  .vertical-bars .bar .bar-label.left {
+    margin-left: -160px;
+  }
+  .vertical-bars .bar .bar-label.left:after,
+  .vertical-bars .bar .bar-label.right:before {
+    height: 0;
+    width: 30px;
+    display: block;
+    content: '';
+    position: absolute;
+    border-top: 2px dashed black;
+    top: 50%;
+  }
+  .vertical-bars .bar .bar-label.right:before {
+    left: -34px;
+  }
+  .vertical-bars .bar .bar-label.left:after {
+    right: -34px;
+  }
+  .vertical-bars .bar .bar-label.bar-label-320 {
+    margin-top: 320px;
+  }
+  .vertical-bars .bar .bar-label.bar-label-1000 {
+    margin-top: 1000px;
+  }
+  .vertical-bars .bar .bar-label.bar-label-2600 {
+    margin-top: 2600px;
+  }
+  .vertical-bars .bar .bar-label.bar-label-11800 {
+    margin-top: 11800px;
+  }
+  .vertical-bars .bar.last .bar-label {
+    width: 190px;
+    margin-left: -225px;
   }
 
 }

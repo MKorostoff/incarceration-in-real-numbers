@@ -3,6 +3,19 @@ var counter = document.getElementById('counter');
 var title = document.getElementById('title');
 var scroll_count = 0;
 
+var observer = new IntersectionObserver(function(entries){
+  entries.forEach(function(entry){
+    if (entry.isIntersecting || entry.intersectionRatio > 0) {
+      document.getElementById('prisoners').style = 'background-image: url(img/bg/' + entry.target.dataset.background + ');'
+    }
+  })
+})
+var obervables = ['blue','red','pretrial','preconvicted', 'disagree', 'unconvicted'];
+obervables.forEach(function(id){
+  var target = document.getElementById(id);
+  observer.observe(target);
+})
+
 var ua = navigator.userAgent.toLowerCase();
 var isAndroid = ua.indexOf("android") > -1;
 if (isAndroid) {
@@ -11,7 +24,7 @@ if (isAndroid) {
 
 window.addEventListener('scroll', function(e) {
   scroll_count = getScrollCount();
-  if (scroll_count > 55320) {
+  if (scroll_count > 800) {
     counter.innerHTML = scroll_count.toLocaleString();
   }
   else {

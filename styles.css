@@ -47,7 +47,7 @@ h1 {
   background-color: #ff00008c;
 }
 .prisoners {
-  background-image: url('img/ex.svg');
+  background-image: url('img/bg/black.svg');
   height: 2875000px;
 }
 .prisoners .title {
@@ -55,7 +55,7 @@ h1 {
   z-index: 20;
 }
 .infobox.first {
-  margin-top: 50000px;
+  margin-top: 40000px;
 }
 .infobox,
 .thousand .infobox-inner {
@@ -64,25 +64,9 @@ h1 {
 }
 .infobox {
   font-family: sans-serif;
-  margin-top: 10000px;
-  height: 15000px;
+  margin-top: 1000px;
+  height: 2000px;
 }
-.infobox.correctional-population {
-  height: 5000px;
-}
-.android .correctional-population + .infobox,
-.correctional-population + .infobox {
-  margin-top: 18000px;
-}
-.infobox.close {
-  margin-top: 3000px;
-}
-/*.android .infobox {
-  height: 3000px;
-}
-.android .infobox {
-  margin-top: 800px;
-}*/
 .infobox-inner {
   font-size: 18px;
   top: 200px;
@@ -131,8 +115,10 @@ h1 {
   background-color: #a20000;
 }
 .over-bar-label {
-  font-size: 12px;
-  margin-top: 15px;
+  margin-top: 35px;
+}
+.over-bar-label.first {
+  margin-top: 0;
 }
 .over-bar-label + .bar {
   margin: 0;
@@ -169,8 +155,16 @@ p:first-child {
 p:last-child {
   margin-bottom: 0;
 }
+.side-icon {
+  float: left;
+  width: 20px;
+  padding-right: 10px;
+}
+.blue {
+  margin-bottom: 5000px;
+}
 .floyd {
-  height: 40000px;
+  height: 10000px;
   display: flex;
   align-items: flex-start;
 }
@@ -180,14 +174,14 @@ p:last-child {
   box-shadow: none;
 }
 .floyd .infobox-inner.icon {
-  background-image: url(img/incarcerated.svg);
+  background-image: url(img/person/red.svg);
   background-size: 10px;
   background-repeat: no-repeat;
   background-position: 12px 25px;
   height: 40px;
 }
 .floyd .infobox-inner.text {
-  height: 20000px;
+  height: 5000px;
   display: flex;
   align-items: flex-start;
 }
@@ -201,7 +195,7 @@ p:last-child {
   padding-top: 7px;
   position: relative;
   right: 3px;
-  color: #57c7ff;
+  color: red;
   font-size: 30px;
 }
 .counter {
@@ -209,6 +203,17 @@ p:last-child {
   position: absolute;
   right: 20px;
   top: 20px;
+}
+.stalin .vertical-bars .bar {
+  background-color: #313131;
+  color: white;
+}
+.stalin .vertical-bars .stalin-bar {
+  background-color: #CD0000;
+  background-image: url(img/stalin.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 @media (max-width: 799px) {
   .counter,
@@ -290,6 +295,9 @@ p:last-child {
   }
   .vertical-bars .bar .bar-label.left:after {
     right: -34px;
+  }
+  .vertical-bars .bar .bar-label.bar-label-200 {
+    margin-top: 200px;
   }
   .vertical-bars .bar .bar-label.bar-label-320 {
     margin-top: 320px;

@@ -55,7 +55,7 @@ h1 {
   z-index: 20;
 }
 .infobox.first {
-  margin-top: 40000px;
+  margin-top: 20000px;
 }
 .infobox,
 .thousand .infobox-inner {
@@ -75,6 +75,38 @@ h1 {
   box-shadow: -5px 5px 5px #505050;
   display: inline-block;
   position: sticky;
+  z-index: 10;
+}
+.expandable .infobox-inner {
+  height: 380px;
+}
+.expandable .infobox-inner .bar {
+  padding: 4px;
+}
+.expandable.expanded {
+  margin-bottom: 5110px;
+}
+.expandable.expanded .expando {
+  display: none;
+}
+.expandable.expanded .infobox-inner {
+  position: relative;
+  height: 5110px;
+}
+.expando {
+  position: absolute;
+  right: 8px;
+  bottom: 7px;
+  font-size: 10px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px;
+  box-shadow: 1px 1px 1px black;
+  cursor: pointer;
+  display: block;
+}
+.expando:active:focus {
+  box-shadow: 0;
 }
 .image {
   margin-top: 25px;
@@ -99,20 +131,56 @@ h1 {
 }
 .infobox-inner > h2 {
   margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 18px;
 }
 .infobox.chart .infobox-inner {
   top: 100px;
   width: 100%;
 }
+.chart.horizontal .infobox-inner {
+  overflow: hidden;
+}
+.chart.expandable .bar {
+  padding-left: 0;
+  padding-right: 0;
+}
+#casualties .infobox-inner {
+  top: 200px;
+}
+#casualties .bar {
+  min-height: 70px;
+}
 .bar {
-  background-color: grey;
+  background-color: yellowgreen;
   margin: 10px 0;
   padding: 10px;
   color: white;
+  box-shadow: -2px 2px 5px black;
   box-sizing: border-box;
+  font-size: 12px;
+}
+.bar-inner {
+  color: black;
+  margin-left: calc(100% + 10px);
+  white-space: nowrap;
+  display: inline-block;
+}
+.inset-text .bar-inner {
+  margin-left: 10px;
 }
 .bar.highlighted {
   background-color: #a20000;
+}
+.bar.highlighted .bar-inner {
+  color: white;
+}
+.chart.horizontal .bar.right {
+  text-align: right;
+  padding-right: 10px;
+}
+.bar.black {
+  background-color: black;
 }
 .over-bar-label {
   margin-top: 35px;
@@ -146,6 +214,9 @@ h1 {
   margin-bottom: 30px;
   padding-top: 10px;
 }
+.vertical-bars .bar .bar-label.no-pad {
+  padding-top: 0;
+}
 .correctional-population .infobox-inner {
   height: 430px;
 }
@@ -160,7 +231,8 @@ p:last-child {
   width: 20px;
   padding-right: 10px;
 }
-.blue {
+.blue,
+.red {
   margin-bottom: 5000px;
 }
 .floyd {
@@ -191,6 +263,39 @@ p:last-child {
   padding: 15px;
   box-shadow: -5px 5px 5px #505050;
 }
+#unconvicted {
+  font-size: 13px;
+}
+#unconvicted .bar {
+  background-color: yellowgreen;
+  color: black;
+  box-shadow: -2px 2px 5px;
+}
+#unconvicted .bar.highlighted {
+  background-color: #a20000;;
+}
+.without-conviction-label {
+  width: 125px;
+  background-color: #ece62a;
+  height: auto;
+  padding: 5px;
+  display: block;
+  font-size: 14px;
+  text-align: left;
+  border: 2px dashed black;
+  position: absolute;
+  top: auto;
+  left: 40%;
+}
+.without-conviction-label:before {
+  display: block;
+  content: '';
+  border-top: 2px dashed black;
+  width: 78%;
+  height: 1px;
+  position: absolute;
+  left: -80%;
+}
 .arrow {
   padding-top: 7px;
   position: relative;
@@ -207,6 +312,8 @@ p:last-child {
 .stalin .vertical-bars .bar {
   background-color: #313131;
   color: white;
+  text-align: center;
+  width: 25%;
 }
 .stalin .vertical-bars .stalin-bar {
   background-color: #CD0000;
@@ -263,7 +370,7 @@ p:last-child {
     width: 14%;
     font-size: 10px;
   }
-  .vertical-bars .bar .bar-label {
+  .vertical-bars .bar .bar-label.tool-tip {
     width: 125px;
     background-color: #ece62a;
     height: auto;
@@ -273,15 +380,23 @@ p:last-child {
     text-align: left;
     border: 2px dashed black;
     top: 70px;
+    color: black;
   }
-  .vertical-bars .bar .bar-label.right {
+  .vertical-bars .bar .bar-label.tool-tip.right {
     margin-left: 48px;
   }
-  .vertical-bars .bar .bar-label.left {
+  .vertical-bars .bar .bar-label.tool-tip.left {
     margin-left: -160px;
   }
-  .vertical-bars .bar .bar-label.left:after,
-  .vertical-bars .bar .bar-label.right:before {
+  .vertical-bars .bar .bar-label.tool-tip.under {
+    width: 70px;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: -20px;
+  }
+
+  .vertical-bars .bar .bar-label.tool-tip.left:after,
+  .vertical-bars .bar .bar-label.tool-tip.right:before {
     height: 0;
     width: 30px;
     display: block;
@@ -290,32 +405,64 @@ p:last-child {
     border-top: 2px dashed black;
     top: 50%;
   }
-  .vertical-bars .bar .bar-label.right:before {
+  .vertical-bars .bar .bar-label.tool-tip.under:before {
+    height: 50px;
+    width: 0;
+    display: block;
+    content: '';
+    position: absolute;
+    border-left: 2px dashed black;
+    top: -50px;
+    left: 50%;
+  }
+  .vertical-bars .bar .bar-label.tool-tip.right:before {
     left: -34px;
   }
-  .vertical-bars .bar .bar-label.left:after {
+  .vertical-bars .bar .bar-label.tool-tip.left:after {
     right: -34px;
   }
-  .vertical-bars .bar .bar-label.bar-label-200 {
+  .vertical-bars .bar .bar-label.tool-tip.bar-label-100 {
+    margin-top: 100px;
+  }
+  .vertical-bars .bar .bar-label.tool-tip.bar-label-200 {
     margin-top: 200px;
   }
-  .vertical-bars .bar .bar-label.bar-label-320 {
+  .vertical-bars .bar .bar-label.tool-tip.bar-label-270 {
+    margin-top: 270px;
+  }
+  .vertical-bars .bar .bar-label.tool-tip.bar-label-320 {
     margin-top: 320px;
   }
-  .vertical-bars .bar .bar-label.bar-label-1000 {
+  .vertical-bars .bar .bar-label.tool-tip.bar-label-460 {
+    margin-top: 460px;
+  }
+  .vertical-bars .bar .bar-label.tool-tip.bar-label-1000 {
     margin-top: 1000px;
   }
-  .vertical-bars .bar .bar-label.bar-label-2600 {
+  .vertical-bars .bar .bar-label.tool-tip.bar-label-2600 {
     margin-top: 2600px;
   }
-  .vertical-bars .bar .bar-label.bar-label-11800 {
+  .vertical-bars .bar .bar-label.tool-tip.bar-label-11800 {
     margin-top: 11800px;
   }
-  .vertical-bars .bar.last .bar-label {
+  .vertical-bars .bar.last .bar-label.tool-tip {
     width: 190px;
     margin-left: -225px;
   }
-
+  .without-conviction-label:before {
+    width: 48%;
+    left: -50%;
+  }
+  .stalin .vertical-bars .bar {
+    width: 19%;
+  }
+  #unconvicted .bar {
+    padding: 5px;
+    font-size: 11px;
+  }
+  #casualties .bar.highlighted {
+    padding-right: 50%;
+  }
 }
 @media (max-width: 374px) {
 

@@ -21,36 +21,341 @@
       <div class="infobox-inner">The United States holds more people in jails and prisons than any other country by far, both in absolute numbers and as a percentage of population.</div>
     </div>
 
-    <div class="infobox chart">
-      <div class="infobox-inner">
-        <h2>People incarcerated</h2>
-        <div class="bar highlighted">USA (2.3M)</div>
-        <div style="width: 74%" class="bar">China (1.7M)</div>
-        <div style="width: 32%" class="bar">Brazil (746K)</div>
-        <div style="width: 23%" class="bar">Russia (523K)</div>
-        <div style="width: 20%" class="bar">India (466K)</div>
+    <div id='country-rank' class="infobox chart horizontal expandable">
+      <div id='country-rank-inner' class="infobox-inner">
+        <h2>Number of people incarcerated</h2>
+        <div class="bar highlighted right">USA (2.3M)</div>
+        <div style="width: 73.9%" class="bar"><span class="bar-inner">China (1.7M)</span></div>
+        <div style="width: 32.5%" class="bar"><span class="bar-inner">Brazil (747K)</span></div>
+        <div style="width: 22.8%" class="bar"><span class="bar-inner">Russian Federation (524K)</span></div>
+        <div style="width: 20.3%" class="bar"><span class="bar-inner">India (466K)</span></div>
+        <div style="width: 16.0%" class="bar"><span class="bar-inner">Thailand (368K)</span></div>
+        <div style="width: 11.6%" class="bar"><span class="bar-inner">Indonesia (267K)</span></div>
+        <div style="width: 11.5%" class="bar"><span class="bar-inner">Turkey (265K)</span></div>
+        <div style="width: 10.4%" class="bar"><span class="bar-inner">Iran (240K)</span></div>
+        <div style="width: 9.3%" class="bar"><span class="bar-inner">Philippines (215K)</span></div>
+        <div style="width: 8.8%" class="bar"><span class="bar-inner">Mexico (203K)</span></div>
+        <div style="width: 7.1%" class="bar"><span class="bar-inner">South Africa (163K)</span></div>
+        <div style="width: 5.4%" class="bar"><span class="bar-inner">Vietnam (124K)</span></div>
+        <div style="width: 5.3%" class="bar"><span class="bar-inner">Colombia (123K)</span></div>
+        <div style="width: 4.9%" class="bar"><span class="bar-inner">Ethiopia (114K)</span></div>
+        <div style="width: 4.6%" class="bar"><span class="bar-inner">Egypt (106K)</span></div>
+        <div style="width: 4.5%" class="bar"><span class="bar-inner">Argentina (103K)</span></div>
+        <div style="width: 4.0%" class="bar"><span class="bar-inner">Myanmar  (92K)</span></div>
+        <div style="width: 4.0%" class="bar"><span class="bar-inner">Peru (91K)</span></div>
+        <div style="width: 3.8%" class="bar"><span class="bar-inner">Bangladesh (88K)</span></div>
+        <div style="width: 3.7%" class="bar"><span class="bar-inner">Morocco (86K)</span></div>
+        <div style="width: 3.6%" class="bar"><span class="bar-inner">United Kingdom: England & Wales (83K)</span></div>
+        <div style="width: 3.4%" class="bar"><span class="bar-inner">Pakistan (77K)</span></div>
+        <div style="width: 3.2%" class="bar"><span class="bar-inner">Poland (74K)</span></div>
+        <div style="width: 3.2%" class="bar"><span class="bar-inner">Malaysia (74K)</span></div>
+        <div style="width: 3.2%" class="bar"><span class="bar-inner">Nigeria (73K)</span></div>
+        <div style="width: 3.1%" class="bar"><span class="bar-inner">France (71K)</span></div>
+        <div style="width: 2.8%" class="bar"><span class="bar-inner">Rwanda (65K)</span></div>
+        <div style="width: 2.8%" class="bar"><span class="bar-inner">Germany (64K)</span></div>
+        <div style="width: 2.7%" class="bar"><span class="bar-inner">Algeria (63K)</span></div>
+        <div style="width: 2.7%" class="bar"><span class="bar-inner">Saudi Arabia (61K)</span></div>
+        <div style="width: 2.7%" class="bar"><span class="bar-inner">Taiwan (61K)</span></div>
+        <div style="width: 2.6%" class="bar"><span class="bar-inner">Italy (61K)</span></div>
+        <div style="width: 2.5%" class="bar"><span class="bar-inner">Spain (58K)</span></div>
+        <div style="width: 2.5%" class="bar"><span class="bar-inner">Cuba (57K)</span></div>
+        <div style="width: 2.5%" class="bar"><span class="bar-inner">Venezuela (57K)</span></div>
+        <div style="width: 2.4%" class="bar"><span class="bar-inner">Uganda (55K)</span></div>
+        <div style="width: 2.4%" class="bar"><span class="bar-inner">Republic of  (55K)</span></div>
+        <div style="width: 2.3%" class="bar"><span class="bar-inner">Ukraine (53K)</span></div>
+        <div style="width: 2.2%" class="bar"><span class="bar-inner">Kenya (51K)</span></div>
+        <div style="width: 2.1%" class="bar"><span class="bar-inner">Japan (49K)</span></div>
+        <div style="width: 2.0%" class="bar"><span class="bar-inner">Iraq (45K)</span></div>
+        <div style="width: 1.9%" class="bar"><span class="bar-inner">Uzbekistan (44K)</span></div>
+        <div style="width: 1.9%" class="bar"><span class="bar-inner">Australia (43K)</span></div>
+        <div style="width: 1.9%" class="bar"><span class="bar-inner">Chile (43K)</span></div>
+        <div style="width: 1.7%" class="bar"><span class="bar-inner">Ecuador (40K)</span></div>
+        <div style="width: 1.7%" class="bar"><span class="bar-inner">Canada (40K)</span></div>
+        <div style="width: 1.7%" class="bar"><span class="bar-inner">El Salvador (38K)</span></div>
+        <div style="width: 1.6%" class="bar"><span class="bar-inner">Cambodia (37K)</span></div>
+        <div style="width: 1.6%" class="bar"><span class="bar-inner">Tanzania (36K)</span></div>
+        <div style="width: 1.4%" class="bar"><span class="bar-inner">Belarus (33K)</span></div>
+        <div style="width: 1.3%" class="bar"><span class="bar-inner">Afghanistan (31K)</span></div>
+        <div style="width: 1.3%" class="bar"><span class="bar-inner">Cameroon (31K)</span></div>
+        <div style="width: 1.3%" class="bar"><span class="bar-inner">Turkmenistan (30K)</span></div>
+        <div style="width: 1.3%" class="bar"><span class="bar-inner">Kazakhstan (29K)</span></div>
+        <div style="width: 1.1%" class="bar"><span class="bar-inner">Dominican Republic (26K)</span></div>
+        <div style="width: 1.1%" class="bar"><span class="bar-inner">Guatemala (25K)</span></div>
+        <div style="width: 1.1%" class="bar"><span class="bar-inner">Madagascar (25K)</span></div>
+        <div style="width: 1.0%" class="bar"><span class="bar-inner">Angola (24K)</span></div>
+        <div style="width: 1.0%" class="bar"><span class="bar-inner">Nepal (24K)</span></div>
+        <div style="width: 1.0%" class="bar"><span class="bar-inner">Sri Lanka (23K)</span></div>
+        <div style="width: 1.0%" class="bar"><span class="bar-inner">Azerbaijan (23K)</span></div>
+        <div style="width: 1.0%" class="bar"><span class="bar-inner">Zambia (23K)</span></div>
+        <div style="width: 1.0%" class="bar"><span class="bar-inner">Tunisia (23K)</span></div>
+        <div style="width: 0.9%" class="bar"><span class="bar-inner">Cote d'Ivoire (21K)</span></div>
+        <div style="width: 0.9%" class="bar"><span class="bar-inner">Czech Republic (21K)</span></div>
+        <div style="width: 0.9%" class="bar"><span class="bar-inner">Sudan (21K)</span></div>
+        <div style="width: 0.9%" class="bar"><span class="bar-inner">Nicaragua (21K)</span></div>
+        <div style="width: 0.9%" class="bar"><span class="bar-inner">Romania (21K)</span></div>
+        <div style="width: 0.9%" class="bar"><span class="bar-inner">Democratic Republic of Congo (21K)</span></div>
+        <div style="width: 0.9%" class="bar"><span class="bar-inner">Honduras (21K)</span></div>
+        <div style="width: 0.9%" class="bar"><span class="bar-inner">Jordan (20K)</span></div>
+        <div style="width: 0.9%" class="bar"><span class="bar-inner">Mozambique (20K)</span></div>
+        <div style="width: 0.8%" class="bar"><span class="bar-inner">Zimbabwe (19K)</span></div>
+        <div style="width: 0.8%" class="bar"><span class="bar-inner">Israel (19K)</span></div>
+        <div style="width: 0.8%" class="bar"><span class="bar-inner">Costa Rica (19K)</span></div>
+        <div style="width: 0.8%" class="bar"><span class="bar-inner">Bolivia (18K)</span></div>
+        <div style="width: 0.7%" class="bar"><span class="bar-inner">Panama (17K)</span></div>
+        <div style="width: 0.7%" class="bar"><span class="bar-inner">Hungary (17K)</span></div>
+        <div style="width: 0.7%" class="bar"><span class="bar-inner">Ghana (15K)</span></div>
+        <div style="width: 0.6%" class="bar"><span class="bar-inner">Malawi (15K)</span></div>
+        <div style="width: 0.6%" class="bar"><span class="bar-inner">Yemen (14K)</span></div>
+        <div style="width: 0.6%" class="bar"><span class="bar-inner">Paraguay (14K)</span></div>
+        <div style="width: 0.6%" class="bar"><span class="bar-inner">Portugal (13K)</span></div>
+        <div style="width: 0.5%" class="bar"><span class="bar-inner">Singapore (12K)</span></div>
+        <div style="width: 0.5%" class="bar"><span class="bar-inner">Senegal (12K)</span></div>
+        <div style="width: 0.5%" class="bar"><span class="bar-inner">Belgium (11K)</span></div>
+        <div style="width: 0.5%" class="bar"><span class="bar-inner">Serbia (11K)</span></div>
+        <div style="width: 0.5%" class="bar"><span class="bar-inner">Burundi (11K)</span></div>
+        <div style="width: 0.5%" class="bar"><span class="bar-inner">Slovakia (11K)</span></div>
+        <div style="width: 0.5%" class="bar"><span class="bar-inner">Syria (11K)</span></div>
+        <div style="width: 0.5%" class="bar"><span class="bar-inner">Puerto Rico  (10K)</span></div>
+        <div style="width: 0.5%" class="bar"><span class="bar-inner">Netherlands (10K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">Uruguay (10K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">Greece (10K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">Kyrgyzstan (10K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">New Zealand (10K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">United Arab Emirates (10K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">Georgia (10K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">Niger (10K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">Tajikistan (9K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">Libya (9K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">Bulgaria (9K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">Laos (9K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">Haiti (9K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">Chad (9K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">Austria (9K)</span></div>
+        <div style="width: 0.4%" class="bar"><span class="bar-inner">United Kingdom: Scotland (8K)</span></div>
+        <div style="width: 0.3%" class="bar"><span class="bar-inner">Hong Kong  (8K)</span></div>
+        <div style="width: 0.3%" class="bar"><span class="bar-inner">Benin (8K)</span></div>
+        <div style="width: 0.3%" class="bar"><span class="bar-inner">Burkina Faso (8K)</span></div>
+        <div style="width: 0.3%" class="bar"><span class="bar-inner">Namibia (7K)</span></div>
+        <div style="width: 0.3%" class="bar"><span class="bar-inner">South Sudan (7K)</span></div>
+        <div style="width: 0.3%" class="bar"><span class="bar-inner">Lebanon (7K)</span></div>
+        <div style="width: 0.3%" class="bar"><span class="bar-inner">Switzerland (7K)</span></div>
+        <div style="width: 0.3%" class="bar"><span class="bar-inner">Moldova  (7K)</span></div>
+        <div style="width: 0.3%" class="bar"><span class="bar-inner">Sweden (6K)</span></div>
+        <div style="width: 0.3%" class="bar"><span class="bar-inner">Lithuania (6K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Mali (5K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Togo (5K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Papua New Guinea (5K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Albania (5K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Sierra Leone (5K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Kuwait (5K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Gabon (4K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Botswana (4K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Trinidad and Tobago (4K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Ireland, Republic of (4K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Jamaica (4K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Guinea  (4K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Denmark (4K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Latvia (4K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Bahrain (3K)</span></div>
+        <div style="width: 0.2%" class="bar"><span class="bar-inner">Swaziland/eSwatini (3K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Mongolia (3K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Croatia (3K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Norway (3K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Finland (3K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Mauritius (3K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Estonia (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Liberia (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">North Macedonia (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Mauritania (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Armenia (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Guyana (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Lesotho (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Fiji (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Maldives (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Bahamas (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Bosnia and Herzegovina: Federation (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Kosovo/Kosova (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Macau  (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Cape Verde  (2K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">United Kingdom: Northern Ireland (1K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Slovenia (1K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Brunei Darussalam (1K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Oman (1K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Belize (1K)</span></div>
+        <div style="width: 0.1%" class="bar"><span class="bar-inner">Congo  (1K)</span></div>
+      <a class="expando" onclick="toggleExpand('country-rank', 'country-rank-inner')">Expand &#9660;</a>
+      </div>
+    </div>
+
+    <div id='per-one-hundred' class="infobox chart horizontal inset-text expandable">
+      <div id='per-one-hundred-inner' class="infobox-inner">
+        <h2>Incarcerated per 100,000 residents</h2>
+        <div class="bar highlighted"><span class="bar-inner">USA (696)</span></div>
+        <div style="width: 84.8%" class="bar"><span class="bar-inner">El Salvador (590)</span></div>
+        <div style="width: 79.3%" class="bar"><span class="bar-inner">Turkmenistan (552)</span></div>
+        <div style="width: 77.9%" class="bar"><span class="bar-inner">Virgin Islands (542)</span></div>
+        <div style="width: 76.3%" class="bar"><span class="bar-inner">Thailand (531)</span></div>
+        <div style="width: 73.4%" class="bar"><span class="bar-inner">Rwanda (511)</span></div>
+        <div style="width: 73.3%" class="bar"><span class="bar-inner">Cuba (510)</span></div>
+        <div style="width: 71.7%" class="bar"><span class="bar-inner">Maldives (499)</span></div>
+        <div style="width: 69.3%" class="bar"><span class="bar-inner">Northern Mariana Islands (482)</span></div>
+        <div style="width: 67.5%" class="bar"><span class="bar-inner">Virgin Islands (470)</span></div>
+        <div style="width: 63.5%" class="bar"><span class="bar-inner">Bahamas (442)</span></div>
+        <div style="width: 61.2%" class="bar"><span class="bar-inner">St. Vincent and the Grenadines (426)</span></div>
+        <div style="width: 61.2%" class="bar"><span class="bar-inner">Grenada (426)</span></div>
+        <div style="width: 59.6%" class="bar"><span class="bar-inner">Seychelles (415)</span></div>
+        <div style="width: 57.6%" class="bar"><span class="bar-inner">Panama (401)</span></div>
+        <div style="width: 56.5%" class="bar"><span class="bar-inner">St. Kitts and Nevis (393)</span></div>
+        <div style="width: 54.7%" class="bar"><span class="bar-inner">Guam (381)</span></div>
+        <div style="width: 53.7%" class="bar"><span class="bar-inner">Costa Rica (374)</span></div>
+        <div style="width: 52.7%" class="bar"><span class="bar-inner">Anguilla (367)</span></div>
+        <div style="width: 52.4%" class="bar"><span class="bar-inner">Cayman Islands (365)</span></div>
+        <div style="width: 52.2%" class="bar"><span class="bar-inner">Russian Federation (363)</span></div>
+        <div style="width: 51.1%" class="bar"><span class="bar-inner">Belize (356)</span></div>
+        <div style="width: 50.0%" class="bar"><span class="bar-inner">Brazil (348)</span></div>
+        <div style="width: 49.6%" class="bar"><span class="bar-inner">American Samoa (345)</span></div>
+        <div style="width: 49.6%" class="bar"><span class="bar-inner">Palau (345)</span></div>
+        <div style="width: 49.3%" class="bar"><span class="bar-inner">Belarus (343)</span></div>
+        <div style="width: 47.7%" class="bar"><span class="bar-inner">Nicaragua (332)</span></div>
+        <div style="width: 46.6%" class="bar"><span class="bar-inner">Turkey (324)</span></div>
+        <div style="width: 46.1%" class="bar"><span class="bar-inner">Antigua and Barbuda (321)</span></div>
+        <div style="width: 45.8%" class="bar"><span class="bar-inner">Bermuda (319)</span></div>
+        <div style="width: 45.0%" class="bar"><span class="bar-inner">Puerto Rico (313)</span></div>
+        <div style="width: 44.1%" class="bar"><span class="bar-inner">Brunei Darussalam (307)</span></div>
+        <div style="width: 43.1%" class="bar"><span class="bar-inner">Barbados (300)</span></div>
+        <div style="width: 42.5%" class="bar"><span class="bar-inner">Cape Verde (296)</span></div>
+        <div style="width: 42.4%" class="bar"><span class="bar-inner">Uruguay (295)</span></div>
+        <div style="width: 42.4%" class="bar"><span class="bar-inner">Namibia (295)</span></div>
+        <div style="width: 42.2%" class="bar"><span class="bar-inner">Iran (294)</span></div>
+        <div style="width: 42.0%" class="bar"><span class="bar-inner">Trinidad and Tobago (292)</span></div>
+        <div style="width: 41.5%" class="bar"><span class="bar-inner">Dominica (289)</span></div>
+        <div style="width: 40.8%" class="bar"><span class="bar-inner">Guyana (284)</span></div>
+        <div style="width: 40.2%" class="bar"><span class="bar-inner">St. Lucia (280)</span></div>
+        <div style="width: 39.9%" class="bar"><span class="bar-inner">Peru (278)</span></div>
+        <div style="width: 39.5%" class="bar"><span class="bar-inner">South Africa (275)</span></div>
+        <div style="width: 37.6%" class="bar"><span class="bar-inner">Georgia (262)</span></div>
+        <div style="width: 37.1%" class="bar"><span class="bar-inner">Taiwan (258)</span></div>
+        <div style="width: 37.1%" class="bar"><span class="bar-inner">Swaziland/eSwatini (258)</span></div>
+        <div style="width: 35.8%" class="bar"><span class="bar-inner">Greenland (249)</span></div>
+        <div style="width: 35.3%" class="bar"><span class="bar-inner">Colombia (246)</span></div>
+        <div style="width: 34.9%" class="bar"><span class="bar-inner">French Guiana/Guyane (243)</span></div>
+        <div style="width: 34.6%" class="bar"><span class="bar-inner">Gabon (241)</span></div>
+        <div style="width: 34.1%" class="bar"><span class="bar-inner">Morocco (237)</span></div>
+        <div style="width: 34.1%" class="bar"><span class="bar-inner">Dominican Republic (237)</span></div>
+        <div style="width: 33.9%" class="bar"><span class="bar-inner">Curaçao (236)</span></div>
+        <div style="width: 33.8%" class="bar"><span class="bar-inner">Azerbaijan (235)</span></div>
+        <div style="width: 33.6%" class="bar"><span class="bar-inner">Israel (234)</span></div>
+        <div style="width: 33.6%" class="bar"><span class="bar-inner">Bahrain (234)</span></div>
+        <div style="width: 33.5%" class="bar"><span class="bar-inner">Ecuador (233)</span></div>
+        <div style="width: 33.5%" class="bar"><span class="bar-inner">Macau (233)</span></div>
+        <div style="width: 33.3%" class="bar"><span class="bar-inner">Chile (232)</span></div>
+        <div style="width: 33.0%" class="bar"><span class="bar-inner">Argentina (230)</span></div>
+        <div style="width: 33.0%" class="bar"><span class="bar-inner">Malaysia (230)</span></div>
+        <div style="width: 32.9%" class="bar"><span class="bar-inner">Honduras (229)</span></div>
+        <div style="width: 32.9%" class="bar"><span class="bar-inner">Cook Islands (229)</span></div>
+        <div style="width: 31.8%" class="bar"><span class="bar-inner">Lithuania (221)</span></div>
+        <div style="width: 31.6%" class="bar"><span class="bar-inner">Cambodia (220)</span></div>
+        <div style="width: 30.9%" class="bar"><span class="bar-inner">Martinique (215)</span></div>
+        <div style="width: 30.2%" class="bar"><span class="bar-inner">Fiji (210)</span></div>
+        <div style="width: 29.9%" class="bar"><span class="bar-inner">Botswana (208)</span></div>
+        <div style="width: 29.3%" class="bar"><span class="bar-inner">Guadeloupe (204)</span></div>
+        <div style="width: 29.3%" class="bar"><span class="bar-inner">French Polynesia (204)</span></div>
+        <div style="width: 29.3%" class="bar"><span class="bar-inner">Samoa (204)</span></div>
+        <div style="width: 29.2%" class="bar"><span class="bar-inner">Mauritius (203)</span></div>
+        <div style="width: 28.9%" class="bar"><span class="bar-inner">New Zealand (201)</span></div>
+        <div style="width: 28.6%" class="bar"><span class="bar-inner">Paraguay (199)</span></div>
+        <div style="width: 28.6%" class="bar"><span class="bar-inner">Singapore (199)</span></div>
+        <div style="width: 28.4%" class="bar"><span class="bar-inner">Jordan (198)</span></div>
+        <div style="width: 28.3%" class="bar"><span class="bar-inner">Saudi Arabia (197)</span></div>
+        <div style="width: 28.3%" class="bar"><span class="bar-inner">Czech Republic (197)</span></div>
+        <div style="width: 28.0%" class="bar"><span class="bar-inner">Poland (195)</span></div>
+        <div style="width: 28.0%" class="bar"><span class="bar-inner">Tunisia (195)</span></div>
+        <div style="width: 28.0%" class="bar"><span class="bar-inner">Slovakia (195)</span></div>
+        <div style="width: 27.9%" class="bar"><span class="bar-inner">Moldova (194)</span></div>
+        <div style="width: 27.2%" class="bar"><span class="bar-inner">New Caledonia (189)</span></div>
+        <div style="width: 26.9%" class="bar"><span class="bar-inner">Estonia (187)</span></div>
+        <div style="width: 26.3%" class="bar"><span class="bar-inner">Latvia (183)</span></div>
+        <div style="width: 26.3%" class="bar"><span class="bar-inner">Montenegro (183)</span></div>
+        <div style="width: 26.3%" class="bar"><span class="bar-inner">Suriname (183)</span></div>
+        <div style="width: 25.7%" class="bar"><span class="bar-inner">Philippines (179)</span></div>
+        <div style="width: 25.6%" class="bar"><span class="bar-inner">Venezuela (178)</span></div>
+        <div style="width: 25.4%" class="bar"><span class="bar-inner">Albania (177)</span></div>
+        <div style="width: 24.9%" class="bar"><span class="bar-inner">Hungary (173)</span></div>
+        <div style="width: 24.6%" class="bar"><span class="bar-inner">Myanmar (171)</span></div>
+        <div style="width: 24.4%" class="bar"><span class="bar-inner">Australia (170)</span></div>
+        <div style="width: 23.9%" class="bar"><span class="bar-inner">Tonga (166)</span></div>
+        <div style="width: 23.7%" class="bar"><span class="bar-inner">Aruba (165)</span></div>
+        <div style="width: 23.7%" class="bar"><span class="bar-inner">Gibraltar (165)</span></div>
+        <div style="width: 23.4%" class="bar"><span class="bar-inner">Mexico (163)</span></div>
+        <div style="width: 23.1%" class="bar"><span class="bar-inner">Kyrgyzstan (161)</span></div>
+        <div style="width: 22.7%" class="bar"><span class="bar-inner">Bolivia (158)</span></div>
+        <div style="width: 22.4%" class="bar"><span class="bar-inner">Kazakhstan (156)</span></div>
+        <div style="width: 22.4%" class="bar"><span class="bar-inner">Serbia (156)</span></div>
+        <div style="width: 22.0%" class="bar"><span class="bar-inner">Sint Maarten (153)</span></div>
+        <div style="width: 21.7%" class="bar"><span class="bar-inner">Algeria (151)</span></div>
+        <div style="width: 21.6%" class="bar"><span class="bar-inner">Uzbekistan (150)</span></div>
+        <div style="width: 21.4%" class="bar"><span class="bar-inner">United Kingdom: Scotland (149)</span></div>
+        <div style="width: 21.3%" class="bar"><span class="bar-inner">Ukraine (148)</span></div>
+        <div style="width: 20.8%" class="bar"><span class="bar-inner">Bhutan (145)</span></div>
+        <div style="width: 20.7%" class="bar"><span class="bar-inner">Lebanon (144)</span></div>
+        <div style="width: 20.5%" class="bar"><span class="bar-inner">Guatemala (143)</span></div>
+        <div style="width: 20.1%" class="bar"><span class="bar-inner">United Kingdom: England & Wales (140)</span></div>
+        <div style="width: 20.1%" class="bar"><span class="bar-inner">Nauru (140)</span></div>
+        <div style="width: 20.0%" class="bar"><span class="bar-inner">Libya (139)</span></div>
+        <div style="width: 19.8%" class="bar"><span class="bar-inner">Jamaica (138)</span></div>
+        <div style="width: 18.8%" class="bar"><span class="bar-inner">Malta (131)</span></div>
+        <div style="width: 18.8%" class="bar"><span class="bar-inner">Mayotte (131)</span></div>
+        <div style="width: 18.7%" class="bar"><span class="bar-inner">Laos (130)</span></div>
+        <div style="width: 18.5%" class="bar"><span class="bar-inner">Jersey (129)</span></div>
+        <div style="width: 18.4%" class="bar"><span class="bar-inner">Vietnam (128)</span></div>
+        <div style="width: 18.2%" class="bar"><span class="bar-inner">Ethiopia (127)</span></div>
+        <div style="width: 18.2%" class="bar"><span class="bar-inner">Micronesia, Federated States of (127)</span></div>
+        <div style="width: 18.2%" class="bar"><span class="bar-inner">Guernsey (127)</span></div>
+        <div style="width: 18.1%" class="bar"><span class="bar-inner">Iraq (126)</span></div>
+        <div style="width: 18.0%" class="bar"><span class="bar-inner">Portugal (125)</span></div>
+        <div style="width: 18.0%" class="bar"><span class="bar-inner">Bulgaria (125)</span></div>
+        <div style="width: 18.0%" class="bar"><span class="bar-inner">Isle of Man (125)</span></div>
+        <div style="width: 17.8%" class="bar"><span class="bar-inner">Spain (124)</span></div>
+        <div style="width: 17.8%" class="bar"><span class="bar-inner">Uganda (124)</span></div>
+        <div style="width: 17.8%" class="bar"><span class="bar-inner">Cameroon (124)</span></div>
+        <div style="width: 17.7%" class="bar"><span class="bar-inner">Zambia (123)</span></div>
+        <div style="width: 17.4%" class="bar"><span class="bar-inner">Tajikistan (121)</span></div>
+        <div style="width: 17.2%" class="bar"><span class="bar-inner">China (120)</span></div>
+        <div style="width: 17.2%" class="bar"><span class="bar-inner">Reunion (120)</span></div>
+        <div style="width: 16.8%" class="bar"><span class="bar-inner">Kuwait (117)</span></div>
+        <div style="width: 16.7%" class="bar"><span class="bar-inner">Egypt (116)</span></div>
+        <div style="width: 16.7%" class="bar"><span class="bar-inner">Sao Tome e Principe (116)</span></div>
+        <div style="width: 16.4%" class="bar"><span class="bar-inner">Zimbabwe (114)</span></div>
+        <div style="width: 16.2%" class="bar"><span class="bar-inner">Kiribati (113)</span></div>
+        <div style="width: 16.1%" class="bar"><span class="bar-inner">North Macedonia (112)</span></div>
+        <div style="width: 15.8%" class="bar"><span class="bar-inner">Mongolia (110)</span></div>
+        <div style="width: 15.8%" class="bar"><span class="bar-inner">Tuvalu (110)</span></div>
+        <div style="width: 15.7%" class="bar"><span class="bar-inner">Republic of (109)</span></div>
+        <div style="width: 15.4%" class="bar"><span class="bar-inner">Canada (107)</span></div>
+        <div style="width: 15.4%" class="bar"><span class="bar-inner">Romania (107)</span></div>
+        <div style="width: 15.2%" class="bar"><span class="bar-inner">Hong Kong (106)</span></div>
+        <div style="width: 15.1%" class="bar"><span class="bar-inner">France (105)</span></div>
+        <div style="width: 15.1%" class="bar"><span class="bar-inner">Sri Lanka (105)</span></div>
+        <div style="width: 15.1%" class="bar"><span class="bar-inner">Luxembourg (105)</span></div>
+        <div style="width: 14.9%" class="bar"><span class="bar-inner">United Arab Emirates (104)</span></div>
+        <div style="width: 14.7%" class="bar"><span class="bar-inner">Kenya (102)</span></div>
+        <div style="width: 14.5%" class="bar"><span class="bar-inner">Italy (101)</span></div>
+        <div style="width: 14.2%" class="bar"><span class="bar-inner">Indonesia (99)</span></div>
+        <div style="width: 14.1%" class="bar"><span class="bar-inner">Austria (98)</span></div>
+        <div style="width: 13.6%" class="bar"><span class="bar-inner">Belgium (95)</span></div>
+        <div style="width: 13.6%" class="bar"><span class="bar-inner">Greece (95)</span></div>
+        <div style="width: 13.6%" class="bar"><span class="bar-inner">Kosovo/Kosova (95)</span></div>
+        <div style="width: 13.4%" class="bar"><span class="bar-inner">Madagascar (93)</span></div>
+        <div style="width: 13.4%" class="bar"><span class="bar-inner">Angola (93)</span></div>
+        <div style="width: 13.2%" class="bar"><span class="bar-inner">Lesotho (92)</span></div>
+        <div style="width: 12.5%" class="bar"><span class="bar-inner">Afghanistan (87)</span></div>
+      <a class="expando" onclick="toggleExpand('per-one-hundred', 'per-one-hundred-inner')">Expand &#9660;</a>
       </div>
     </div>
 
     <div class="infobox">
-      <div class="infobox-inner">The number of incarcerated Americans is greater than the population of 15 states and all territories.</div>
-    </div>
-
-    <div class="infobox image">
       <div class="infobox-inner">
-        <img src="img/states.svg" />
-      </div>
-    </div>
-
-    <div class="infobox">
-      <div class="infobox-inner">
-        <p>Incarcerated Americans outnumber almost every profession. There are more incarcerated people than lawyers. More incarcerated people than military personnel.</p>
-      </div>
-    </div>
-
-    <div class="infobox">
-      <div class="infobox-inner">
-        <p>There are more incarcerated people than bus drivers, bar tenders, and hair dressers combined.</p>
+        <p>Incarcerated Americans outnumber almost every profession. There are more incarcerated people than military personnel. There are more incarcerated people than bus drivers, bar tenders, and hair dressers combined.</p>
       </div>
     </div>
 
@@ -60,16 +365,12 @@
       </div>
     </div>
 
-    <div class="infobox chart">
+    <div id="casualties" class="infobox chart horizontal">
       <div class="infobox-inner">
-        <div class="over-bar-label first">American war dead, all of history combined (1.3M)</div>
-        <div style="width: 56%" class="bar"></div>
-
-        <div class="over-bar-label">American war wounded, all of history combined (1.5M)</div>
-        <div style="width: 65%" class="bar"></div>
-
-        <div class="over-bar-label">Americans currently incarcerated (2.3M)</div>
-        <div style="width: 100%" class="bar"></div>
+        <h2>Incarceration compared to casualties of war</h2>
+        <div style="width: 100%" class="bar highlighted">Americans currently incarcerated (2.3M)</div>
+        <div style="width: 56%" class="bar black">American war dead, all of history combined (1.3M)</div>
+        <div style="width: 65%" class="bar black">American war wounded, all of history combined (1.5M)</div>
       </div>
     </div>
 
@@ -79,23 +380,23 @@
         <div class="vertical-bars">
 
           <div style="height: 345px;" class="bar first">
-            <div class="bar-label right">Currently incarcerated (2.3M)</div>
+            <div class="bar-label tool-tip right">Currently incarcerated (2.3M)</div>
           </div>
 
           <div style="height: 660px;" class="bar">
-            <div class="bar-label right bar-label-320">Will be incarcerated this year (4.9M)</div>
+            <div class="bar-label tool-tip right bar-label-320">Will be incarcerated this year (4.9M)</div>
           </div>
 
           <div style="height: 2520px;" class="bar">
-            <div class="bar-label left bar-label-1000">Alive currently, will go to prison ever (16.8M)</div>
+            <div class="bar-label tool-tip left bar-label-1000">Alive currently, will go to prison ever (16.8M)</div>
           </div>
 
           <div style="height: 11550px;" class="bar">
-            <div class="bar-label left bar-label-2600">Has a criminal record (77M)</div>
+            <div class="bar-label tool-tip left bar-label-2600">Has a criminal record (77M)</div>
           </div>
 
           <div style="height: 16950px;" class="bar last">
-            <div class="bar-label left bar-label-11800">Ever had an immediate family member incarcerated (113M)</div>
+            <div class="bar-label tool-tip left bar-label-11800">Ever had an immediate family member incarcerated (113M)</div>
           </div>
 
         </div>
@@ -115,23 +416,36 @@
     </div>
 
     <div class="infobox">
-      <div id="preconvicted" data-background="blue.svg" class="infobox-inner">One quarter of incarcerated Americans have not even been convicted of a crime. Instead, they are held in pre-trial detention, usually due to the high cost of cash bail.</div>
+      <div id="preconvicted" data-background="blue.svg" class="infobox-inner">One quarter of incarcerated Americans have not even been convicted of a crime. Instead, they are mostly held in pre-trial detention, usually due to the high cost of cash bail.</div>
     </div>
 
     <div class="infobox red">
-      <div id="red" data-background="red.svg" class="infobox-inner"><img class="side-icon" src="img/person/red.svg" />Notice that the background icons have changed again. The red icons are the portion of incarcerated people who have not been convicted.</div>
+      <div id="red" data-background="red.svg" class="infobox-inner"><img class="side-icon" src="img/person/red.svg" />The red icons are the portion of incarcerated people who have not been convicted.</div>
     </div>
 
     <div class="infobox">
       <div class="infobox-inner">Unconvicted Americans are the 4th largest incarcerated population in the world.</div>
     </div>
 
-    <div class="infobox image">
-      <div  id="unconvicted" data-background="red.svg" class="infobox-inner"><img src="img/unconvicted.svg" /></div>
+    <div class="infobox chart horizontal">
+      <div id="unconvicted" data-background="red.svg" class="infobox-inner">
+        <h2>Largest incarcerated populations</h2>
+        <div class="bar">1. USA (all)</div>
+        <div style="width: 74%" class="bar">2. China</div>
+        <div style="width: 32%" class="bar">3. Brazil</div>
+        <div class="without-conviction-label">Americans jailed without conviction (555K)</div>
+        <div style="width: 24%" class="bar highlighted">&nbsp;</div>
+        <div style="width: 23%" class="bar">5. Russia</div>
+        <div style="width: 20%" class="bar">6. India</div>
+      </div>
     </div>
 
     <div class="infobox">
-      <div id="disagree" data-background="black.svg" class="infobox-inner">Reasonable people can disagree about who, precisely, belongs behind bars. But surely we need to do better than this.</div>
+      <div id="disagree" data-background="black.svg" class="infobox-inner">Millions locked up without trial.</div>
+    </div>
+
+    <div class="infobox">
+      <div class="infobox-inner">Reasonable people can disagree about who, precisely, belongs behind bars. But surely we need to do better than <em>this</em>.</div>
     </div>
 
     <div class="infobox">
@@ -153,22 +467,22 @@
 
     <div class="infobox chart stalin" style="margin-bottom: 1500px;">
       <div class="infobox-inner" style="height: 490px;">
-        <p>Number incarcerated per 100,000</p>
+        <h2>Number incarcerated per 100,000</h2>
         <div class="vertical-bars">
           <div style="height: 59px;" class="bar first">
-            <div class="bar-label right">Average for all countries (174)</div>
+            <div class="bar-label no-pad">Average for all countries (174)</div>
           </div>
 
           <div style="height: 237px;" class="bar">
-            <div class="bar-label right">America (698)</div>
+            <div class="bar-label">America (698)</div>
           </div>
 
           <div style="height: 425px;" class="bar stalin-bar">
-            <div class="bar-label right">Peak rate under Stalin (1,250)</div>
+            <div class="bar-label">Peak rate under Stalin (1,250)</div>
           </div>
 
           <div style="height: 1477px;" class="bar">
-            <div class="bar-label left bar-label-200">Black men in America (4,347)</div>
+            <div class="bar-label">Black men in America (4,347)</div>
           </div>
 
         </div>
@@ -200,6 +514,6 @@
 
   </div>
 </div>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script.js?v=1"></script>
 </body>
 </html>

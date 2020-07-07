@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="422 382 339 270" width="339" height="270">
+<svg version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="422 382 339 234" width="339" height="234">
   <defs>
     <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="NegativeControls_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 2 8" markerWidth="2" markerHeight="8" color="black">
       <g>
@@ -27,16 +27,11 @@
         <font-face-name name="HelveticaNeue-Bold"/>
       </font-face-src>
     </font-face>
-    <font-face font-family="Helvetica Neue" font-size="8" panose-1="2 0 5 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="-1500" x-height="517" cap-height="714" ascent="957.0007" descent="-212.99744" font-style="italic" font-weight="400">
-      <font-face-src>
-        <font-face-name name="HelveticaNeue-Italic"/>
-      </font-face-src>
-    </font-face>
   </defs>
-  <metadata> Produced by OmniGraffle 7.15.2 
-    <dc:date>2020-06-09 14:55:06 +0000</dc:date>
+  <metadata> Produced by OmniGraffle 7.16 
+    <dc:date>2020-07-02 19:33:19 +0000</dc:date>
   </metadata>
-  <g id="Canvas_4" stroke="none" stroke-opacity="1" stroke-dasharray="none" fill-opacity="1" fill="none">
+  <g id="Canvas_4" fill="none" fill-opacity="1" stroke="none" stroke-dasharray="none" stroke-opacity="1">
     <title>Canvas 4</title>
     <g id="Canvas_4: Layer 1">
       <title>Layer 1</title>
@@ -119,8 +114,8 @@
         </text>
       </g>
       <g id="Graphic_56">
-        <text transform="translate(727.716 484)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="7" font-weight="400" fill="black" x="0" y="7">1953</tspan>
+        <text transform="translate(726.743 484)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="7" font-weight="400" fill="black" x=".973" y="7">1953 </tspan>
         </text>
       </g>
       <g id="Graphic_57">
@@ -141,13 +136,6 @@
       <g id="Graphic_60">
         <text transform="translate(469.116 437.9508)" fill="black">
           <tspan font-family="Helvetica Neue" font-size="7" font-weight="400" fill="black" x="0" y="7">2015</tspan>
-        </text>
-      </g>
-      <g id="Graphic_61">
-        <text transform="translate(460.90495 615.6694)" fill="black">
-          <tspan font-family="Helvetica Neue" font-size="8" font-style="italic" font-weight="400" fill="black" x="0" y="8">Gulag population peaked at 1.7M in 1953, the year Stalin died. An additional 0.7M </tspan>
-          <tspan font-family="Helvetica Neue" font-size="8" font-style="italic" font-weight="400" fill="black" x="0" y="18.224">were held in other forms of detention, making peak Soviet incarceration roughly </tspan>
-          <tspan font-family="Helvetica Neue" font-size="8" font-style="italic" font-weight="400" fill="black" x="0" y="28.447998">equal to peak American incarceration, which occurred in 2008.</tspan>
         </text>
       </g>
     </g>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="205 168 801 2792" width="801" height="2792">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="NegativeControls_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 2 8" markerWidth="2" markerHeight="8" color="#0432ff" opacity=".33136237">
+      <g>
+        <line x1="0" y1="-2.4" x2="0" y2="2.4" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="NegativeControls_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 2 8" markerWidth="2" markerHeight="8" color="#0432ff" opacity=".33136237">
+      <g>
+        <line x1="0" y1="2.4" x2="0" y2="-2.4" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="18" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="40" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="NegativeControls_Marker_3" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 2 8" markerWidth="2" markerHeight="8" color="#0432ff" opacity=".331362">
+      <g>
+        <line x1="0" y1="-2.4" x2="0" y2="2.4" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="NegativeControls_Marker_4" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 2 8" markerWidth="2" markerHeight="8" color="#0432ff" opacity=".331362">
+      <g>
+        <line x1="0" y1="2.4" x2="0" y2="-2.4" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica" font-size="1" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.16 
+    <dc:date>2020-07-07 17:27:24 +0000</dc:date>
+  </metadata>
+  <g id="Funnel" stroke="none" fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none">
+    <title>Funnel</title>
+    <g id="Funnel: Layer 2">
+      <title>Layer 2</title>
+      <g id="Graphic_2">
+        <rect x="206" y="622" width="480" height="100" fill="#57c8ff"/>
+        <text transform="translate(226 662.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">all of the black Americans…</tspan>
+        </text>
+      </g>
+      <g id="Graphic_48">
+        <rect x="206" y="1050" width="328" height="100" fill="#57c8ff"/>
+        <text transform="translate(226 1090.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">and all of the hispanic Americans…</tspan>
+        </text>
+      </g>
+      <g id="Graphic_49">
+        <rect x="206" y="1376" width="284" height="100" fill="#57c8ff"/>
+        <text transform="translate(226 1416.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">and all of the women…</tspan>
+        </text>
+      </g>
+      <g id="Graphic_50">
+        <rect x="206" y="1673" width="268" height="100" fill="#57c8ff"/>
+        <text transform="translate(226 1713.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">and all of the juveniles…</tspan>
+        </text>
+      </g>
+      <g id="Graphic_51">
+        <path d="M 206 266 L 1006 267 C 1006 267 1006 315 1006 367 C 1006 542 686 460 686 624 C 611 624 206 646 206 646 Z" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_54">
+        <path d="M 206 711 L 686 711.95 C 686 711.95 686 757.55 686 806.95 C 686 973.2 534 894.2 534 1050 C 489 1050 206 1072 206 1072 Z" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_55">
+        <path d="M 206 1142 L 534 1142.6737 C 534 1142.6737 534 1175.0105 534 1210.0421 C 534 1327.9368 490 1269.5158 490 1380 C 459.25 1380 206 1398 206 1398 Z" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_56">
+        <path d="M 206 1450 L 490 1450.6737 C 490 1450.6737 490 1483.0105 490 1518.0421 C 490 1635.9368 474 1580.5158 474 1691 C 447.375 1691 206 1706 206 1706 Z" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_58">
+        <rect x="206" y="1759" width="268" height="195" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_57">
+        <rect x="206" y="1944" width="268" height="1016" fill="#57c8ff"/>
+        <text transform="translate(221 1949)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Leaving only adult, white, men…</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="285.448">America would still incarcerate </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="303.896">more people than every EU </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="322.344">country combined.</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="916.792">Per capita, even after releasing </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="935.24">over 60% of our incarcerated </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="953.688">population, we would still vastly </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="972.136">outrank every single one of these </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="990.584">countries.</tspan>
+        </text>
+      </g>
+      <g id="Line_62">
+        <line x1="215.2" y1="815" x2="675.18254" y2="815" marker-end="url(#NegativeControls_Marker)" marker-start="url(#NegativeControls_Marker_2)" stroke="#0432ff" stroke-opacity=".33136237" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_61">
+        <rect x="240.65442" y="799.248" width="185.41" height="31.503998" fill="#57c8ff"/>
+        <text transform="translate(245.65442 804.248)" fill="#0432ff" fill-opacity=".3326466">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="#0432ff" fill-opacity=".3326466" x="0" y="17">1.38 million remaining</tspan>
+        </text>
+      </g>
+      <g id="Graphic_47">
+        <rect x="206" y="168" width="800" height="204" fill="#57c8ff"/>
+        <text transform="translate(226 177.41986)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="40" font-weight="700" fill="black" x="0" y="175">If we released…</tspan>
+        </text>
+      </g>
+      <g id="Line_65">
+        <line x1="217.2" y1="192" x2="997.8" y2="192" marker-end="url(#NegativeControls_Marker_3)" marker-start="url(#NegativeControls_Marker_4)" stroke="#0432ff" stroke-opacity=".331362" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_64">
+        <rect x="231.96244" y="176.248" width="196.714" height="31.503998" fill="#57c8ff"/>
+        <text transform="translate(236.96244 181.248)" fill="#0432ff" fill-opacity=".3326466">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="#0432ff" fill-opacity=".3326466" x="0" y="17">2.3 million incarcerated</tspan>
+        </text>
+      </g>
+      <g id="Line_67">
+        <line x1="215.2" y1="1228" x2="525.5019" y2="1228" marker-end="url(#NegativeControls_Marker_3)" marker-start="url(#NegativeControls_Marker_4)" stroke="#0432ff" stroke-opacity=".331362" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_66">
+        <rect x="244.3282" y="1212.248" width="135.73" height="31.503998" fill="#57c8ff"/>
+        <text transform="translate(249.3282 1217.248)" fill="#0432ff" fill-opacity=".3326466">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="#0432ff" fill-opacity=".3326466" x="0" y="17">943K remaining</tspan>
+        </text>
+      </g>
+      <g id="Line_69">
+        <line x1="216.38036" y1="1528" x2="477.98036" y2="1528" marker-end="url(#NegativeControls_Marker_3)" marker-start="url(#NegativeControls_Marker_4)" stroke="#0432ff" stroke-opacity=".331362" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_68">
+        <rect x="242.93577" y="1512.248" width="135.73" height="31.503998" fill="#57c8ff"/>
+        <text transform="translate(247.93577 1517.248)" fill="#0432ff" fill-opacity=".3326466">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="#0432ff" fill-opacity=".3326466" x="0" y="17">892K </tspan>
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="#0432ff" fill-opacity=".33265" y="17">remaining</tspan>
+        </text>
+      </g>
+      <g id="Line_71">
+        <line x1="219.2" y1="1873" x2="463.8" y2="1873" marker-end="url(#NegativeControls_Marker_3)" marker-start="url(#NegativeControls_Marker_4)" stroke="#0432ff" stroke-opacity=".331362" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Graphic_70">
+        <rect x="243.9679" y="1857.248" width="135.73" height="31.503998" fill="#57c8ff"/>
+        <text transform="translate(248.9679 1862.248)" fill="#0432ff" fill-opacity=".3326466">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="#0432ff" fill-opacity=".3326466" x="0" y="17">848K </tspan>
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="#0432ff" fill-opacity=".33265" y="17">remaining</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="Funnel: Eu">
+      <title>Eu</title>
+      <g id="Graphic_97">
+        <rect x="206" y="2510" width="23" height="137" fill="#68bc36"/>
+      </g>
+      <g id="Graphic_98">
+        <rect x="229" y="2510" width="22" height="137" fill="#c0ffc0"/>
+      </g>
+      <g id="Graphic_99">
+        <rect x="251" y="2510" width="20" height="137" fill="#68bc36"/>
+      </g>
+      <g id="Graphic_100">
+        <rect x="271" y="2510" width="19" height="137" fill="#c0ffc0"/>
+      </g>
+      <g id="Graphic_101">
+        <rect x="290" y="2510" width="18" height="137" fill="#68bc36"/>
+      </g>
+      <g id="Graphic_102">
+        <rect x="315" y="2510" width="7" height="137" fill="#68bc36"/>
+      </g>
+      <g id="Graphic_104">
+        <rect x="308" y="2510" width="7" height="137" fill="#c0ffc0"/>
+      </g>
+      <g id="Graphic_105">
+        <rect x="322" y="2510" width="5" height="137" fill="#c0ffc0"/>
+      </g>
+      <g id="Graphic_106">
+        <rect x="327" y="2510" width="4" height="137" fill="#68bc36"/>
+        <text transform="translate(327 2641)" fill="black">
+          <tspan font-family="Helvetica" font-size="1" font-weight="400" fill="black" x="0" y="1"> </tspan>
+        </text>
+      </g>
+      <g id="Graphic_107">
+        <rect x="331" y="2510" width="3" height="137" fill="#c0ffc0"/>
+      </g>
+      <g id="Graphic_108">
+        <rect x="334" y="2510" width="3" height="137" fill="#68bc36"/>
+        <text transform="translate(334 2640)" fill="black">
+          <tspan font-family="Helvetica" font-size="1" font-weight="400" fill="black" x="0" y="1"> </tspan>
+        </text>
+      </g>
+      <g id="Graphic_109">
+        <rect x="337" y="2510" width="3" height="137" fill="#c0ffc0"/>
+        <text transform="translate(337 2640)" fill="black">
+          <tspan font-family="Helvetica" font-size="1" font-weight="400" fill="black" x="0" y="1"> </tspan>
+        </text>
+      </g>
+      <g id="Graphic_110">
+        <rect x="340" y="2510" width="3" height="137" fill="#68bc36"/>
+        <text transform="translate(340 2640)" fill="black">
+          <tspan font-family="Helvetica" font-size="1" font-weight="400" fill="black" x="0" y="1"> </tspan>
+        </text>
+      </g>
+      <g id="Graphic_111">
+        <rect x="343" y="2510" width="3" height="137" fill="#c0ffc0"/>
+      </g>
+      <g id="Graphic_112">
+        <rect x="346" y="2510" width="3" height="137" fill="#68bc36"/>
+      </g>
+      <g id="Graphic_113">
+        <rect x="349" y="2510" width="2" height="137" fill="#c0ffc0"/>
+        <text transform="translate(349 2640)" fill="black">
+          <tspan font-family="Helvetica" font-size="1" font-weight="400" fill="black" x="0" y="1"> </tspan>
+        </text>
+      </g>
+      <g id="Graphic_114">
+        <rect x="351" y="2510" width="2" height="137" fill="#68bc36"/>
+        <text transform="translate(351 2640)" fill="black">
+          <tspan font-family="Helvetica" font-size="1" font-weight="400" fill="black" x="0" y="1"> </tspan>
+        </text>
+      </g>
+      <g id="Graphic_115">
+        <rect x="353" y="2510" width="1" height="137" fill="#c0ffc0"/>
+        <text transform="translate(353 2640)" fill="black">
+          <tspan font-family="Helvetica" font-size="1" font-weight="400" fill="black" x="0" y="1"> </tspan>
+        </text>
+      </g>
+      <g id="Graphic_116">
+        <rect x="354" y="2510" width="1" height="137" fill="#68bc36"/>
+        <text transform="translate(354 2640)" fill="black">
+          <tspan font-family="Helvetica" font-size="1" font-weight="400" fill="black" x="0" y="1"> </tspan>
+        </text>
+      </g>
+      <g id="Graphic_117">
+        <rect x="355" y="2510" width="1" height="137" fill="#c0ffc0"/>
+        <text transform="translate(355 2640)" fill="black">
+          <tspan font-family="Helvetica" font-size="1" font-weight="400" fill="black" x="0" y="1"> </tspan>
+        </text>
+      </g>
+      <g id="Graphic_118">
+        <rect x="356" y="2510" width="1" height="137" fill="#68bc36"/>
+        <text transform="translate(356 2640)" fill="black">
+          <tspan font-family="Helvetica" font-size="1" font-weight="400" fill="black" x="0" y="1"> </tspan>
+        </text>
+      </g>
+      <g id="Graphic_119">
+        <rect x="357" y="2510" width="1" height="137" fill="#c0ffc0"/>
+        <text transform="translate(357 2640)" fill="black">
+          <tspan font-family="Helvetica" font-size="1" font-weight="400" fill="black" x="0" y="1"> </tspan>
+        </text>
+      </g>
+      <g id="Graphic_120">
+        <rect x="358" y="2510" width="1" height="137" fill="#68bc36"/>
+        <text transform="translate(358 2640)" fill="black">
+          <tspan font-family="Helvetica" font-size="1" font-weight="400" fill="black" x="0" y="1"> </tspan>
+        </text>
+      </g>
+      <g id="Graphic_121">
+        <rect x="359" y="2510" width="1" height="137" fill="#c0ffc0"/>
+      </g>
+      <g id="Graphic_135">
+        <text transform="translate(299 2481)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="6394885e-20" y="11">Spain (58K)</tspan>
+        </text>
+      </g>
+      <g id="Line_136">
+        <line x1="299" y1="2510" x2="299" y2="2495.336" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_137">
+        <text transform="translate(280.3 2456)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x=".4020061" y="11">Italy (60K)</tspan>
+        </text>
+      </g>
+      <g id="Line_138">
+        <line x1="280.3" y1="2470.336" x2="280.5" y2="2510" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_139">
+        <text transform="translate(261.2 2432)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Germany (63K)</tspan>
+        </text>
+      </g>
+      <g id="Line_140">
+        <line x1="261" y1="2510" x2="261.2" y2="2446.336" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_141">
+        <text transform="translate(240.212 2412)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="2344791e-19" y="11">France (70K)</tspan>
+        </text>
+      </g>
+      <g id="Line_142">
+        <line x1="240.212" y1="2426.336" x2="240" y2="2510" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_143">
+        <text transform="translate(218 2385)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Poland (74K)</tspan>
+        </text>
+      </g>
+      <g id="Line_144">
+        <line x1="218" y1="2399.336" x2="217.5" y2="2510" stroke="black" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_150">
+        <g id="Graphic_145">
+          <rect x="306.75" y="2648.125" width="54.5" height="5" stroke="black" stroke-linecap="square" stroke-linejoin="miter" stroke-width="1"/>
+        </g>
+        <g id="Graphic_146">
+          <rect x="302.5" y="2647" width="62" height="2" fill="#57c8ff"/>
+        </g>
+      </g>
+      <g id="Graphic_147">
+        <text transform="translate(218 2669)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="11">Czech Republic, Romania, Hungary, </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="25.336">Portugal, Belgium, Slovakia, Netherlands, </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="39.671997">Greece, Bulgaria, Austria, Sweden, </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="54.007996">Lithuania, Ireland, Denmark, Latvia, </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="68.343994">Croatia, Finland, Estonia, Slovenia, </tspan>
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="0" y="82.67999">Cyprus, Malta, and Luxembourg</tspan>
+        </text>
+      </g>
+      <g id="Line_151">
+        <line x1="333.85032" y1="2669" x2="333.97964" y2="2653.125" stroke="black" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

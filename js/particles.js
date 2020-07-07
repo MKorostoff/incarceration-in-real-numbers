@@ -4,7 +4,18 @@ var Engine = Matter.Engine,
     Events = Matter.Events,
     World = Matter.World,
     Bodies = Matter.Bodies,
-    Body = Matter.Body;
+    Body = Matter.Body,
+    velocity = 0.5,
+    friction = 0,
+    frictionAir = 0,
+    frictionStatic = 0.0001,
+    restitution = 1,
+    circleSize = 6,
+    total = 0,
+    numberOfCops = 2,
+    threshold = 28;
+
+
 function randomBetween(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
@@ -15,13 +26,17 @@ engine.world.gravity.y = 0;
 // create a renderer
 var render = Render.create({
     element: document.body,
-    engine: engine
+    engine: engine,
+    options: {
+        background: '#57c8ff',
+        wireframes: false
+    }
 });
 
 var options = {
-  restitution: 1,
+  restitution: restitution,
   render: {
-    fillStyle: 'blue',
+    fillStyle: '#888',
   }
 };
 
@@ -29,7 +44,12 @@ var options = {
 var objects = [];
 
 for (var i = 0; i < 100; i++) {
-  objects.push(Bodies.circle(randomBetween(0, 600), randomBetween(0, 600), 5, options))
+  var circ = Bodies.circle(randomBetween(0, 600), randomBetween(0, 600), circleSize, options);
+  if (i < numberOfCops) {
+    circ.isCop = true;
+    circ.render.fillStyle = 'blue';
+  }
+  objects.push(circ)
 }
 function getPosition(ball){
     return {
@@ -64,10 +84,48 @@ setTimeout(function(){
     }
 }, 0);
 
+function stop() {
+    velocity = 0;
+    friction = 0.1;
+    frictionAir = 0.01;
+    frictionStatic = 0.5;
+    restitution = 0.2;
+    engine.world.gravity.y = 1;
+};
+
 Events.on(engine, 'afterUpdate', function(event) {
-    for (var ii = 0; ii < 100; ii++) {
-        Body.setAngularVelocity(objects[ii], 0.5);
+    if (total === threshold) {
+        stop();
     }
+    for (var ii = 0; ii < 100; ii++) {
+        Body.setAngularVelocity(objects[ii], velocity);
+        objects[ii].friction = friction;
+        objects[ii].frictionAir = frictionAir;
+        objects[ii].frictionStatic = frictionStatic;
+        objects[ii].restitution = restitution;
+    }
+
+});
+
+Events.on(engine, 'collisionStart', function(event) {
+    event.source.pairs.collisionStart.forEach(function(collision){
+        if (total < threshold && collision.bodyA.label === 'Circle Body' && collision.bodyB.label === 'Circle Body') {
+            if (collision.bodyA.isCop && !collision.bodyB.isCop) {
+                if (collision.bodyB.render.fillStyle !== 'red') {
+                    collision.bodyB.render.fillStyle = 'red';
+                    total++;
+                    console.log(total);
+                }
+            }
+            if (collision.bodyB.isCop && !collision.bodyA.isCop) {
+                if (collision.bodyA.render.fillStyle !== 'red') {
+                    collision.bodyA.render.fillStyle = 'red';
+                    total++;
+                    console.log(total);
+                }
+            }
+        }
+    })
 });
 
 var isStatic = {isStatic: true};
@@ -77,9 +135,9 @@ objects.push(Bodies.rectangle(0, 400, 60, 800, isStatic)); //Left wall
 objects.push(Bodies.rectangle(800, 400, 60, 800, isStatic)); //right wall
 
 objects.forEach(function(obj, i){
-    objects[i].friction = 0;
-    objects[i].frictionAir = 0;
-    objects[i].frictionStatic = 0.0001;
+    objects[i].friction = friction;
+    objects[i].frictionAir = frictionAir;
+    objects[i].frictionStatic = frictionStatic;
 })
 // add all of the bodies to the world
 World.add(engine.world, objects);

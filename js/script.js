@@ -10,11 +10,24 @@ var observer = new IntersectionObserver(function(entries){
     }
   })
 })
-var obervables = ['blue','red','pretrial','preconvicted', 'disagree', 'unconvicted'];
+var obervables = ['blue','red','pretrial','preconvicted', 'unsurprisingly', 'unconvicted'];
 obervables.forEach(function(id){
   var target = document.getElementById(id);
   observer.observe(target);
 })
+
+var freedomObserver = new IntersectionObserver(function(entries){
+  entries.forEach(function(entry){
+    if (entry.isIntersecting || entry.intersectionRatio > 0) {
+      document.getElementsByTagName('body')[0].classList.add('not-free');
+    }
+    else {
+      document.getElementsByTagName('body')[0].classList.remove('not-free');
+    }
+  })
+})
+var freedom = document.getElementById('freedom');
+freedomObserver.observe(freedom);
 
 var ua = navigator.userAgent.toLowerCase();
 var isAndroid = ua.indexOf("android") > -1;

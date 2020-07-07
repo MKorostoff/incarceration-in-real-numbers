@@ -3,10 +3,25 @@ var counter = document.getElementById('counter');
 var title = document.getElementById('title');
 var scroll_count = 0;
 
+function setHeight() {
+  var browser_width = window.innerWidth || document.body.clientWidth;
+  var icons_per_card = 200;
+  var cards_per_row = browser_width / 400;
+  var icons_per_row = icons_per_card * cards_per_row;
+  var number_of_rows = 2300000/icons_per_row;
+  var height = Math.floor(number_of_rows * 500);
+  prisoners.style.height = height + "px";
+}
+setHeight();
+
+window.addEventListener("orientationchange", setHeight);
+window.addEventListener("resize", setHeight);
+
+
 var observer = new IntersectionObserver(function(entries){
   entries.forEach(function(entry){
     if (entry.isIntersecting || entry.intersectionRatio > 0) {
-      document.getElementById('prisoners').style = 'background-image: url(img/bg/' + entry.target.dataset.background + ');'
+      prisoners.style.backgroundImage = "url('img/bg/" + entry.target.dataset.background + "')"
     }
   })
 })

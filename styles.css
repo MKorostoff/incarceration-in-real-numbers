@@ -35,7 +35,6 @@ h1 {
 }
 .main {
   margin: auto;
-  width: 800px;
 }
 .person {
   background-size: 400px;
@@ -48,7 +47,7 @@ h1 {
 }
 .prisoners {
   background-image: url('img/bg/black.svg');
-  height: 2875000px;
+  min-height: 200000px;
 }
 .prisoners .title {
   position: sticky;
@@ -366,7 +365,7 @@ body,
 @media (max-width: 799px) {
   .counter,
   .main {
-    width: 360px;
+    width: 100%;
   }
   .counter {
     top: 42px;
@@ -377,10 +376,6 @@ body,
   }
   .thousand {
     height: 4440px !important;
-  }
-  .prisoners {
-    background-size: 360px;
-    height: 5175000px;
   }
   .title {
     position: sticky;

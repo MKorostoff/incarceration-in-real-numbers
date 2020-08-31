@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="265 -905 800 4725" width="800" height="4725">
+  <defs/>
+  <metadata> Produced by OmniGraffle 7.16 
+    <dc:date>2020-07-07 21:37:15 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_11" stroke="none" fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none">
+    <title>Canvas 11</title>
+    <g id="Canvas_11: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_11">
+        <rect x="265" y="-549" width="480" height="100" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_10">
+        <rect x="265" y="-121" width="328" height="100" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_9">
+        <rect x="265" y="205" width="284" height="100" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_8">
+        <rect x="265" y="502" width="268" height="100" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_7">
+        <path d="M 265 -905 L 1065 -904 C 1065 -904 1065 -856 1065 -804 C 1065 -629 745 -711 745 -547 C 670 -547 265 -525 265 -525 Z" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_6">
+        <path d="M 265 -460 L 745 -459.05 C 745 -459.05 745 -413.45 745 -364.05 C 745 -197.8 593 -276.8 593 -121 C 548 -121 265 -99 265 -99 Z" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_5">
+        <path d="M 265 -29 L 593 -28.326316 C 593 -28.326316 593 4.0105263 593 39.042105 C 593 156.93684 549 98.51579 549 209 C 518.25 209 265 227 265 227 Z" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_4">
+        <path d="M 265 279 L 549 279.6737 C 549 279.6737 549 312.01053 549 347.0421 C 549 464.93684 533 409.5158 533 520 C 506.375 520 265 535 265 535 Z" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_3">
+        <rect x="265" y="588" width="268" height="195" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_2">
+        <rect x="265" y="773" width="268" height="3047" fill="#57c8ff"/>
+      </g>
+    </g>
+  </g>
+</svg>

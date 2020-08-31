@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="265 -906 800 10575" width="800" height="10575">
+  <defs/>
+  <metadata> Produced by OmniGraffle 7.16 
+    <dc:date>2020-07-07 22:17:26 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_11" stroke="none" fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none">
+    <title>Canvas 11</title>
+    <g id="Canvas_11: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_11">
+        <rect x="265" y="576.35115" width="480" height="416.10987" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_10">
+        <rect x="265" y="2357.3014" width="328" height="416.10987" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_9">
+        <rect x="265" y="2985" width="284" height="1228" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_8">
+        <rect x="265" y="4313.1804" width="268" height="416.10987" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_7">
+        <path d="M 265 -905 L 1065 -900.8389 C 1065 -900.8389 1065 -701.1062 1065 -484.729 C 1065 243.46325 745 -97.74684 745 584.67335 C 670 584.67335 265 676.2175 265 676.2175 Z" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_6">
+        <path d="M 265 946.6889 L 745 950.642 C 745 950.642 745 1140.3881 745 1345.9464 C 745 2037.729 593 1709.0022 593 2357.3014 C 548 2357.3014 265 2448.8456 265 2448.8456 Z" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_5">
+        <path d="M 265 2739 L 593 2739.858 C 593 2739.858 593 2781.037 593 2825.6474 C 593 2975.779 549 2901.3834 549 3042.078 C 518.25 3042.078 265 3065 265 3065 Z" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_4">
+        <path d="M 265 4183 L 549 4183.445 C 549 4183.445 549 4204.8154 549 4227.9664 C 549 4305.8784 533 4269.253 533 4342.2675 C 506.375 4342.2675 265 4352.1804 265 4352.1804 Z" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_3">
+        <rect x="265" y="4671.035" width="268" height="811.4143" fill="#57c8ff"/>
+      </g>
+      <g id="Graphic_2">
+        <rect x="265" y="5440.838" width="268" height="4227.6763" fill="#57c8ff"/>
+      </g>
+    </g>
+  </g>
+</svg>

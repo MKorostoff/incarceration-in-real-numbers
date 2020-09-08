@@ -4,6 +4,7 @@
   <title>Mass Incarceration</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="styles.css?v=3">
+  <!-- <link rel="stylesheet" type="text/css" href="unscroll.css?v=3"> -->
 </head>
 <body>
 <div class="main">
@@ -11,7 +12,10 @@
     <div class="spacer"></div>
     <div class="padder"></div>
     <div id="title" class="title"><h1>The actual number of Americans jailed or imprisoned, about 2.3 million</h1><span id="counter" class="counter"></span></div>
-    <div class="scroll-down">(Scroll down)</div>
+    <div class="subtitle">
+        <p>Each icon represents one incarcerated person</p>
+        <p class="scroll-down">scroll down</p>
+    </div>
 
     <div class="infobox first">
       <div class="infobox-inner">The United States holds more people in jails and prisons than any other country by far, both in absolute numbers and as a percentage of population.</div>
@@ -20,7 +24,7 @@
     <div id='per-one-hundred' class="infobox chart horizontal expandable">
       <div id='per-one-hundred-inner' class="infobox-inner">
         <h2>Incarcerated per 100,000 residents</h2>
-        <div class="bar highlighted right"><span class="inset-text-mob inset-text-desk bar-inner">USA (696)</span></div>
+        <div id="usa-rate" class="bar highlighted right"><span class="inset-text-mob inset-text-desk bar-inner">USA (696)</span></div>
         <div style="width: 84.8%" class="bar"><span class="bar-inner inset-text-mob">El Salvador (590)</span></div>
         <div style="width: 79.3%" class="bar"><span class="bar-inner inset-text-mob">Turkmenistan (552)</span></div>
         <div style="width: 76.3%" class="bar"><span class="bar-inner inset-text-mob">Thailand (531)</span></div>
@@ -207,7 +211,7 @@
       </div>
     </div>
 
-    <div id='country-rank' class="infobox chart horizontal expandable">
+    <div id='country-rank' class="infobox chart horizontal expandable infobox-near">
       <div id='country-rank-inner' class="infobox-inner">
         <h2>Number of people incarcerated</h2>
         <div class="bar highlighted right">USA (2.3M)</div>
@@ -382,7 +386,7 @@
 
     <div class="infobox">
       <div class="infobox-inner">
-        <p>There are more incarcerated people than military personnel. There are more incarcerated people than bus drivers, bar tenders, and hair dressers combined.</p>
+        <p>Incarcerated people out number almost every profession. There are more incarcerated people than military personnel. There are more incarcerated people than bus drivers, bar tenders, and hair dressers combined.</p>
       </div>
     </div>
 
@@ -401,7 +405,7 @@
       </div>
     </div>
 
-    <div style="margin-bottom: 18000px;" class="infobox chart correctional-population">
+    <div class="infobox chart correctional-population">
       <div class="infobox-inner" style="height: 490px;">
         <p>While the incarcerated population is unfathomably large, it is just the tip of the iceberg.</p>
         <div class="vertical-bars">
@@ -434,7 +438,7 @@
       <div id="pretrial" data-background="black" class="infobox-inner short">Almost no one gets a trial.</div>
     </div>
 
-    <div class="infobox blue">
+    <div class="infobox blue infobox-near">
       <div id="blue" data-background="blue" class="infobox-inner"><img class="side-icon" src="img/person/blue.svg" />Notice that the background icons have changed. The blue icons are the portion of incarcerated people who got trials, around 2%.</div>
     </div>
 
@@ -443,7 +447,7 @@
     </div>
 
     <div class="infobox">
-      <div class="infobox-inner">No other country on earth incarcerates so many people without trial.</div>
+      <div class="infobox-inner">No other country on earth incarcerates so many people without trial. While many countries around the world have rushed to adopt American style plea bargaining in recent years, not a single one uses them for such a large portion of cases.</div>
     </div>
 
     <div class="infobox">
@@ -458,8 +462,8 @@
       <div class="infobox-inner">Unconvicted Americans are the 4th largest incarcerated population in the world.</div>
     </div>
 
-    <div class="infobox chart horizontal">
-      <div id="unconvicted" data-background="red" class="infobox-inner">
+    <div id="unconvicted" class="infobox chart horizontal infobox-near">
+      <div data-background="red" class="infobox-inner">
         <h2>Largest incarcerated populations</h2>
         <div class="bar">1. USA (all)</div>
         <div style="width: 74%" class="bar">2. China</div>
@@ -471,11 +475,26 @@
       </div>
     </div>
 
+<!--     <div class="infobox stadium">
+        <div class="infobox-inner static">
+          <p>This is the largest stadium in the America. It holds about as many people as there are unconvicted Americans in jail:</p>
+          <picture>
+            <source srcset="img/stadium_m.jpg" media="(max-width: 799px)">
+            <source srcset="img/stadium_d.jpg" media="(min-width: 800px)">
+            <img alt="Picture of a packed crowd at michigan stadium">
+          </picture>
+        </div>
+    </div>
+
+    <div class="infobox">
+      <div class="infobox-inner">Just kidding. There are 5x more Americans sitting in jail without conviction than could fit in that stadium.</div>
+    </div> -->
+
     <div class="infobox">
       <div data-background="black" class="infobox-inner">You've probably heard that mass incarceration disproportionately impacts people of color, and that's true. But let's get one thing straight: there is <em>no group</em> in America, of any race or gender, that is immune from the terror of mass incarceration.</div>
     </div>
 
-    <div id="subgroup" class="infobox chart">
+    <div id="subgroup" class="infobox chart infobox-near">
       <div id="subgroup-inner" class="relative infobox-inner">
          <div class="funnel-item first">If we released...</div>
          <div class="funnel-item second">all of the black Americans...</div>
@@ -484,7 +503,7 @@
          <div class="funnel-neck">
              <div class="funnel-item fifth">and all of the juveniles...</div>
              <div class="funnel-item sixth">leaving only white men...</div>
-             <div class="funnel-item seventh">America would still incarcerate more people than every EU country combined.</div>
+             <div class="funnel-item seventh">America would still incarcerate more people than the entire European Union combined.</div>
              <div class="eu">
                 <div class="eu-country poland" style="width: 8.74%;"><div class="eu-country-inner">Poland</div></div>
                 <div class="eu-country france" style="width: 8.35%;"><div class="eu-country-inner">France</div></div>
@@ -520,15 +539,11 @@
       </div>
     </div>
 
-    <!-- <div class="infobox">
-      <div class="infobox-inner">Mass incarceration is everybody's problem, regardless of race.</div>
-    </div> -->
-
     <div class="infobox">
       <div class="infobox-inner">That said, Americans of color are indeed incarcerated at rates almost unheard of in the history of humanity.</div>
     </div>
 
-    <div class="infobox chart stalin" style="margin-bottom: 1500px;">
+    <div class="infobox chart stalin infobox-near" style="margin-bottom: 1500px;">
       <div class="infobox-inner" style="height: 490px;">
         <h2>Number incarcerated per 100,000</h2>
         <div class="vertical-bars">
@@ -560,7 +575,7 @@
       <div class="infobox-inner">About 1 in 3 black men will go to prison at some point in his life. Not jail, <em>prison</em>.</div>
     </div>
 
-    <div id="dots" class="infobox chart">
+    <div id="dots" class="infobox chart infobox-near">
       <div class="infobox-inner static">
         <h2>Lifetime chance of going to prison</h2>
          <picture>
@@ -575,11 +590,22 @@
 
     <div class="infobox">
       <div class="infobox-inner">
-        <p>Imagine George Floyd had been arrested instead of murdered. Given the maximum sentence of 20 years, he would be in prison until age 66. The life expectancy for black men is 72.</p>
+        <p>When Americans debate criminal justice reform, the conversation often focuses on rank injustice—police brutality, bias in sentencing, or improperly lenient outcomes for affluent people. But it's when the system works <em>exactly as designed</em> that the true brutality of over criminalization becomes clear. Mass incarceration may not spark the same public outcry as the murder of unarmed people by police, but it has destroyed an uncountably greater number of families.</p>
       </div>
     </div>
 
-    <div class="infobox floyd close">
+    <div id="thousand" class="infobox person thousand infobox-near">
+      <div class="infobox-inner">The highlighted icons equal the number of Americans killed by police each year&mdash;about 1,000. An outrageous number yes, but utterly dwarfed by the ocean of ruined lives hidden away behind prison walls.</div>
+    </div>
+
+    <div class="infobox infobox-near">
+      <div class="infobox-inner">
+        <p>Imagine for a moment that George Floyd had been arrested instead of murdered. Given the maximum 20 years sentence for his alleged crime, he could have been imprisoned until age 66&mdash;the life expectancy for black men in America is 72.</p>
+        <p>What violence would he have faced in prison? What grief and shame would his six year old daughter endure, living out her formative years without him? What sort of life could he hope to make, if he ever made it out? We would never know. He would have become just be another forgotten convict, crushed by the system.</p>
+      </div>
+    </div>
+
+    <div class="infobox floyd infobox-near">
       <div class="infobox-inner icon">
       </div>
       <div class="infobox-inner text">
@@ -591,17 +617,14 @@
       <div class="infobox-inner">Is this what justice looks like?</div>
     </div>
 
-    <div id="thousand" class="infobox person thousand">
-      <div class="infobox-inner">The highlighted icons equal the number of Americans killed by police each year (about 1,000). An outrageous number yes, but utterly dwarfed by the ocean of ruined lives hidden away behind prison walls. It's when the system works <em>exactly as designed</em> that we see the real devastation of over-criminalization.
-    </div>
-    </div>
+
     <!-- end floyd -->
 
     <div class="infobox">
-      <div class="infobox-inner">If we drill into individual age groups, it is almost impossible to find a meaningful comparison in public data.</div>
+      <div class="infobox-inner">If we drill into individual age groups, it is almost impossible to find a meaningful comparison to American incarceration in public data.</div>
     </div>
 
-    <div class="infobox chart repression" style="margin-bottom: 3900px;">
+    <div class="infobox chart repression infobox-near" style="margin-bottom: 3900px;">
       <div class="infobox-inner" style="height: 490px;">
         <h2>Number incarcerated per 100,000</h2>
         <div class="vertical-bars">
@@ -643,19 +666,163 @@
     </div>
 
     <div id="freedom-wrapper" class="infobox">
-      <div id="freedom" class="freedom infobox-inner">What if we're not as free as we think we are?</div>
+      <div data-background="not-free" id="freedom" class="freedom infobox-inner">What if we're not as free as we think we are?</div>
     </div>
 
     <div class="infobox">
-      <div class="freedom infobox-inner">Really sit with this question for a moment. For just ten seconds, try not to push it away.</div>
+      <div data-background="not-free" class="freedom infobox-inner">Really sit with this question for a moment. For just ten seconds, resist the urge to explain this all away as normal or necessary.</div>
     </div>
 
     <div class="infobox">
-      <div class="freedom infobox-inner">For just a moment, resist the urge to explain away all these injustices as normal or necessary.</div>
+      <div data-background="not-free" class="freedom infobox-inner">
+        <p>Millions in jail without trial or conviction. Police who kill with impunity. Ethnic minorities rounded up in genocidal numbers. Immigrant children in cages.</p>
+        <p>Is this what freedom looks like?</p>
+      </div>
     </div>
 
     <div class="infobox">
-      <div class="freedom infobox-inner">What if you've spent your whole life believing you live in the freest country on earth, when the reality is precisely the opposite?</div>
+      <div data-background="not-free" class="freedom infobox-inner">
+        <p>History is full of repressed peoples who <a href="https://www.goodreads.com/work/quotes/963585-they-thought-they-were-free-the-germans-1933-45" target="_blank">believed they were free</a>. With the benefit of hindsight, we condescendingly label them "brainwashed," as though we are immune to this deception.</p>
+      </div>
+    </div>
+
+    <div class="infobox">
+      <div data-background="not-free" class="freedom infobox-inner">
+        No one is immune.
+      </div>
+    </div>
+
+    <div class="infobox infobox-near">
+      <div data-background="not-free" class="freedom infobox-inner">
+        And no one is brainwashed.
+      </div>
+    </div>
+
+    <div class="infobox infobox-near">
+      <div data-background="not-free" class="freedom infobox-inner">
+        What they are&mdash;and quite possibly you are too&mdash;is gradually habituated to an ever more controlling government, a little bit at a time, each step seeming so necessary and inevitable that it becomes nearly impossible to imagine history unfolding any other way.
+      </div>
+    </div>
+
+    <div class="infobox">
+      <div data-background="not-free" class="freedom infobox-inner">
+        <p>So ask yourself: what if you've spent your whole life believing that you live in the freest country on earth, when the reality is precisely the opposite?</p>
+      </div>
+    </div>
+
+    <div class="infobox">
+      <div id="better-world" data-background="not-free" class="freedom infobox-inner">
+        <p>What if a better world were possible?</p>
+      </div>
+    </div>
+
+    <div class="infobox better-world">
+      <div data-background="black" class="infobox-inner">
+        <p>A better world <em>is</em> possible, and it's closer at hand than you might expect. It can be achieved in our lifetime. In this next section, we'll talk about what that world would look like and how we can make it.</p>
+      </div>
+    </div>
+
+    <div class="infobox infobox-near">
+      <div data-background="black" class="infobox-inner">
+        <p>As we proceed, try to push away the cynical voice inside which insists that criminal justice reform is impossible, that the world is too dangerous to allow it, or that the public would never support it. Nearly every other country on earth has achieved this or something close to it, and there's no reason we cannot have it here. <em>Everything seems impossible until it happens.</em></p>
+      </div>
+    </div>
+
+    <div class="infobox curve-section" id="none-of-this">
+      <div class="infobox-inner">The first thing you need to understand is that mass incarceration has made us any safer.</div>
+    </div>
+
+    <div id="curve-wrapper-outer" class="infobox infobox-near chart curve relative">
+      <div id="curve-wrapper" class="infobox-inner curve-section">
+        <h2>Number of incarcerated Americans over time</h2>
+         <picture>
+          <source srcset="img/correlation_m.svg" media="(max-width: 799px)">
+          <source srcset="img/correlation_d.svg" media="(min-width: 800px)">
+          <img id="correlation" alt="Chart showing lack of correlation between crime rates and incarceration." src="img/correlation_d.svg">
+        </picture>
+        <!-- <img src="img/curve.svg"/> -->
+        <svg xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="168 91 813 443" width="813" height="443">
+          <defs>
+            <font-face font-family="Helvetica Neue" font-size="18" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+              <font-face-src>
+                <font-face-name name="HelveticaNeue"/>
+              </font-face-src>
+            </font-face>
+          </defs>
+          <g id="Canvas_1" stroke="none" stroke-opacity="1" fill="none" stroke-dasharray="none" fill-opacity="1">
+            <title>Canvas 1</title>
+            <g id="Canvas_1_Layer_1">
+              <title>Layer 1</title>
+              <g id="Group_40">
+                <g id="Graphic_41"/>
+                <g id="Graphic_2">
+                  <path id="curve" d="M 214.62963 491.1832 L 214.62963 469.1928 L 234.12963 469.2093 L 247.12963 467.18367 L 253.62963 465.70015 L 260.12963 463.41135 L 266.62963 461.8123 L 273.12963 460.68335 L 279.62963 458.77823 L 286.12963 457.0856 L 292.62963 456.4672 L 299.12963 456.18447 L 305.62963 454.75295 L 312.12963 452.624 L 318.62963 451.29615 L 325.12963 448.8731 L 331.62963 446.4755 L 338.12963 442.1595 L 344.62963 441.94687 L 351.12963 443.376 L 357.62963 445.8912 L 364.12963 448.10383 L 370.62963 448.97247 L 377.12963 448.888 L 383.62963 447.9656 L 390.12963 446.27583 L 396.62963 445.63455 L 403.12963 444.49743 L 409.62963 444.224 L 416.12963 443.51375 L 422.62963 442.3243 L 429.12963 440.68783 L 435.62963 438.41535 L 442.12963 437.1736 L 448.62963 435.78703 L 455.12963 435.67007 L 461.62963 431.65247 L 468.12963 430.47743 L 474.62963 428.9208 L 481.12963 427.3675 L 487.62963 427.1768 L 494.12963 427.0224 L 500.6296 427.092 L 507.1296 427.2408 L 513.6296 428.63743 L 520.1296 428.8123 L 526.6296 429.34303 L 533.1296 427.4616 L 539.6296 426.80767 L 546.1296 425.55695 L 552.6296 424.8824 L 559.1296 423.13743 L 565.6296 420.41087 L 572.1296 416.80655 L 578.6296 412.71775 L 585.1296 408.56783 L 591.6296 406.784 L 598.1296 403.83535 L 604.6296 401.95663 L 611.1296 393.7 L 617.6296 381.48063 L 624.1296 375.19087 L 630.6296 369.30703 L 637.1296 359.6019 L 643.6296 349.87647 L 650.1296 340.02 L 656.6296 325.2616 L 663.1296 304.44495 L 669.6296 292.8275 L 676.1296 281.2579 L 682.6296 269.05167 L 689.1296 252.6459 L 695.6296 234.5971 L 702.1296 220.1299 L 708.6296 209.6232 L 715.1296 192.54831 L 721.6296 178.3496 L 728.1296 168.38047 L 734.6296 161.39455 L 741.1296 158.27503 L 747.6296 147.76463 L 754.1296 139.79231 L 760.6296 132.30655 L 767.1296 122.48143 L 773.6296 113.05055 L 780.1296 107.20895 L 786.6296 104.81967 L 793.1296 107.64063 L 799.6296 111.63279 L 806.1296 117.44383 L 812.6296 120.97679 L 819.1296 122.82559 L 825.6296 113.54479 L 825.6296 491.1832 Z" fill="yellow" />
+                </g>
+                <g id="Graphic_5">
+                  <rect x="818.3648" y="165.952" width="7.26483" height="1.6" fill="black"/>
+                </g>
+                <g id="Graphic_10">
+                  <text transform="translate(829.4182 318)" fill="black">
+                    <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="black" x="0" y="17">1 million</tspan>
+                  </text>
+                </g>
+                <g id="Graphic_11">
+                  <text transform="translate(830.0025 156.5)" fill="black">
+                    <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="black" x="0" y="17">2 million</tspan>
+                  </text>
+                </g>
+                <g id="Graphic_12">
+                  <rect x="818.3648" y="328.4" width="7.255107" height="1.6" fill="black"/>
+                </g>
+                <g id="nineteen-twenty">
+                  <text transform="translate(195.41363 495.9316)" fill="black">
+                    <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="black" x="0" y="17">1920</tspan>
+                  </text>
+                </g>
+                <g id="nineteen-eighty">
+                  <text transform="translate(585.1296 495.9316)" fill="black">
+                    <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="black" x="0" y="17">1980</tspan>
+                  </text>
+                </g>
+                <g id="twenty-ten">
+                  <text transform="translate(779.778 495.9316)" fill="black">
+                    <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="black" x="0" y="17">2010</tspan>
+                  </text>
+                </g>
+                <g id="nineteen-fifty">
+                  <text transform="translate(386.12963 495.9316)" fill="black">
+                    <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="black" x="0" y="17">1950</tspan>
+                  </text>
+                </g>
+                <g class="transition" id="nineteen-twenty-tick">
+                  <rect x="214.62963" y="480.6119" width="1.6000033" height="10.319675" fill="black"/>
+                </g>
+                <g id="nineteen-fifty-tick">
+                  <rect x="408.02963" y="480.6119" width="1.6000033" height="10.319675" fill="black"/>
+                </g>
+                <g class="transition" id="nineteen-eighty-tick">
+                  <rect x="603.0296" y="480.6119" width="1.6000033" height="10.319675" fill="black"/>
+                </g>
+                <g id="twenty-ten-tick">
+                  <rect x="798.994" y="480.7951" width="1.6000033" height="10.319675" fill="black"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="infobox infobox-quarter curve-section" id="until-recently">
+      <div class="infobox-inner">For almost all of American history, until as recently as 1980, prison populations grew steadily and proportionally to the population as a whole.</div>
+    </div>
+
+    <div class="infobox infobox-quarter curve-section" id="since-it-began">
+      <div class="infobox-inner">Since mass incarceration began, crime has risen and fallen with no correlation to incarceration rates.</div>
+    </div>
+
+    <div class="infobox infobox-half curve-section" id="causation">
+      <div class="infobox-inner">Virtually all research has concluded that mass incarceration has had a minimal impact on property crime, and <a href="https://www.vera.org/publications/for-the-record-prison-paradox-incarceration-not-safer" target="_blank">zero impact on violent crime</a>. With that in mind, let's look at some reforms and see how </div>
     </div>
 
   </div>

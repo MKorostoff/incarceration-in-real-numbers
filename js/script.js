@@ -2,6 +2,7 @@ var prisoners = document.getElementById('prisoners');
 var thousand = document.getElementById('thousand');
 var counter = document.getElementById('counter');
 var title = document.getElementById('title');
+var curve_wrapper_outer = document.getElementById('curve-wrapper-outer');
 var scroll_count = 0;
 
 function setHeight() {
@@ -28,11 +29,8 @@ window.addEventListener("resize", setHeight);
 var observer = new IntersectionObserver(function(entries){
   entries.forEach(function(entry){
     if (entry.isIntersecting || entry.intersectionRatio > 0) {
-      prisoners.classList.remove('red');
-      prisoners.classList.remove('blue');
-      prisoners.classList.remove('black');
+      prisoners.classList = "person prisoners";
       prisoners.classList.add(entry.target.dataset.background);
-      document.getElementsByTagName('body')[0].classList.remove('not-free');
     }
   })
 })
@@ -40,16 +38,38 @@ document.querySelectorAll('[data-background]').forEach(function(target){
   observer.observe(target);
 });
 
-var freedomObserver = new IntersectionObserver(function(entries){
+var until_recently_shown = false;
+var since_it_began_shown = false;
+
+var curveObserver = new IntersectionObserver(function(entries){
   entries.forEach(function(entry){
     if (entry.isIntersecting || entry.intersectionRatio > 0) {
-      document.getElementsByTagName('body')[0].classList.add('not-free');
+      if (entry.target.id === 'since-it-began') {
+        since_it_began_shown = true;
+      }
+      if (entry.target.id === 'until-recently') {
+        until_recently_shown = true;
+      }
+      if (entry.target.id === 'none-of-this') {
+        since_it_began_shown = false;
+        until_recently_shown = false;
+        curve_wrapper_outer.classList.remove('stretched');
+        curve_wrapper_outer.classList.remove('show-correlation');
+      }
+    }
+    if (entry.target.id === 'until-recently' && !entry.isIntersecting && until_recently_shown === true) {
+      curve_wrapper_outer.classList.add('stretched');
+    }
+    if (entry.target.id === 'since-it-began' && !entry.isIntersecting && until_recently_shown === true) {
+      curve_wrapper_outer.classList.add('show-correlation');
     }
   })
 })
-document.querySelectorAll('.freedom').forEach(function(target){
-  freedomObserver.observe(target);
+document.querySelectorAll('.curve-section').forEach(function(target){
+  curveObserver.observe(target);
 });
+
+
 
 var ua = navigator.userAgent.toLowerCase();
 var isAndroid = ua.indexOf("android") > -1;
@@ -59,7 +79,7 @@ if (isAndroid) {
 
 window.addEventListener('scroll', function(e) {
   scroll_count = getScrollCount();
-  if (scroll_count > 800) {
+  if (scroll_count > 2000) {
     counter.innerHTML = scroll_count.toLocaleString();
   }
   else {

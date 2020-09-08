@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="306 249 644 266" width="644" height="266">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="14" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="14" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.17.4\n2020-09-08 17:47:27 +0000</metadata>
+  <g id="Canvas_1" stroke-opacity="1" fill="none" stroke="none" stroke-dasharray="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_2">
+      <title>Layer 2</title>
+      <g id="Line_15">
+        <path d="M 308.8847 372.88136 L 308.8847 372.42188 L 329.03825 377.0609 L 347.5916 386.1692 L 365.99946 403.8416 L 385.92672 408.9655 L 417.48114 394.71983 L 451.80496 386.2581 L 475.60884 383.27317 L 497.83675 385.03233 L 514.4316 380.25323 L 537.47845 394.6336 L 571.4763 401.76994 L 598.3594 407.39763 L 625.9483 416.4763 L 647.0232 429.0194 L 660.3233 439.771 L 683.1358 446.59483 L 703.3621 444.8653 L 749.0625 450.1347 L 789.1191 458.2139 L 823.9655 463.3001 L 853.5372 473.3836 L 887.5727 477.7128 L 913.7796 480.46606 L 940.3042 487.8327" stroke="black" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Line_17">
+        <path d="M 314.12658 346.192 L 329.45987 348.5284 L 348.6749 358.9939 L 361.63062 368.76883 L 368.40146 372.7425 L 391.8785 368.59677 L 407.9662 359.23572 L 421.90546 336.0842 L 441.1786 340.0416 L 477.84854 316.00656 L 494.12923 290.04627 L 515.6578 276.53018 L 543.6433 279.3901 L 559.6798 286.55157 L 575.7954 299.88862 L 594.0874 314.33012 L 606.6199 329.2785 L 626.24186 340.5392 L 643.82696 359.16364 L 661.6283 377.9392 L 682.22214 385.20066 L 703.6042 386.4074 L 726.107 392.6737 L 751.6232 402.4742 L 776.586 400.52106 L 794.1595 396.60086 L 830.5504 406.7362 L 868.4735 430.08766 L 883.4196 437.13286 L 903.1927 436.3679 L 922.7681 445.70103 L 940.1114 447.9192" stroke="#ff002b" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Graphic_18">
+        <text transform="translate(447.8 254.12408)" fill="#ff2600">
+          <tspan font-family="Helvetica Neue" font-size="14" font-weight="700" fill="#ff2600" x="0" y="14">Violent crimes per 100K</tspan>
+        </text>
+      </g>
+      <g id="Graphic_19">
+        <text transform="translate(432.8764 357.9939)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="14" font-weight="700" fill="black" x="42632564e-21" y="14">Property crimes per 10K</tspan>
+        </text>
+      </g>
+      <g id="Graphic_20">
+        <circle cx="515.6904" cy="276.83682" r="4.0000063916076" fill="#ff4040"/>
+      </g>
+      <g id="Graphic_21">
+        <text transform="translate(509.196 281.53018)" fill="#ff2600">
+          <tspan font-family="Helvetica Neue" font-size="14" font-weight="400" fill="#ff2600" x="0" y="13">758</tspan>
+        </text>
+      </g>
+      <g id="Graphic_23">
+        <circle cx="310.4904" cy="345.8" r="4.00000639160761" fill="#ff4040"/>
+      </g>
+      <g id="Graphic_22">
+        <text transform="translate(311.4904 324.8)" fill="#ff2600">
+          <tspan font-family="Helvetica Neue" font-size="14" font-weight="400" fill="#ff2600" x="0" y="13">597</tspan>
+        </text>
+      </g>
+      <g id="Graphic_25">
+        <circle cx="884.9904" cy="437.5" r="4.00000639160759" fill="#ff4040"/>
+      </g>
+      <g id="Graphic_24">
+        <text transform="translate(880.5 442.5)" fill="#ff2600">
+          <tspan font-family="Helvetica Neue" font-size="14" font-weight="400" fill="#ff2600" x="0" y="13">387</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27">
+        <circle cx="387.9944" cy="408.5" r="4.0000063916076" fill="black"/>
+      </g>
+      <g id="Graphic_26">
+        <text transform="translate(381.5 413.19335)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="14" font-weight="400" fill="black" x="0" y="13">450</tspan>
+        </text>
+      </g>
+      <g id="Graphic_29">
+        <circle cx="513.8944" cy="380.47856" r="4.00000639160763" fill="black"/>
+      </g>
+      <g id="Graphic_28">
+        <text transform="translate(494.4 385.4)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="14" font-weight="400" fill="black" x="0" y="13">514</tspan>
+        </text>
+      </g>
+      <g id="Graphic_31">
+        <circle cx="940.6944" cy="488.1111" r="4.00000639160761" fill="black"/>
+      </g>
+      <g id="Graphic_30">
+        <text transform="translate(921.2 493.03257)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="14" font-weight="400" fill="black" x="0" y="13">257</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

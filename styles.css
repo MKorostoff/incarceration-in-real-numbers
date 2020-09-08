@@ -12,13 +12,15 @@ html, body {
   margin-top: 150px;
 }
 .padder,
-.scroll-down,
+.subtitle,
 .title {
   background-color: #e2dcc6;
 }
-.scroll-down {
+.subtitle {
   text-align: center;
   padding: 20px;
+}
+.scroll-down {
   font-style: italic;
 }
 h1 {
@@ -61,6 +63,10 @@ h1 {
 .prisoners.red {
   background-image: url('img/bg/red.svg');
 }
+.prisoners.black-sparse {
+  background-image: url('img/bg/black-sparse.svg');
+  background-size: 1000px;
+}
 .prisoners .title {
   position: sticky;
   z-index: 20;
@@ -74,8 +80,8 @@ h1 {
 }
 .infobox {
   font-family: sans-serif;
-  margin-top: 5000px;
-  height: 2000px;
+  margin-top: 10000px;
+  height: 5000px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -197,6 +203,9 @@ h1 {
   padding-left: 0;
   padding-right: 0;
 }
+#casualties {
+  margin-top: 2000px;
+}
 #casualties .bar {
   min-height: 70px;
 }
@@ -268,6 +277,9 @@ h1 {
 .vertical-bars .bar .bar-label.no-pad {
   padding-top: 0;
 }
+.correctional-population {
+  margin-bottom: 28000px;
+}
 .correctional-population .infobox-inner {
   height: 430px;
 }
@@ -321,16 +333,16 @@ p:last-child {
   font-size: 13px;
 }
 #unconvicted .bar {
-  background-color: yellowgreen;
-  color: black;
-  box-shadow: -2px 2px 5px;
+  background-color: #b70000;
+  color: white;
+  box-shadow: -2px 2px 5px black;
 }
 #unconvicted .bar.highlighted {
-  background-color: #a20000;;
+  background-color: grey;
 }
 .without-conviction-label {
   width: 125px;
-  background-color: #ece62a;
+  background-color: #ff6161;
   height: auto;
   padding: 5px;
   display: block;
@@ -339,7 +351,7 @@ p:last-child {
   border: 2px dashed black;
   position: absolute;
   top: auto;
-  left: 40%;
+  left: 36%;
 }
 .without-conviction-label:before {
   display: block;
@@ -349,6 +361,14 @@ p:last-child {
   height: 1px;
   position: absolute;
   left: -80%;
+}
+.stadium {
+  width: 100%;
+  max-width: 800px;
+}
+.chart img {
+  max-width: 100%;
+  height: auto;
 }
 .arrow {
   padding-top: 7px;
@@ -406,7 +426,7 @@ p:last-child {
 .repression .vertical-bars .bar:nth-child(7) {
   background-color: #4b6514;
 }*/
-body {
+#prisoners {
   transition: background-color 1200ms, opacity 500ms;
 }
 .not-free {
@@ -414,16 +434,26 @@ body {
   background-size: 1000px;
   background-color: black;
 }
-.not-free #prisoners {
-  background-image: none !important;
-}
 .not-free .title {
   opacity: 0;
 }
 .not-free .infobox-inner {
-  background-color: transparent;
+  background-color: black;
   color: white;
   box-shadow: none;
+}
+.not-free a,
+.not-free a:visited {
+  color: #009fff;
+}
+.infobox-near {
+  margin-top: 1000px;
+}
+.infobox-half {
+  margin-top: 5000px;
+}
+.infobox-quarter {
+  margin-top: 2500px;
 }
 #dots .infobox-inner {
   max-width: 585px;
@@ -432,15 +462,29 @@ body {
 #freedom-wrapper {
   height: 10000px;
 }
+#freedom, #better-world {
+  font-size: 28px;
+  font-weight: bold;
+}
 #freedom {
   box-shadow: none;
   background-color: transparent;
   color: white;
-  font-size: 28px;
-  font-weight: bold;
   text-align: center;
   width: 360px;
   display: block;
+}
+.quote {
+  top: 20px;
+}
+.quote .quote-body {
+  font-size: 17px;
+  font-family: serif;
+  font-style: italic;
+  max-width: 80%;
+  text-align: justify;
+  hyphens: auto;
+  margin-left: 40px;
 }
 #subgroup {
   max-width: 100%;
@@ -632,11 +676,78 @@ body {
   margin-top: 40%;
   padding-bottom: 30px;
 }
+.curve #curve,
+.curve .transition,
+.curve #nineteen-twenty,
+.curve #nineteen-fifty,
+.curve #nineteen-eighty,
+.curve #twenty-ten,
+.curve #nineteen-twenty-tick,
+.curve #nineteen-fifty-tick,
+.curve #twenty-ten-tick,
+.curve #nineteen-eighty-tick {
+  transition: transform 2s;
+}
+.curve #curve {
+  transform-origin: 825px 0;
+}
+#curve-wrapper svg {
+  max-width: 100%;
+}
+.curve.stretched #curve {
+  transform: scaleX(3.1);
+  transition: transform 2s;
+}
+.curve.stretched #nineteen-twenty,
+.curve.stretched #nineteen-twenty-tick {
+  transform: translate(-835px, 0);
+}
+.curve.stretched #nineteen-fifty,
+.curve.stretched #nineteen-fifty-tick {
+  transform: translate(-635px, 0);
+}
+.curve.stretched #nineteen-eighty {
+  transform: translate(-420px, 0);
+}
+.curve.stretched #nineteen-eighty-tick {
+  transform: translate(-435px, 0);
+}
+.curve.stretched #twenty-ten,
+.curve.stretched #twenty-ten-tick {
+  transform: translate(-50px, 0);
+}
+.curve #correlation {
+  position: absolute;
+  width: 80%;
+  right: 19%;
+  top: 70px;
+  transition: opacity 1s;
+  opacity: 0;
+}
+.curve.show-correlation #correlation {
+  opacity: 1;
+}
+#until-recently .infobox-inner,
+#since-it-began .infobox-inner {
+  box-shadow: none;
+  width: 30%;
+  border: 2px solid;
+}
+#since-it-began {
+  height: 2500px;
+}
+#curve-wrapper-outer {
+  height: 15000px;
+  margin-bottom: -15000px;
+}
 .relative {
   position: relative;
 }
 .static {
   position: static;
+}
+.fixed {
+  position: fixed;
 }
 @media (max-width: 799px) {
   .counter,
@@ -657,7 +768,7 @@ body {
   h1 {
     font-size: 14px;
   }
-  .scroll-down {
+  .subtitle {
     font-size: 14px;
   }
   .infobox.thousand {
@@ -772,12 +883,9 @@ body {
   #casualties .bar.highlighted {
     padding-right: 50%;
   }
-  #freedom {
-    font-size: 18px;
+  #freedom, #better-world {
+    font-size: 24px;
     width: 300px;
-  }
-  .not-free {
-    background-size: 500px;
   }
   #subgroup .infobox-inner {
     width: 99%;
@@ -874,6 +982,49 @@ body {
     margin-left: 10px;
     padding-right: 10px;
     text-align: left;
+  }
+  #curve-wrapper svg {
+    max-width: 100%;
+    height: 350px;
+  }
+  #curve-wrapper svg tspan {
+    font-size: 40px;
+  }
+  #until-recently .infobox-inner,
+  #since-it-began .infobox-inner {
+    width: 90%;
+    top: 100px;
+    background-color: lightblue;
+    padding: 10px;
+  }
+  .curve #correlation {
+    width: 78%;
+    right: 20%;
+    top: 27%;
+  }
+  .curve #nineteen-twenty {
+    transform: translate(0, 15px);
+  }
+  .curve #nineteen-fifty {
+    transform: translate(0, 15px);
+  }
+  .curve #nineteen-eighty {
+    transform: translate(0, 15px);
+  }
+  .curve #twenty-ten {
+    transform: translate(0, 15px);
+  }
+  .curve.stretched #nineteen-twenty {
+    transform: translate(-835px, 15px);
+  }
+  .curve.stretched #nineteen-fifty {
+    transform: translate(-635px, 15px);
+  }
+  .curve.stretched #nineteen-eighty {
+    transform: translate(-420px, 15px);
+  }
+  .curve.stretched #twenty-ten {
+    transform: translate(-50px, 15px);
   }
 }
 @media (max-width: 450px) {

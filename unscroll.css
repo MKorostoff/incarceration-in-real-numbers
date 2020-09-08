@@ -1,0 +1,17 @@
+.infobox,
+.infobox.first,
+.infobox-half,
+.infobox-near,
+#casualties {
+  margin-top: 10px;
+  height: auto;
+}
+.infobox-inner {
+  position: static;
+}
+.correctional-population {
+  overflow: scroll;
+}
+.correctional-population .infobox-inner {
+  border: 4px dashed black;
+}

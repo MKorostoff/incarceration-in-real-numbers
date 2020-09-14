@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="169 -470 1605 856" width="1605" height="856">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="18" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="26" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.17.4\n2020-09-14 17:43:06 +0000</metadata>
+  <g id="Canvas_1" stroke-dasharray="none" fill-opacity="1" stroke-opacity="1" stroke="none" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_6">
+        <text transform="translate(215.97285 -440) rotate(90)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="black" x="8526513e-20" y="17">incarceration per 100K</tspan>
+        </text>
+      </g>
+      <g id="Graphic_7">
+        <text transform="translate(333.572 353.76087)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="black" x="18474111e-20" y="17">number incarcerated</tspan>
+        </text>
+      </g>
+      <g id="Graphic_13">
+        <text transform="translate(628.2823 348.7661)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="26" font-weight="400" fill="black" x="0" y="25">1M</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <text transform="translate(1144.5323 348.3771)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="26" font-weight="400" fill="black" x="0" y="25">2M</tspan>
+        </text>
+      </g>
+      <g id="Graphic_18">
+        <text transform="translate(187.41944 -205.11765)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="black" x="6252776e-19" y="17">700</tspan>
+        </text>
+      </g>
+      <g id="Graphic_20">
+        <text transform="translate(174.17094 58.06335)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="18" font-weight="400" fill="black" x="11.902528" y="17">350</tspan>
+        </text>
+      </g>
+      <g id="Graphic_25">
+        <rect x="216.27575" y="67.06535" width="15.5" height="3.5" fill="black"/>
+      </g>
+      <g id="Graphic_26">
+        <rect x="217.5" y="-195.25165" width="15.5" height="3.5" fill="black"/>
+      </g>
+      <g id="Graphic_27">
+        <rect x="645.0833" y="324" width="3.5" height="25.5" fill="black"/>
+      </g>
+      <g id="Graphic_28">
+        <rect x="1163.4283" y="324" width="3.5" height="25.5" fill="black"/>
+      </g>
+      <g id="Line_29">
+        <line x1="219" y1="-467.7802" x2="219" y2="347.2" stroke="black" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Line_30">
+        <path d="M 220 348.5 L 1767.4316 348.5 L 1771.3607 348.5" stroke="black" stroke-linecap="square" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+    </g>
+  </g>
+</svg>

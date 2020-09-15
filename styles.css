@@ -861,7 +861,23 @@ p:last-child {
   margin-bottom: 5px;
   display: flex;
 }
+#invest-in-prevention h2 {
+  font-size: 100px;
+  margin: 0;
+  text-align: center;
+}
+blockquote {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #075379;
+}
+blockquote strong {
+  color: #a90000;
+}
 @media (max-width: 799px) {
+  #invest-in-prevention h2 {
+    font-size: 50px;
+  }
   #bubble-header h2,
   #bubble-header label {
     font-size: 24px;

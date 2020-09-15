@@ -57,11 +57,30 @@ var curveObserver = new IntersectionObserver(function(entries){
         curve_wrapper_outer.classList.remove('show-correlation');
       }
     }
-    if (entry.target.id === 'until-recently' && !entry.isIntersecting && until_recently_shown === true) {
-      curve_wrapper_outer.classList.add('stretched');
+    //Item leaves the screen by scroll down
+    if (entry.target.id === 'until-recently'
+      && !entry.isIntersecting
+     && until_recently_shown === true) {
+      if ((entry.target.offsetTop - window.scrollY - window.innerHeight) < 0) {
+        //User is scrolling down (i.e. normal scroll)
+        curve_wrapper_outer.classList.add('stretched');
+      }
+      else {
+        //User is scrolling up (i.e. reverse scroll)
+        curve_wrapper_outer.classList.remove('stretched');
+      }
     }
-    if (entry.target.id === 'since-it-began' && !entry.isIntersecting && until_recently_shown === true) {
-      curve_wrapper_outer.classList.add('show-correlation');
+
+    //Item leaves the screen by scroll down
+    if (entry.target.id === 'since-it-began'
+      && !entry.isIntersecting
+      && until_recently_shown === true) {
+      if ((entry.target.offsetTop - window.scrollY - window.innerHeight) < 0) {
+        curve_wrapper_outer.classList.add('show-correlation');
+      }
+      else {
+        curve_wrapper_outer.classList.remove('show-correlation');
+      }
     }
   })
 })

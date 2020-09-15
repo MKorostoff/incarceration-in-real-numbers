@@ -135,6 +135,17 @@ var data = [
 ];
 var containerWidth = 1230;
 var containerHeight = 830;
+var diameterRatio = 5000;
+var leftRatio = 3000;
+var topRatio = 1.25;
+
+if (window.innerWidth < 451) {
+  containerWidth = window.innerWidth;
+  containerHeight = window.innerHeight * .9;
+  diameterRatio = 10000;
+  leftRatio = 13500;
+  topRatio = 1.5;
+}
 
 var bubbles = document.getElementById('bubbles');
 var bubblesInner = document.getElementById('bubbles-inner');
@@ -185,9 +196,9 @@ data.forEach(function(country, i){
   }
   div.style.position = 'absolute';
 
-  var diameter = Math.floor(country.population / 5000);
-  div.style.left = Math.floor(country.population / 3000) + 'px';
-  div.style.top = containerHeight - (diameter/2) - Math.floor(country.rate / 1.25) + 'px';
+  var diameter = Math.floor(country.population / diameterRatio);
+  div.style.left = Math.floor(country.population / leftRatio) + 'px';
+  div.style.top = containerHeight - (diameter/2) - Math.floor(country.rate / topRatio) + 'px';
   div.style.width = diameter + 'px';
   div.style.height = diameter + 'px';
   div.style.zIndex = data.length - i;
@@ -198,17 +209,15 @@ function recalculateUSA(prisoners) {
   var usa = document.getElementById("country-bubble-usa");
   var rate = (prisoners/328000000) * 100000;
 
-  console.log(prisoners, rate);
-
   var usaCount = document.getElementById("usa-bubble-count");
   usaCount.innerHTML = "Rank in absolute: " + getRankPopulation(prisoners);
 
   var usaRate = document.getElementById("usa-bubble-rate");
   usaRate.innerHTML = "Rank per capita: " + getRankRate(rate);
 
-  var diameter = Math.floor(prisoners / 5000);
-  usa.style.left = Math.floor(prisoners / 3000) + 'px';
-  usa.style.top = containerHeight - (diameter/2) - Math.floor(rate / 1.25) + 'px';
+  var diameter = Math.floor(prisoners / diameterRatio);
+  usa.style.left = Math.floor(prisoners / leftRatio) + 'px';
+  usa.style.top = containerHeight - (diameter/2) - Math.floor(rate / topRatio) + 'px';
   usa.style.width = diameter + 'px';
   usa.style.height = diameter + 'px';
 }
@@ -247,4 +256,15 @@ checks.forEach(function(check) {
     }
     recalculateUSA(usa_prisoners);
   });
+})
+
+var radios = document.querySelectorAll('.release-radio');
+radios.forEach(function(radio){
+  radio.addEventListener('change', function(e){
+    var change = parseInt(e.target.value);
+    var sibiling = document.getElementById(e.target.dataset.sibiling);
+    sibiling.checked = false;
+    usa_prisoners -= change;
+    recalculateUSA(usa_prisoners);
+  })
 })

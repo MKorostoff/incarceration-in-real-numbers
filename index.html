@@ -808,12 +808,22 @@
     </div>
 
     <div class="infobox infobox-half curve-section" id="causation">
-      <div class="infobox-inner">Virtually all research has concluded that mass incarceration has had a minimal impact on property crime, and <a href="https://www.vera.org/publications/for-the-record-prison-paradox-incarceration-not-safer" target="_blank">zero impact on violent crime</a>. With that in mind, let's look at some reforms and the impact they would have.</div>
+      <div class="infobox-inner">Virtually all research has concluded that mass incarceration has had a minimal impact on property crime, and <a href="https://www.vera.org/publications/for-the-record-prison-paradox-incarceration-not-safer" target="_blank">zero impact on violent crime</a>.</div>
     </div>
 
     <div id="bubbles-outer" class="infobox infobox-near-near">
      <div>
         <div data-background="black" id="bubbles">
+            <div id="bubbles-scale-mobile-top">
+                <span class="line-label">number incarcerated</span>
+                <span class="tick-mark">1M</span>
+                <span class="tick-mark">2M</span>
+            </div>
+            <div id="bubbles-scale-mobile-left">
+                <div class="tick-mark tick-mark-four-hundred">400</div>
+                <div class="tick-mark tick-mark-hundred">100</div>
+                <div class="line-label">Incarcerated per 100K</div>
+            </div>
             <div id="bubble-header">
               <h2>Try out some policies</h2>
               <div id="bubble-header-description">Check off each policy proposal to see how it would impact incarceration rates. The size of each bubble represents the number of people incarcerated in that country, while the vertical position represents the incarceration rate per capita. Tap or mouse over a country to reveal its name.</div>
@@ -843,13 +853,115 @@
       </div>
     </div>
 
-    <div class="infobox infobox-near-near">
+    <div class="infobox infobox-near bubble-section">
       <div class="infobox-inner">
-        As you probably noticed in the previous chart, even large scale, politically impossible reforms that free over a million people hardly make a dent in America's incarceration problem.
+        <p>Here we see the countries of the world. Tap a country to reveal its name.</p>
+        <p>The size of each dot represents the number of people incarcerated in that country. The vertical position represents the incarceration rate per capita.</p>
       </div>
     </div>
 
-    <div class="infobox infobox-near-near">
+    <div class="infobox infobox-near bubble-section">
+      <div class="infobox-inner">
+        In this section, you'll be asked to select from a list of policy proposals aimed at reducing incarceration. Each time you select a policy, the chart will be redrawn to show the overall impact.
+      </div>
+    </div>
+
+    <div class="infobox infobox-near bubble-section">
+      <div class="infobox-inner">
+        <div class="form-wrapper">
+          <h2>Release all non-violent drug offenders?</h2>
+          <div>
+            <div>
+              <input data-sibiling="nonviolent_drug_mobile_no" class="release-radio" type="radio" id="nonviolent_drug_mobile_yes" name="nonviolent_drug_mobile_yes" value="306000">
+              <label for="nonviolent_drug_mobile_yes">Yes</label>
+            </div>
+            <div>
+              <input data-sibiling="nonviolent_drug_mobile_yes" class="release-radio" checked type="radio" id="nonviolent_drug_mobile_no" name="nonviolent_drug_mobile_no" value="-306000">
+              <label for="nonviolent_drug_mobile_no">No</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="infobox infobox-near bubble-section">
+      <div class="infobox-inner">
+        <div class="form-wrapper">
+          <h2>Eliminate cash bail for most pre-trial defendants?</h2>
+          <div>
+            <div>
+              <input data-sibiling="cash_bail_mobile_no" class="release-radio" type="radio" id="cash_bail_mobile_yes" name="cash_bail_mobile_yes" value="410000">
+              <label for="cash_bail_mobile_yes">Yes</label>
+            </div>
+            <div>
+              <input data-sibiling="cash_bail_mobile_yes" class="release-radio" checked type="radio" id="cash_bail_mobile_no" name="cash_bail_mobile_no" value="-410000">
+              <label for="cash_bail_mobile_no">No</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="infobox infobox-near bubble-section">
+      <div class="infobox-inner">
+        <div class="form-wrapper">
+          <h2>Replace immigration detention with electronic monitoring?</h2>
+          <div>
+            <div>
+              <input data-sibiling="immigration_detention_mobile_no" class="release-radio" type="radio" id="immigration_detention_mobile_yes" name="immigration_detention_mobile_yes" value="42000">
+              <label for="immigration_detention_mobile_yes">Yes</label>
+            </div>
+            <div>
+              <input data-sibiling="immigration_detention_mobile_yes" class="release-radio" checked type="radio" id="immigration_detention_mobile_no" name="immigration_detention_mobile_no" value="-42000">
+              <label for="immigration_detention_mobile_no">No</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="infobox infobox-near bubble-section">
+      <div class="infobox-inner">
+        <div class="form-wrapper">
+          <h2>Reduce technical violations for probation and parole?</h2>
+          <div>
+            <div>
+              <input data-sibiling="reduce_technical_violations_mobile_no" class="release-radio" type="radio" id="reduce_technical_violations_mobile_yes" name="reduce_technical_violations_mobile_yes" value="100000">
+              <label for="reduce_technical_violations_mobile_yes">Yes</label>
+            </div>
+            <div>
+              <input data-sibiling="reduce_technical_violations_mobile_yes" class="release-radio" checked type="radio" id="reduce_technical_violations_mobile_no" name="reduce_technical_violations_mobile_no" value="-100000">
+              <label for="reduce_technical_violations_mobile_no">No</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="infobox infobox-near bubble-section">
+      <div class="infobox-inner">
+        <div class="form-wrapper">
+          <h2>Halve sentences for all property and public order crimes?</h2>
+          <div>
+            <div>
+              <input data-sibiling="property_public_order_mobile_no" class="release-radio" type="radio" id="property_public_order_mobile_yes" name="property_public_order_mobile_yes" value="270000">
+              <label for="property_public_order_mobile_yes">Yes</label>
+            </div>
+            <div>
+              <input data-sibiling="property_public_order_mobile_yes" class="release-radio" checked type="radio" id="property_public_order_mobile_no" name="property_public_order_mobile_no" value="-270000">
+              <label for="property_public_order_mobile_no">No</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="infobox infobox-near">
+      <div class="infobox-inner">
+        <p>As you may have noticed in the previous section, American incarceration is so large, and so unrivaled in a global context, that almost no amount of sentence reduction makes a dent. </p>
+        <p>Even if we implemented all of the massive, politically impossible reforms presented above&mdash;reforms that would free well over a million people&mdash;Americans would still remain the 7th most incarcerated people on earth, substantially worse than supposedly oppressed nations like Belarus, Iran, and Saudi Arabia.</p>
+      </div>
+    </div>
+    <div class="infobox infobox-half">
       <div class="infobox-inner">
         <p>It's at this point that you may feel the subtle pull of despair. If freeing a million people will not end mass incarceration, how on earth could we ever hope to?</p>
         <p>The answer is thankfully pretty simple.</p>
@@ -877,11 +989,13 @@
       <div class="infobox-inner">
         <p>In almost every category of criminal activity, there is a lower cost solution that would have prevented the crime from ever occurring in the first place. Everyone would win. There would be fewer crime victims, fewer lives ruined by incarceration, fewer costs to taxpayers, and fewer risks for police. But our political climate has made this completely reasonable approach virtually unthinkable.</p>
 
-        <p>We could house every homeless person for less than we spend jailing them. We could treat every addict</p>
+        <p>We could house every homeless person for less than we spend jailing them. We could treat every addict, employ every </p>
 
         <p>We spend around $5 billion per year incarcerating domestic abusers. Meanwhile, the Violence Against Women Act allocates about $3 billion per year in prevention. <em>Why</em>? Why is there infinite money for idiotic catch and release policies that re-victimization, when we all know the real solution: a reliable pathway to safety for victims of domestic violence.</p>
 
         <p>The forces that perpetuate this system don't care about the outcomes. It is a cult of needless cruelty.</p>
+
+        <p>We use the criminal justice system to enforce vehicle maintenance. You couldn't design a more stupid policy if you tried, and yet everone just accepts that it's the only way to do things. If you were designing society from scratch, could you e
       </div>
     </div>
 

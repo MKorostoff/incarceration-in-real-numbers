@@ -849,6 +849,14 @@ p:last-child {
   left: 2.5%;
   top: 2.5%;
 }
+.bubble-section {
+  display: none;
+}
+.bubble-section .infobox-inner {
+  background-color: lightblue;
+  box-shadow: none;
+  border: 2px solid black;
+}
 #bubble-header h2 {
   font-size: 30px;
   margin-top: 0;
@@ -873,6 +881,10 @@ blockquote {
 }
 blockquote strong {
   color: #a90000;
+}
+#bubbles-scale-mobile-top,
+#bubbles-scale-mobile-left {
+  display: none;
 }
 @media (max-width: 799px) {
   #invest-in-prevention h2 {
@@ -1175,12 +1187,31 @@ blockquote strong {
   .eu-list {
     background-position: 41% -10px;
   }
+  .bubble-section {
+    display: flex;
+    height: 1000px;
+  }
   #bubbles {
-    margin-top: 30%;
+    margin-top: 0;
+    height: 90vh;
+    width: 100%;
+    transform: none !important;
+    border: none;
+  }
+  #bubbles-outer > div {
+    width: 100%;
+    position: sticky;
+    top: 11vh;
+    overflow: hidden;
   }
   #bubble-header h2,
   #bubble-header label {
-    font-size: 50px;
+
+  }
+  #bubbles-outer {
+    overflow: visible;
+    height: 17000px;
+    margin-bottom: -15000px;
   }
   #bubble-header .form-wrapper {
     margin-bottom: 20px;
@@ -1192,6 +1223,7 @@ blockquote strong {
     margin-right: 20px;
   }
   #bubble-header {
+    display: none;
     background-color: #57c8ff;
     position: absolute;
     top: -130%;
@@ -1205,5 +1237,76 @@ blockquote strong {
   #bubble-header-description {
     font-size: 40px;
     font-style: italic;
+  }
+  #bubbles:after {
+    display: none;
+  }
+  .country-bubble {
+    font-size: 15px;
+  }
+  #usa-bubble-count,
+  #usa-bubble-rate {
+    font-size: 11px
+  }
+  #usa-bubble-rate {
+    margin-top: 5px;
+  }
+  #bubbles-scale-mobile-left,
+  #bubbles-scale-mobile-top {
+    display: block;
+    color: #036698;
+  }
+  #bubbles-scale-mobile-top .tick-mark,
+  #bubbles-scale-mobile-left .tick-mark {
+
+  }
+  #bubbles-scale-mobile-top .tick-mark {
+    font-size: 13px;
+    margin-left: 31%;
+    border-left: 2px solid #036698;
+    padding-left: 2px;
+    padding-bottom: 5px;
+  }
+  #bubbles-scale-mobile-top .line-label {
+    position: absolute;
+    font-size: 10px;
+    top: 3px;
+    left: 4px;
+    width: 10px;
+  }
+  #bubbles-scale-mobile-left {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 90vh;
+    z-index: 1;
+  }
+  #bubbles-scale-mobile-left .line-label {
+    font-size: 12px;
+    top: 70%;
+    position: absolute;
+    transform: rotate(90deg);
+    right: -75px;
+    width: 170px;
+  }
+  #bubbles-scale-mobile-left .tick-mark {
+    position: absolute;
+    border-top: 2px solid;
+    padding-top: 3px;
+    right: 0;
+    font-size: 10px;
+  }
+  #bubbles-scale-mobile-left .tick-mark-hundred {
+    bottom: 9vh;
+  }
+  #bubbles-scale-mobile-left .tick-mark-four-hundred {
+    bottom: 45vh;
+  }
+  .form-wrapper h2 {
+    margin: 0;
+  }
+  .form-wrapper {
+    flex-direction: column;
+    text-align: center;
   }
 }

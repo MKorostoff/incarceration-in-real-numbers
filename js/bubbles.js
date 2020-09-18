@@ -152,16 +152,18 @@ var bubblesInner = document.getElementById('bubbles-inner');
 var bubbleHeader = document.getElementById('bubble-header');
 
 function scaleBubbles() {
-  if (window.innerWidth < containerWidth) {
-    bubbles.style.transform = 'scale(' + window.innerWidth/(containerWidth + 70) + ')';
-  }
-  else if (window.innerHeight < containerHeight) {
-    bubbles.style.transform = 'scale(' + window.innerHeight/(containerHeight + 70) + ')';
+  var heightRatio = window.innerHeight/(containerHeight + 150);
+  var widthRatio = window.innerWidth/(containerWidth + 150);
+  var smallestRatio = (heightRatio > widthRatio) ? widthRatio : heightRatio;
+
+  if (window.innerHeight < containerHeight || window.innerWidth < containerWidth) {
+    bubbles.style.transform = 'scale(' + smallestRatio + ')';
   }
 }
 scaleBubbles();
 window.addEventListener("orientationchange", scaleBubbles);
 window.addEventListener("resize", scaleBubbles);
+//todo: redraw bubbles when switching from desktop to mobile?
 
 bubbles.style.display = "block";
 data.forEach(function(country, i){

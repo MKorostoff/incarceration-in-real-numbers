@@ -2,6 +2,7 @@ var prisoners = document.getElementById('prisoners');
 var thousand = document.getElementById('thousand');
 var counter = document.getElementById('counter');
 var title = document.getElementById('title');
+var html = document.getElementsByTagName('html');
 var curve_wrapper_outer = document.getElementById('curve-wrapper-outer');
 var scroll_count = 0;
 
@@ -29,8 +30,8 @@ window.addEventListener("resize", setHeight);
 var observer = new IntersectionObserver(function(entries){
   entries.forEach(function(entry){
     if (entry.isIntersecting || entry.intersectionRatio > 0) {
-      prisoners.classList = "person prisoners";
-      prisoners.classList.add(entry.target.dataset.background);
+      html[0].classList = "";
+      html[0].classList.add(entry.target.dataset.background);
     }
   })
 })
@@ -87,8 +88,18 @@ var curveObserver = new IntersectionObserver(function(entries){
 document.querySelectorAll('.curve-section').forEach(function(target){
   curveObserver.observe(target);
 });
-
-
+var letterObserver = new IntersectionObserver(function(entries){
+  entries.forEach(function(entry){
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animate');
+    }
+    else {
+      entry.target.classList.remove('animate');
+    }
+  })
+})
+var letters = document.getElementById('animated-letters');
+letterObserver.observe(letters);
 
 var ua = navigator.userAgent.toLowerCase();
 var isAndroid = ua.indexOf("android") > -1;

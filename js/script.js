@@ -24,6 +24,11 @@ function setHeight() {
 }
 setHeight();
 
+var citations = document.querySelectorAll('.citation');
+citations.forEach(function(citation, i){
+  citation.innerHTML = i+1;
+})
+
 window.addEventListener("orientationchange", setHeight);
 window.addEventListener("resize", setHeight);
 

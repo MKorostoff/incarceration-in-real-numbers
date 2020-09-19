@@ -39,9 +39,17 @@ Around [555,000 people in the United States are held without conviction](https:/
 
 # Comparison to Europe
 
-* The number of people incarcerated for each race may be calculated by multiplying the [incarceration rate per race](https://www.bjs.gov/content/pub/pdf/cpus10.pdf) by the [total national population of each race](https://www.census.gov/quickfacts/fact/table/US/PST045219). Note that the number of women incarcerated here excludes black and hispanic women, because they are already counted in the racial category.
+The number of people incarcerated for each race may be calculated by multiplying the [incarceration rate per race](https://www.bjs.gov/content/pub/pdf/cpus10.pdf) by the [total national population of each race](https://www.census.gov/quickfacts/fact/table/US/PST045219). Note that the number of women incarcerated here excludes black and hispanic women, because they are already counted in the racial category.
 
 Numbers incarcerated in Europe may be found [here](https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate).
+
+# Comparison to USSR
+
+Soviet incarceration [under Stalin peaked in 1951](https://www.jstor.org/stable/2166597?origin=JSTOR-pdf&seq=1) at 2.5 million. This includes individuals held in gulags, labor colonies, and conventional prisons. The population of the Soviet Union was 182 million in 1951, making the incarceration rate 1,373 per hundred thousand.
+
+The average for all countries can be determined by adding up [wikipedia data](https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate) and then dividing it by the total number of countries in the list.
+
+The incarceration rate for black men in America [can be found here](https://www.bjs.gov/content/pub/pdf/cpus10.pdf). The incarceration rate for black people generally can be found by averaging the male and female rates. Obviously this assumes an equal number of male and female black Americans, so this number may be off by a percent or two.
 
 # Violence Against Women
 

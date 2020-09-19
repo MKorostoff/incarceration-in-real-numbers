@@ -29,7 +29,19 @@ History Information Systems](https://www.ncjrs.gov/pdffiles1/bjs/grants/251516.p
 
 # Plea Bargains
 
-Around [97% of criminal cases](https://www.nacdl.org/Document/TrialPenaltySixthAmendmentRighttoTrialNearExtinct) resolve in a guilty plea. However, not all incarcerated people have been convicted—around [555,000 incarcerated Americans have not been convicted](https://www.prisonpolicy.org/reports/pie2020.html) or entered a guilty plea, mostly held in pre-trial detention. This means only around 1.75 million cases have been resolved of the 2.3 million people incarcerated. The 3% of resolved cases which had trials equal a little over 50,000 incarcerated Americans who have been convicted at trial. This equals around 2% of the whole.
+Around [97% of criminal cases](https://www.nacdl.org/Document/TrialPenaltySixthAmendmentRighttoTrialNearExtinct) resolve in a guilty plea, though the exact number is difficult to know, because there is no unified reporting system for this data across every jurisdiction. Not all incarcerated people have been convicted—around [555,000 incarcerated Americans have not been convicted](https://www.prisonpolicy.org/reports/pie2020.html) or entered a guilty plea, mostly held in pre-trial detention. This means only around 1.75 million cases have been resolved of the 2.3 million people incarcerated. The 3% of resolved cases which had trials equal a little over 50,000 incarcerated Americans who have been convicted at trial. This equals around 2% of the whole.
+
+For data comparing the United States to plea bargaining in other countries, see [The Disappearing Trial](https://www.fairtrials.org/sites/default/files/publication_pdf/Report-The-Disappearing-Trial.pdf).
+
+# Pre Trial Detainees
+
+Around [555,000 people in the United States are held without conviction](https://www.prisonpolicy.org/reports/pie2020.html), almost entirely people awaiting trial.
+
+# Comparison to Europe
+
+* The number of people incarcerated for each race may be calculated by multiplying the [incarceration rate per race](https://www.bjs.gov/content/pub/pdf/cpus10.pdf) by the [total national population of each race](https://www.census.gov/quickfacts/fact/table/US/PST045219). Note that the number of women incarcerated here excludes black and hispanic women, because they are already counted in the racial category.
+
+Numbers incarcerated in Europe may be found [here](https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate).
 
 # Violence Against Women
 

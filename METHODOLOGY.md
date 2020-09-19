@@ -16,6 +16,9 @@ We should not regard human rights abuses abroad as somehow vindicating those com
 * There are [385,960 hairdressers](https://www.bls.gov/oes/current/oes395012.htm).
 * Bar tenders, bus drivers, and hairdressers combined equal 1,178,820.
 
+# American War Dead
+There have been [1.3 million Americans killed in war and 1.5 million wounded](https://en.wikipedia.org/wiki/United_States_military_casualties_of_war). 666,441 of these were combat deaths.
+
 # Violence Against Women
 
 The direct costs of treating victims of domestic violence and [lost productivity are estimated](https://www.congress.gov/bill/116th-congress/house-bill/1585/text) at $8.3 billion ([see also](https://www.cdc.gov/violenceprevention/pdf/IPVBook-a.pdf)). About [160,000 people are incarcerated for domestic violence](https://www.bjs.gov/content/pub/pdf/fvs08.pdf), or violence against an unmarried romantic partner. The average cost to incarcerate someone is [$33,274](https://www.vera.org/publications/price-of-prisons-2015-state-spending-trends/price-of-prisons-2015-state-spending-trends/price-of-prisons-2015-state-spending-trends-prison-spending) meaning the total cost to incarcerate all domestic abusers is around $5.3 billion. This does not include the cost of police, courts, or public defenders, only the cost of incarceration. This brings the total national cost of domestic violence to $13.6 billion. The total allocations made by the Violence Against Women act were [$558 million in 2019](https://www.everycrsreport.com/reports/R45410.html#_Toc6934690). The Family Violence Prevention and Services Act provides an additional $180 million. This obviously excludes state, local, and private charity spending, which are likely significant, but no unified dataset tracks the total value.

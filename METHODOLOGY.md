@@ -70,10 +70,20 @@ The criminal penalties for counterfeiting in Minnesota can be found [here](https
 * Incarceration of [American racial and age groups](https://www.bjs.gov/content/pub/pdf/cpus10.pdf).
 * Incarceration in [Saudi Arabia](https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate) (this is not an estimate, it is an official figure, but it's included to have a "normal" number for a sense of scale).
 
-# Rates Overtime
+# Incarceration and Crime Rates Overtime
+
+Shown in this chart are years 1920 through 2016.
 
 * [Incarceration rate over time](https://en.wikipedia.org/wiki/Incarceration_in_the_United_States).
 * [Crime rate over time](https://crime-data-explorer.fr.cloud.gov/downloads-and-docs) (download the excel file under "Summary (SRS) Data with Estimates" to see the source of this data)
+
+# Correlation Between Incarceration and Crime
+
+* https://www.vera.org/downloads/publications/for-the-record-prison-paradox_02.pdf
+* https://www.brennancenter.org/our-work/analysis-opinion/between-2007-and-2017-34-states-reduced-crime-and-incarceration-tandem
+* https://www.scientificamerican.com/article/do-prisons-make-us-safer/
+* https://www.economist.com/democracy-in-america/2017/11/07/locking-up-more-people-does-not-reduce-crime
+* https://www.theatlantic.com/politics/archive/2015/02/the-many-causes-of-americas-decline-in-crime/385364/
 
 # Violence Against Women
 

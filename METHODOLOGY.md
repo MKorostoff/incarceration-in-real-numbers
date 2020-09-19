@@ -17,7 +17,15 @@ We should not regard human rights abuses abroad as somehow vindicating those com
 * Bar tenders, bus drivers, and hairdressers combined equal 1,178,820.
 
 # American War Dead
-There have been [1.3 million Americans killed in war and 1.5 million wounded](https://en.wikipedia.org/wiki/United_States_military_casualties_of_war). 666,441 of these were combat deaths.
+There have been [1.3 million Americans killed in war and 1.5 million wounded](https://en.wikipedia.org/wiki/United_States_military_casualties_of_war). Of these, 666,441 were combat deaths.
+
+# Total Correctional Population
+
+* About [4.9 million will be incarcerated this year](https://www.prisonpolicy.org/reports/repeatarrests.html).
+* The lifetime chance of going to prison is [5.1% for all Americans](https://bjs.gov/content/pub/pdf/Llgsfp.pdf) (see page 3, table 2). In a population of 328 million people, this equals 16.8 million people currently living who will ever be incarcerated. This, of course, assumes that incarceration rates remain stable, which is impossible to predict.
+* [77 million have a criminal record](https://www.prisonpolicy.org/reports/pie2020.html). "Criminal record" here means that an individual appears in the Federal Department of Justice [Survey of State Criminal
+History Information Systems](https://www.ncjrs.gov/pdffiles1/bjs/grants/251516.pdf).
+* [113 million *adults*](https://everysecond.fwd.us/downloads/EverySecond.fwd.us.pdf) have ever had an immediate family member incarcerated (parent, sibling, or child). Children are excluded from this statistic, meaning the actual number is certainly much higher, but no one has gathered this data. Also excluded from this statistic are people who have had household members outside their immediate family incarcerated (grand parents, for instance).
 
 # Violence Against Women
 

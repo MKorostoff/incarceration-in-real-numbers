@@ -1,12 +1,20 @@
 # Incarceration Rates
 
-Statistics about incarceration are generally taken from the [Prison Policy Whole Pie](https://www.prisonpolicy.org/reports/pie2020.html) report, which is likely the most complete and rigorous report on incarceration in any country. Countries other than the United States are [gathered from Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate). In cases where Wikipedia and Prison Policy Initiative differ, the latter is considered authoritative here. The reason for this is that PPI includes incarcerated persons wrongly excluded by other reports, such as juvenile inmates and those held in immigration detention. Regardless, of the precise number, both sources agree that the United States is first in both absolute numbers and per capita incarceration.
+Statistics about incarceration are generally taken from the [Prison Policy Whole Pie](https://www.prisonpolicy.org/reports/pie2020.html) report, which is the most complete and rigorous report on incarceration in any country. Countries other than the United States are [gathered from Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate). In cases where Wikipedia and Prison Policy Initiative differ, the latter is considered authoritative here. The reason for this is that PPI includes incarcerated persons wrongly excluded by other reports, such as juvenile inmates and those held in immigration detention. Regardless of the precise number, both sources agree that the United States is first in both absolute numbers and per capita incarceration.
 
 There are a few countries where state secrecy slightly complicates the situation, but none fundamentally alter the picture of the United States as the unrivaled global leader in incarceration. For instance, the precise number held in North Korean prison camps is not publically known, though [some sources put the number from 150,000 to 200,000](https://www.goodreads.com/book/show/13618693-the-hidden-gulag). This would be an incarceration rate between 600 (slightly lower than the United States) and 800 (slightly higher).
 
 In 2017 China began incarcerating members of the Muslim Uyghur ethnic minority in secret camps. Very little is known about the number held, the conditions of the camps, or the length of the detention. Most sources report the number at around 1 million, though [this is at best an educated guess](https://qz.com/1599393/how-researchers-estimate-1-million-uyghurs-are-detained-in-xinjiang/). If the 1 million figure is accurate, China would have the largest incarcerated population in absolute numbers, beating out the United States by 17%, but still 359% fewer per capita.
 
 We should not regard human rights abuses abroad as somehow vindicating those committed at home. There is little difference from a policy perspective between an America with the world's highest incarceration rate, and an America just slightly edged out by North Korea. Both are worthy of condemnation.
+
+# Incarceration Compared To Professions
+
+* There are about [1.3 active duty members of the US military](https://en.wikipedia.org/wiki/United_States_Armed_Forces) and 850,000 reservists.
+* There are [613,350 bartenders](https://www.bls.gov/oes/2017/may/oes353011.htm)
+* There are [179,510 bus drivers](https://www.bls.gov/oes/current/oes533052.htm)
+* There are [385,960 hairdressers](https://www.bls.gov/oes/current/oes395012.htm).
+* Bar tenders, bus drivers, and hairdressers combined equal 1,178,820.
 
 # Violence Against Women
 

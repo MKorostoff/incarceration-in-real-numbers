@@ -1,6 +1,6 @@
 # Incarceration Rates
 
-Statistics about incarceration are generally taken from the [Prison Policy Whole Pie](https://www.prisonpolicy.org/reports/pie2020.html) report, which is the most complete and rigorous report on incarceration in any country. Countries other than the United States are [gathered from Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate). In cases where Wikipedia and Prison Policy Initiative differ, the latter is considered authoritative here. The reason for this is that PPI includes incarcerated persons wrongly excluded by other reports, such as juvenile inmates and those held in immigration detention. Regardless of the precise number, both sources agree that the United States is first in both absolute numbers and per capita incarceration.
+Statistics about American incarceration are generally taken from the [Prison Policy Whole Pie](https://www.prisonpolicy.org/reports/pie2020.html) report, which is the most complete and rigorous report on incarceration in any country. Countries other than the United States are [gathered from Wikipedia](https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate). In cases where Wikipedia and Prison Policy Initiative differ, the latter is considered authoritative here. The reason for this is that PPI includes incarcerated persons wrongly excluded by other reports, such as juvenile inmates and those held in immigration detention. Regardless of the precise number, both sources agree that the United States is first in both absolute numbers and per capita incarceration.
 
 There are a few countries where state secrecy slightly complicates the situation, but none fundamentally alter the picture of the United States as the unrivaled global leader in incarceration. For instance, the precise number held in North Korean prison camps is not publically known, though [some sources put the number from 150,000 to 200,000](https://www.goodreads.com/book/show/13618693-the-hidden-gulag). This would be an incarceration rate between 600 (slightly lower than the United States) and 800 (slightly higher).
 
@@ -22,14 +22,14 @@ There have been [1.3 million Americans killed in war and 1.5 million wounded](ht
 # Total Correctional Population
 
 * About [4.9 million will be incarcerated this year](https://www.prisonpolicy.org/reports/repeatarrests.html).
-* The lifetime chance of going to prison is [5.1% for all Americans](https://bjs.gov/content/pub/pdf/Llgsfp.pdf) (see page 3, table 2). In a population of 328 million people, this equals 16.8 million people currently living who will ever be incarcerated. This, of course, assumes that incarceration rates remain stable, which is impossible to predict.
+* As of 2001, there were [5.6 million adults who had ever been to prison](https://www.bjs.gov/content/pub/pdf/piusp01.pdf). We will assume that about the same number of adults today have ever been to prison, though in reality it is probably higher. A baby born in 2001 was projected to have a [6.6%](https://www.bjs.gov/content/pub/pdf/piusp01.pdf) lifetime chance of going to prison. There are around [80 million](https://www.statista.com/statistics/241488/population-of-the-us-by-sex-and-age/) Americans born in 2001 or later, meaning there are another 5.3 million juveniles now alive who can expect to be imprisoned at some point. These two figures (adults previously incarcerated, plus juveniles who will eventually be incarcerated) gives us the minimum number of living Americans who have ever been or will ever go to prison: 10.9 million. Missing from this figure are adults who have _not yet_ been to prison, but will eventually. This is likely a sizable number, but smaller than the other two because risk of imprisonment peaks in early adulthood. This is all to say, 10.9 million is certainly an undercount of the total number.
 * [77 million have a criminal record](https://www.prisonpolicy.org/reports/pie2020.html). "Criminal record" here means that an individual appears in the Federal Department of Justice [Survey of State Criminal
 History Information Systems](https://www.ncjrs.gov/pdffiles1/bjs/grants/251516.pdf).
 * [113 million *adults*](https://everysecond.fwd.us/downloads/EverySecond.fwd.us.pdf) have ever had an immediate family member incarcerated (parent, sibling, or child). Children are excluded from this statistic, meaning the actual number is certainly much higher, but no one has gathered this data. Also excluded from this statistic are people who have had household members outside their immediate family incarcerated (grand parents, for instance).
 
 # Plea Bargains
 
-Around [97% of criminal cases](https://www.nacdl.org/Document/TrialPenaltySixthAmendmentRighttoTrialNearExtinct) resolve in a guilty plea, though the exact number is difficult to know, because there is no unified reporting system for this data across every jurisdiction. Not all incarcerated people have been convicted—around [555,000 incarcerated Americans have not been convicted](https://www.prisonpolicy.org/reports/pie2020.html) or entered a guilty plea, mostly held in pre-trial detention. This means only around 1.75 million cases have been resolved of the 2.3 million people incarcerated. The 3% of resolved cases which had trials equal a little over 50,000 incarcerated Americans who have been convicted at trial. This equals around 2% of the whole.
+Around [97% of criminal cases](https://www.nacdl.org/Document/TrialPenaltySixthAmendmentRighttoTrialNearExtinct) resolve in a guilty plea, though the exact number is difficult to know, because there is no unified reporting system for this data across every jurisdiction. Not all incarcerated people have been convicted—around [555,000 incarcerated Americans have not been convicted](https://www.prisonpolicy.org/reports/pie2020.html) or entered a guilty plea, mostly held in pre-trial detention. So while around 3% or *convicts* had a trial (about 50,000 people) only around 2% of incarcerated people had trials, because not all incarcerated people are convicts.
 
 For data comparing the United States to plea bargaining in other countries, see [The Disappearing Trial](https://www.fairtrials.org/sites/default/files/publication_pdf/Report-The-Disappearing-Trial.pdf).
 
@@ -39,7 +39,7 @@ Around [555,000 people in the United States are held without conviction](https:/
 
 # Comparison to Europe
 
-The number of people incarcerated for each race may be calculated by multiplying the [incarceration rate per race](https://www.bjs.gov/content/pub/pdf/cpus10.pdf) by the [total national population of each race](https://www.census.gov/quickfacts/fact/table/US/PST045219). Note that the number of women incarcerated here excludes black and hispanic women, because they are already counted in the racial category.
+The number of people incarcerated for each race may be calculated by multiplying the [incarceration rate per race](https://www.bjs.gov/content/pub/pdf/cpus10.pdf) by the [total national population of each race](https://www.census.gov/quickfacts/fact/table/US/PST045219).
 
 Numbers incarcerated in Europe may be found [here](https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate).
 
@@ -50,6 +50,18 @@ Soviet incarceration [under Stalin peaked in 1951](https://www.jstor.org/stable/
 The average for all countries can be determined by adding up [wikipedia data](https://en.wikipedia.org/wiki/List_of_countries_by_incarceration_rate) and then dividing it by the total number of countries in the list.
 
 The incarceration rate for black men in America [can be found here](https://www.bjs.gov/content/pub/pdf/cpus10.pdf). The incarceration rate for black people generally can be found by averaging the male and female rates. Obviously this assumes an equal number of male and female black Americans, so this number may be off by a percent or two.
+
+# Lifetime Imprisonment Risk
+
+The lifetime risk of imprisonment for various racial groups can be found [here](https://www.bjs.gov/content/pub/pdf/piusp01.pdf).
+
+# Police Shooting
+
+Police are estimated to kill between [930 and 1,240](https://en.wikipedia.org/wiki/Lists_of_killings_by_law_enforcement_officers_in_the_United_States) Americans each year.
+
+# Legal Penalties For George Floyd
+
+The criminal penalties for counterfeiting in Minnesota can be found [here](https://www.revisor.mn.gov/statutes/cite/609.632#stat.609.632.4). Life expectancy data can be found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4984780/).
 
 # Violence Against Women
 

@@ -162,3 +162,4 @@ A pilot program in Los Angeles found a [net savings of 60% after one year of sup
 * https://whitebirdclinic.org/when-mental-health-experts-not-police-are-the-first-responders/
 * https://www.alcohol.org/dui/drinking-and-driving-rates/
 * https://www.pewresearch.org/fact-tank/2017/03/01/most-violent-and-property-crimes-in-the-u-s-go-unsolved/
+* https://www.brennancenter.org/our-work/research-reports/steep-costs-criminal-justice-fees-and-fines

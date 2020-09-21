@@ -4,7 +4,6 @@
   <title>Mass Incarceration</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="styles.css?v=3">
-  <!-- <link rel="stylesheet" type="text/css" href="unscroll.css?v=3"> -->
 </head>
 <body class="black">
 <div class="main">
@@ -402,7 +401,7 @@
       <div class="infobox-inner">While the incarcerated population is unfathomably large, it is just the tip of the iceberg.</div>
     </div>
 
-    <div class="infobox chart correctional-population infobox-near-near">
+    <div id="correctional-population" class="infobox chart correctional-population infobox-near-near">
       <div class="infobox-inner" style="height: 490px;">
         <h2>The total correctional population <sup>[<a href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/SOURCES.md#total-correctional-population" target="_blank" class="citation"></a>]</sup></h2>
         <div class="vertical-bars">
@@ -472,21 +471,6 @@
       </div>
     </div>
 
-<!--     <div class="infobox stadium">
-        <div class="infobox-inner static">
-          <p>This is the largest stadium in the America. It holds about as many people as there are unconvicted Americans in jail:</p>
-          <picture>
-            <source srcset="img/stadium_m.jpg" media="(max-width: 799px)">
-            <source srcset="img/stadium_d.jpg" media="(min-width: 800px)">
-            <img alt="Picture of a packed crowd at michigan stadium">
-          </picture>
-        </div>
-    </div>
-
-    <div class="infobox">
-      <div class="infobox-inner">Just kidding. There are 5x more Americans sitting in jail without conviction than could fit in that stadium.</div>
-    </div> -->
-
     <div class="infobox">
       <div data-background="black" class="infobox-inner">You've probably heard that mass incarceration disproportionately impacts people of color, and that's true. But let's get one thing straight: there is <em>no group</em> in America, of any race or gender, that is immune from the terror of mass incarceration.</div>
     </div>
@@ -540,7 +524,7 @@
       <div class="infobox-inner">That said, Americans of color are indeed incarcerated at rates almost unheard of in the history of humanity.</div>
     </div>
 
-    <div class="infobox chart stalin infobox-near" style="margin-bottom: 1500px;">
+    <div id="stalin" class="infobox chart stalin infobox-near" style="margin-bottom: 1500px;">
       <div class="infobox-inner" style="height: 490px;">
         <h2>Number incarcerated per 100,000 <sup>[<a href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/SOURCES.md#comparison-to-ussr" class="citation" target="_blank"></a>]</sup></h2>
         <div class="vertical-bars">
@@ -583,8 +567,6 @@
       </div>
     </div>
 
-    <!-- floyd -->
-
     <div class="infobox">
       <div class="infobox-inner">
         <p>When Americans debate criminal justice reform, the conversation often focuses on illegal corruption&mdash;police brutality, bias in sentencing, or improperly lenient outcomes for affluent people. But it's when the system works <em>exactly as designed</em> that the true brutality of over criminalization becomes clear. Mass incarceration may not spark the same public outcry as the murder of unarmed people by police, but it has destroyed an uncountably greater number of families.</p>
@@ -595,7 +577,7 @@
       <div class="infobox-inner">The highlighted icons equal the number of Americans killed by police each year&mdash;about 1,000.  An outrageous number yes, but utterly dwarfed by the ocean of ruined lives hidden away behind prison walls. [<a class="citation" target="_blank" href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/SOURCES.md#police-shooting"></a>]</div>
     </div>
 
-    <div class="infobox infobox-near">
+    <div id="floyd" class="infobox infobox-near">
       <div class="infobox-inner">
         <p>Imagine for a moment that George Floyd had been arrested instead of murdered. Given the maximum 20 years sentence for his alleged crime, he could have been imprisoned until age 66. The life expectancy for black men in America is 72 years. [<a class="citation" target="_blank" href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/SOURCES.md#legal-penalties-for-george-floyd"></a>]</p>
         <p>What violence would he have faced in prison? What grief and shame would his six year old daughter endure, living her formative years without him? What sort of life could he hope to make, if he ever made it out? We would never know. He would have become just be another forgotten convict, crushed by the system. You would not know his name.</p>
@@ -614,14 +596,11 @@
       <div class="infobox-inner">Is this what justice looks like?</div>
     </div>
 
-
-    <!-- end floyd -->
-
     <div class="infobox">
       <div class="infobox-inner">If we drill into individual age groups, it is almost impossible to find a meaningful comparison to American incarceration in public data.</div>
     </div>
 
-    <div class="infobox chart repression infobox-near" style="margin-bottom: 3900px;">
+    <div id="estimated" class="infobox chart repression infobox-near" style="margin-bottom: 3900px;">
       <div class="infobox-inner" style="height: 490px;">
         <h2>Number incarcerated per 100,000 <sup>[<a class="citation" target="_blank" href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/SOURCES.md#estimated-prison-populations"></a>]</sup></h2>
         <div class="vertical-bars">
@@ -649,10 +628,6 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="infobox">
-      <div class="infobox-inner">It is at this point that you may feel the subtle tug of cynicism taking over.</div>
-    </div> -->
 
     <div class="infobox">
       <div class="infobox-inner">Reasonable people can disagree about who, precisely, belongs behind bars. But surely we need to do better than <em>this</em>.</div>
@@ -712,7 +687,6 @@
           <source srcset="img/correlation_d.svg" media="(min-width: 800px)">
           <img id="correlation" alt="Chart showing lack of correlation between crime rates and incarceration." src="img/correlation_d.svg">
         </picture>
-        <!-- <img src="img/curve.svg"/> -->
         <svg xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="168 91 813 443" width="813" height="443">
           <defs>
             <font-face font-family="Helvetica Neue" font-size="18" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
@@ -1121,7 +1095,7 @@
       </div>
     </div>
 
-    <div class="infobox infobox-yellow">
+    <div id="credits" class="infobox infobox-yellow">
       <div class="infobox-inner">
         <em>Incarceration in real numbers is a project by <a href="https://mkorostoff.github.io/" target="_blank">Matt Korostoff</a>. Learn more <a href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/README.md" target="_blank">about this page</a>.</em>
       </div>

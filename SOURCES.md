@@ -106,6 +106,18 @@ This does not count the lost productivity, increased crime, or reduced property 
 
 A pilot program in Los Angeles found a [net savings of 60% after one year of supportive housing](https://www.rand.org/pubs/research_reports/RR1694.html).
 
+## Wrongful Conviction of George Alvarez
+
+[The story of George Alvarez](https://www.aclu.org/news/criminal-law-reform/coercive-plea-bargaining-has-poisoned-the-criminal-justice-system-its-time-to-suck-the-venom-out/)
+
+## Detention of Lavette Mayes
+
+[Lavette Mayes documentary on YouTube](https://www.youtube.com/watch?v=E0LFFXt5D0E)
+
+## Fines resulting in incarceration
+
+[Brennan Center discussion of fines](https://www.brennancenter.org/our-work/research-reports/steep-costs-criminal-justice-fees-and-fines)
+
 ## List of All Sources
 
 * https://crime-data-explorer.fr.cloud.gov/downloads-and-docs

@@ -13,7 +13,7 @@
     <div class="padder"></div>
     <div id="title" class="title"><h1>The actual number of Americans jailed or imprisoned, about 2.3 million</h1><span id="counter" class="counter"></span></div>
     <div data-background="black" class="subtitle">
-        <p>Each icon represents one incarcerated person <a href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/SOURCES.md" target="_blank">(sources)</a></p>
+        <p>Each icon represents one incarcerated person <br class="mobile-only"><a href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/README.md" target="_blank">(about this page)</a></p>
         <p class="scroll-down">scroll down</p>
     </div>
 
@@ -639,7 +639,7 @@
           </div>
 
           <div style="height: 2882px;" class="bar">
-            <div class="bar-label">Chinese Uighurs, UN estimate (8,300)</div>
+            <div class="bar-label">Chinese Uighurs, NGO estimate (8,300)</div>
           </div>
 
           <div style="height: 3363px;" class="bar black-men">
@@ -823,7 +823,7 @@
               </div>
               <div class="form-wrapper">
                 <input autocomplete="off" class="release" type="checkbox" id="cash_bail" name="cash_bail" value="410000">
-                <label for="cash_bail">Eliminate cash bail for most pre-trial defendants.</label>
+                <label for="cash_bail">Eliminate cash bail for three-quarters of pre-trial defendants.</label>
               </div>
               <div class="form-wrapper">
                 <input autocomplete="off" class="release" type="checkbox" id="immigration_detention" name="immigration_detention" value="42000">
@@ -831,11 +831,11 @@
               </div>
               <div class="form-wrapper">
                 <input autocomplete="off" class="release" type="checkbox" id="technical_violations" name="technical_violations" value="100000">
-                <label for="technical_violations">Reduce technical violations for probation and parole.</label>
+                <label for="technical_violations">Reduce technical violations for probation and parole by sixty percent.</label>
               </div>
               <div class="form-wrapper">
                 <input autocomplete="off" class="release" type="checkbox" id="property_crime" name="property_crime" value="270000">
-                <label for="property_crime">Halve sentences for all property and public order crimes.</label>
+                <label for="property_crime">Reduce sentences for property and public order crimes by half.</label>
               </div>
             </div>
             <div id="bubbles-inner"></div>
@@ -876,7 +876,7 @@
     <div class="infobox infobox-near bubble-section">
       <div class="infobox-inner">
         <div class="form-wrapper">
-          <h2>Eliminate cash bail for most pre-trial defendants?</h2>
+          <h2>Eliminate cash bail for three-quarters of pre-trial defendants?</h2>
           <div>
             <div>
               <input data-sibiling="cash_bail_mobile_no" class="release-radio" type="radio" id="cash_bail_mobile_yes" name="cash_bail_mobile_yes" value="410000">
@@ -912,7 +912,7 @@
     <div class="infobox infobox-near bubble-section">
       <div class="infobox-inner">
         <div class="form-wrapper">
-          <h2>Reduce technical violations for probation and parole?</h2>
+          <h2>Reduce technical violations for probation and parole by sixty percent?</h2>
           <div>
             <div>
               <input data-sibiling="reduce_technical_violations_mobile_no" class="release-radio" type="radio" id="reduce_technical_violations_mobile_yes" name="reduce_technical_violations_mobile_yes" value="100000">
@@ -930,7 +930,7 @@
     <div class="infobox infobox-near bubble-section">
       <div class="infobox-inner">
         <div class="form-wrapper">
-          <h2>Halve sentences for all property and public order crimes?</h2>
+          <h2>Reduce sentences for property and public order crimes by half?</h2>
           <div>
             <div>
               <input data-sibiling="property_public_order_mobile_no" class="release-radio" type="radio" id="property_public_order_mobile_yes" name="property_public_order_mobile_yes" value="270000">
@@ -996,11 +996,15 @@
 
     <div class="infobox infobox-near-near infobox-yellow">
       <div class="infobox-inner">
-        <p>In almost every category of criminal activity, there is a lower cost solution that would have prevented the crime from ever occurring in the first place.</p>
+        <p>In almost every category of criminal activity, there is a lower cost, more humane solution that would have prevented the crime from ever occurring in the first place.</p>
       </div>
     </div>
 
     <div id="table" class="infobox infobox-yellow infobox-near-near">
+      <div id="table-intro">
+        <h2>The punitive vs. preventative anti-crime strategies</h2>
+        <div id="table-intro-description">Sometimes a mix of punitive and preventative strategies are appropriate. Often the preventative strategy alone is more successful and cost effective.</div>
+      </div>
       <div class="infobox-inner static">
           <table>
               <div class="table-row table-header">
@@ -1013,16 +1017,16 @@
                 <div class="table-cell row-label"><span>A homeless man is sleeping on your porch.</span></div>
                 <div class="table-content">
                   <div class="table-cell"><span>
-                    Have him arrested. Set an unaffordable bail, and hold him in jail for weeks. Accept his guilty plea and fine him. Keep arresting him everywhere he sleeps. Spend $40,000 dollars per year jailing him and admitting him to emergency rooms until he dies.</span></div>
-                  <div class="table-cell"><span>Put him in <a href="https://www.usich.gov/solutions/housing/supportive-housing/" target="_blank">supportive housing.</a></span></div>
+                    Have him arrested. Set an unaffordable bail, and hold him in jail for weeks. Accept his guilty plea and fine him. Keep arresting him everywhere he sleeps. Spend $40,000 dollars per year jailing him and admitting him to emergency rooms until he dies. [<a class="citation" target="_blank" href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/SOURCES.md#savings-from-supportive-housing"></a>]</span></div>
+                  <div class="table-cell"><span>Put him in <a href="https://www.usich.gov/solutions/housing/supportive-housing/" target="_blank">supportive housing.</a> for literally half the cost. [<a class="citation" target="_blank" href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/SOURCES.md#savings-from-supportive-housing"></a>]</span></div>
                 </div>
               </div>
 
               <div class="table-row">
                 <div class="table-cell row-label"><span>A woman is being beaten by her husband.</span></div>
                 <div class="table-content">
-                  <div class="table-cell"><span>Arrest the husband, hold him overnight. Release him when she declines to press charges, because she can't make rent without him. Keep arresting him every other week. Offer him a voluntary alcohol treatment program that he declines.</span></div>
-                  <div class="table-cell"><span>Give her access to <a href="https://safehousingpartnerships.org/sites/default/files/2017-01/TransHousingServices.pdf" target="_blank">transitional housing</a> so that she can permanently escape her abuser. Provide her with free child care so that she can work enough to become independent.</span></div>
+                  <div class="table-cell"><span>Arrest the husband, hold him overnight. Release him when she declines to press charges, because she can't make rent without him. Keep arresting him every other week. Offer him a voluntary alcohol treatment program that he declines. Spend $13 billion per year jailing abusers and treating their victims. [<a class="citation" target="_blank" href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/SOURCES.md#violence-against-women"></a>]</span></div>
+                  <div class="table-cell"><span>Give her access to <a href="https://safehousingpartnerships.org/sites/default/files/2017-01/TransHousingServices.pdf" target="_blank">transitional housing</a> so that she can permanently escape her abuser. Provide her with free child care so that she can work enough to become independent. [<a class="citation" target="_blank" href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/SOURCES.md#violence-against-women"></a>]</span></div>
                 </div>
               </div>
 
@@ -1069,7 +1073,7 @@
               <div class="table-row">
                 <div class="table-cell row-label"><span>People keep driving around with broken tail lights.</span></div>
                 <div class="table-content">
-                  <div class="table-cell"><span>Spend billions deploying hundreds of thousands of officers to patrol every road in America. Pull people over and give them tickets they cannot afford. Issue bench warrants for the unpaid tickets. Pull them over for the same tail light again, and arrest them for the warrant. Jail them, fine them, suspend their license. Arrest them again for driving without a license. Cost them their job because they can no longer drive. Shut off their electricity because they can't pay without a job. Fine them for stealing electricity. Keep arresting and fining them until their life unravels in a cloud of legal debts and court appearances. Leave most of the tail lights broken anyway.</span></div>
+                  <div class="table-cell"><span>Spend billions deploying hundreds of thousands of officers to patrol every road in America. Pull people over and give them tickets they cannot afford. Issue bench warrants for the unpaid tickets. Pull them over for the same tail light again, and arrest them for the warrant. Jail them, fine them, suspend their license. Arrest them again for driving without a license. Make them lose their job because they can no longer drive. Shut off their electricity because they can't pay without a job. Fine them for stealing electricity. Keep arresting and fining them until their life unravels in a cloud of legal debts and court appearances. Leave most of the tail lights broken anyway.</span></div>
                   <div class="table-cell"><span><a href="https://www.kare11.com/article/news/police-pull-drivers-over-to-hand-out-help-not-tickets/432276529" target="_blank">Just fix the god damn tail lights!</a></span></div>
                 </div>
               </div>
@@ -1090,13 +1094,21 @@
 
         <p>Our leaders will blather on about the burden these programs put on "taxpayers" but they don't actually care about that, they only care that the solution feels sufficiently punitive. This pointless refusal to implement workable policies has been a catastrophe for society, directly costing billions to taxpayers and sucking literally <em>trillions</em> out of the economy in lost productivity and excess crime [<a class="citation" href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/SOURCES.md#cost-of-incarceration" target="_blank">(citation)</a>].</p>
 
-        <p>It doesn't have to be this way. We could house every homeless person. We could treat every addict. Educate every child. Meet the needs of every person driven to theft by the cost food, shelter, and healthcare. But we <em>don't</em>.</p>
+        <p>It's tempting to think of incarceration as something that happens to abstract, far-away strangers, but that is wrong. It could happen to you.</p>
 
-        <p>Instead, we wage war on the poor, the sick, and the addicted. We drive the homeless from their camps with guns and batons. We leave abused women and children to be crushed at the hands of their tormentors. Our only tool is a hammer, and each life is another nail for our government to beat down.</p>
+        <p>In 2006 George Alvarez was arrested for being drunk in public. While awaiting his court date, guards beat him, and then falsely claimed self defense to explain his injuries. Threatened with 10 years in prison for the assault he did not commit, he plead guilty and served 4 years before video evidence exonerated him. All because he was drunk in public <em>one time</em>.</p>
 
-        <p>With our level of wealth, there is almost no human development goal beyond our reach. We could build a society that is more just, more peaceful, and more prosperous than any that has ever existed on the planet. Millions could be freed from cages, and millions more could be freed from the burden of crime.</p>
+        <p>Have you ever been drunk in public? Have you ever been in a physical fight with a family member? Have you ever forgotten to pay a speeding ticket?</p>
 
-        <p>Push away the cynical voice inside yourself that says this cannot be done. Everything is impossible until it happens. Forget the lifetime of politicians claiming that you need to be caged; that your poverty is a moral failing; that your pain is deserved; that your needs cannot be met; that it would lead to anarchy. You know in your heart that it's not true.</p>
+        <p>Even a very short period of incarceration can be massively destabalizing. Think for one moment what would happen if you were jailed for sixty days, starting today. Would you still have a job when you came out? Would you have a home? Who would take care of your kids? Who would feed your dog?</p>
+
+        <p>It doesn't have to be this way. We can have a sane prison policy without compromising public safety. We could house every homeless person. We could treat every addict. Educate every child. Meet the needs of every person driven to theft by the cost food, shelter, and healthcare. But we <em>don't</em>.</p>
+
+        <p>Instead, we wage war on the poor, the sick, and the addicted. We drive the homeless from their camps with guns and batons. We leave abused women and children to be crushed at the hands of their tormentors. Our government's only strategy to deal with the poor and the sick is to punish them and keep punishing them until they magically stop being poor. It isn't working.</p>
+
+        <p>There is no human development goal beyond our reach. We could build a society that is more just, more peaceful, and more prosperous than any that has ever existed on the planet. Millions could be freed from cages, and millions more could be freed from the burden of crime.</p>
+
+        <p>Push away the cynical voice inside yourself that says this cannot be done. Forget the lifetime of politicians claiming that you need to be caged; that freeing you would lead to anarchy; that your poverty is a moral failing; that your pain is deserved; that your needs cannot be met. You know in your heart it isn't not true.</p>
 
         <p>You know in your heart that this society could be ours. All we need to do is make it.</p>
       </div>
@@ -1106,6 +1118,12 @@
     <div id="end-card" class="infobox infobox-yellow infobox-near">
       <div class="infobox-inner">
         <h2>A better world is possible.</h2>
+      </div>
+    </div>
+
+    <div class="infobox infobox-yellow">
+      <div class="infobox-inner">
+        <em>Incarceration in real numbers is a project by <a href="https://mkorostoff.github.io/" target="_blank">Matt Korostoff</a>. Learn more <a href="https://github.com/MKorostoff/incarceration-in-real-numbers/blob/master/README.md" target="_blank">about this page</a>.</em>
       </div>
     </div>
 

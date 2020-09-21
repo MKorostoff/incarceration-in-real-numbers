@@ -20,7 +20,7 @@ html, body {
   padding: 20px;
 }
 .scroll-down {
-  font-style: italic;
+  font-size: 30px;
 }
 h1 {
   font-family: sans-serif;
@@ -903,6 +903,26 @@ blockquote strong {
 }
 #table {
   max-width: 90%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#table-intro {
+  background-color: #ffd537;
+  padding: 5px;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#table h2 {
+  margin: 0;
+  margin-top: 10px;
+}
+#table-intro-description {
+  margin: 10px auto;
+  font-size: 12px;
+  font-style: italic;
 }
 #table .infobox-inner {
   width: 100%;
@@ -1454,3 +1474,50 @@ blockquote strong {
     display: none;
   }
 }
+@media (min-width: 800px) {
+  .mobile-only {
+    display: none;
+  }
+}
+.mute .infobox {
+  display: none !important;
+}
+.unscroll #casualties,
+.unscroll #subgroup,
+.unscroll #dots,
+.unscroll #freedom-wrapper,
+.unscroll .infobox {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: auto;
+}
+.unscroll .floyd .infobox-inner.text {
+  padding: 0;
+  height: auto;
+}
+.unscroll .floyd .infobox-inner .highlight,
+.unscroll .infobox-inner {
+  position: static !important;
+  box-shadow: none;
+}
+.unscroll .expando {
+  display: none;
+}
+.unscroll .expandable .infobox-inner {
+  height: auto;
+}
+.unscroll .stalin,
+.unscroll .repression,
+.unscroll .correctional-population {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.unscroll .stalin .infobox-inner,
+.unscroll .repression .infobox-inner,
+.unscroll .correctional-population .infobox-inner {
+  height: auto !important;
+}
+.unscroll .correctional-population .infobox-inner {
+  border: 4px dashed black;
+}
+

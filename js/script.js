@@ -4,112 +4,113 @@ var counter = document.getElementById('counter');
 var title = document.getElementById('title');
 var html = document.getElementsByTagName('html');
 var curve_wrapper_outer = document.getElementById('curve-wrapper-outer');
+var url_params = new URLSearchParams(window.location.search);
+var mute = url_params.get('mute');
+var unscroll = url_params.get('unscroll');
 var scroll_count = 0;
 
-function setHeight() {
-  var browser_width = window.innerWidth || document.body.clientWidth;
-  var icons_per_card = 200;
-  var pixel_height_per_card = 500;
-  var pixel_width_per_card = 400;
-
-  var cards_per_row = browser_width / pixel_width_per_card;
-  var icons_per_row = icons_per_card * cards_per_row;
-  var number_of_rows = 2300000/icons_per_row;
-
-  var height = Math.floor(number_of_rows * pixel_height_per_card);
-  prisoners.style.height = height + "px";
-
-  var thousand_height = Math.floor((1000/icons_per_row) * pixel_height_per_card);
-  thousand.style.height = thousand_height + "px";
+if (mute) {
+  html[0].classList.add('mute')
 }
-setHeight();
+if (unscroll) {
+  html[0].classList.add('unscroll')
+}
 
-var citations = document.querySelectorAll('.citation');
-citations.forEach(function(citation, i){
-  citation.innerHTML = i+1;
-})
-
-window.addEventListener("orientationchange", setHeight);
-window.addEventListener("resize", setHeight);
-
-var observer = new IntersectionObserver(function(entries){
-  entries.forEach(function(entry){
-    if (entry.isIntersecting || entry.intersectionRatio > 0) {
-      html[0].classList = "";
-      html[0].classList.add(entry.target.dataset.background);
-    }
+if (!mute) {
+  var citations = document.querySelectorAll('.citation');
+  citations.forEach(function(citation, i){
+    citation.innerHTML = i+1;
   })
-})
-document.querySelectorAll('[data-background]').forEach(function(target){
-  observer.observe(target);
-});
 
-var until_recently_shown = false;
-var since_it_began_shown = false;
+  var observer = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting || entry.intersectionRatio > 0) {
+        html[0].classList = (unscroll) ? "unscroll" : "";
+        html[0].classList.add(entry.target.dataset.background);
+      }
+    })
+  })
+  document.querySelectorAll('[data-background]').forEach(function(target){
+    observer.observe(target);
+  });
 
-var curveObserver = new IntersectionObserver(function(entries){
-  entries.forEach(function(entry){
-    if (entry.isIntersecting || entry.intersectionRatio > 0) {
-      if (entry.target.id === 'since-it-began') {
-        since_it_began_shown = true;
+  var until_recently_shown = false;
+  var since_it_began_shown = false;
+
+  var curveObserver = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting || entry.intersectionRatio > 0) {
+        if (entry.target.id === 'since-it-began') {
+          since_it_began_shown = true;
+        }
+        if (entry.target.id === 'until-recently') {
+          until_recently_shown = true;
+        }
+        if (entry.target.id === 'none-of-this') {
+          since_it_began_shown = false;
+          until_recently_shown = false;
+          curve_wrapper_outer.classList.remove('stretched');
+          curve_wrapper_outer.classList.remove('show-correlation');
+        }
       }
-      if (entry.target.id === 'until-recently') {
-        until_recently_shown = true;
+      //Item leaves the screen by scroll down
+      if (entry.target.id === 'until-recently'
+        && !entry.isIntersecting
+       && until_recently_shown === true) {
+        if ((entry.target.offsetTop - window.scrollY - window.innerHeight) < 0) {
+          //User is scrolling down (i.e. normal scroll)
+          curve_wrapper_outer.classList.add('stretched');
+        }
+        else {
+          //User is scrolling up (i.e. reverse scroll)
+          curve_wrapper_outer.classList.remove('stretched');
+        }
       }
-      if (entry.target.id === 'none-of-this') {
-        since_it_began_shown = false;
-        until_recently_shown = false;
-        curve_wrapper_outer.classList.remove('stretched');
-        curve_wrapper_outer.classList.remove('show-correlation');
+
+      //Item leaves the screen by scroll down
+      if (entry.target.id === 'since-it-began'
+        && !entry.isIntersecting
+        && until_recently_shown === true) {
+        if ((entry.target.offsetTop - window.scrollY - window.innerHeight) < 0) {
+          curve_wrapper_outer.classList.add('show-correlation');
+        }
+        else {
+          curve_wrapper_outer.classList.remove('show-correlation');
+        }
       }
-    }
-    //Item leaves the screen by scroll down
-    if (entry.target.id === 'until-recently'
-      && !entry.isIntersecting
-     && until_recently_shown === true) {
-      if ((entry.target.offsetTop - window.scrollY - window.innerHeight) < 0) {
-        //User is scrolling down (i.e. normal scroll)
-        curve_wrapper_outer.classList.add('stretched');
+    })
+  })
+  document.querySelectorAll('.curve-section').forEach(function(target){
+    curveObserver.observe(target);
+  });
+  var letterObserver = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate');
       }
       else {
-        //User is scrolling up (i.e. reverse scroll)
-        curve_wrapper_outer.classList.remove('stretched');
+        entry.target.classList.remove('animate');
       }
-    }
-
-    //Item leaves the screen by scroll down
-    if (entry.target.id === 'since-it-began'
-      && !entry.isIntersecting
-      && until_recently_shown === true) {
-      if ((entry.target.offsetTop - window.scrollY - window.innerHeight) < 0) {
-        curve_wrapper_outer.classList.add('show-correlation');
-      }
-      else {
-        curve_wrapper_outer.classList.remove('show-correlation');
-      }
-    }
+    })
   })
-})
-document.querySelectorAll('.curve-section').forEach(function(target){
-  curveObserver.observe(target);
-});
-var letterObserver = new IntersectionObserver(function(entries){
-  entries.forEach(function(entry){
-    if (entry.isIntersecting) {
-      entry.target.classList.add('animate');
-    }
-    else {
-      entry.target.classList.remove('animate');
-    }
-  })
-})
-var letters = document.getElementById('animated-letters');
-letterObserver.observe(letters);
+  var letters = document.getElementById('animated-letters');
+  letterObserver.observe(letters);
 
-var ua = navigator.userAgent.toLowerCase();
-var isAndroid = ua.indexOf("android") > -1;
-if (isAndroid) {
-  document.body.classList.add("android");
+  function toggleExpand(outer, inner) {
+    var outerEl = document.getElementById(outer);
+    var innerEl = document.getElementById(inner);
+    var offset = Math.abs(outerEl.offsetTop - innerEl.offsetTop);
+    innerEl.style.top = offset + 'px';
+    outerEl.classList.add('expanded')
+  }
+
+  function showTooltip(e) {
+    var tooltip = e.parentElement.getElementsByClassName('tooltip')[0]
+    tooltip.classList.add('open')
+  }
+  function closeTooltip(e) {
+    e.parentElement.classList.remove('open');
+  }
 }
 
 window.addEventListener('scroll', function(e) {
@@ -130,18 +131,24 @@ function getScrollCount() {
   return count;
 }
 
-function toggleExpand(outer, inner) {
-  var outerEl = document.getElementById(outer);
-  var innerEl = document.getElementById(inner);
-  var offset = Math.abs(outerEl.offsetTop - innerEl.offsetTop);
-  innerEl.style.top = offset + 'px';
-  outerEl.classList.add('expanded')
-}
+function setHeight() {
+  var browser_width = window.innerWidth || document.body.clientWidth;
+  var icons_per_card = 200;
+  var pixel_height_per_card = 500;
+  var pixel_width_per_card = 400;
 
-function showTooltip(e) {
-  var tooltip = e.parentElement.getElementsByClassName('tooltip')[0]
-  tooltip.classList.add('open')
+  var cards_per_row = browser_width / pixel_width_per_card;
+  var icons_per_row = icons_per_card * cards_per_row;
+  var number_of_rows = 2300000/icons_per_row;
+
+  var height = Math.floor(number_of_rows * pixel_height_per_card);
+  prisoners.style.height = height + "px";
+
+  if (!mute) {
+    var thousand_height = Math.floor((1000/icons_per_row) * pixel_height_per_card);
+    thousand.style.height = thousand_height + "px";
+  }
 }
-function closeTooltip(e) {
-  e.parentElement.classList.remove('open');
-}
+setHeight();
+window.addEventListener("orientationchange", setHeight);
+window.addEventListener("resize", setHeight);

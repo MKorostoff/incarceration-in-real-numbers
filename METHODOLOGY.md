@@ -19,6 +19,7 @@ We should not regard human rights abuses abroad as somehow vindicating those com
 * Bar tenders, bus drivers, and hairdressers combined equal 1,178,820.
 
 ## American War Dead
+
 There have been [1.3 million Americans killed in war and 1.5 million wounded](https://en.wikipedia.org/wiki/United_States_military_casualties_of_war). Of these, 666,441 were combat deaths.
 
 ## Total Correctional Population
@@ -143,3 +144,9 @@ A pilot program in Los Angeles found a [net savings of 60% after one year of sup
 * https://www.themarshallproject.org/2019/12/17/the-hidden-cost-of-incarceration
 * https://www.usich.gov/resources/uploads/asset_library/Ending_Chronic_Homelessness_in_2017.pdf
 * https://www.vera.org/publications/price-of-prisons-2015-state-spending-trends/price-of-prisons-2015-state-spending-trends/price-of-prisons-2015-state-spending-trends-prison-spending
+* https://www.usich.gov/solutions/housing/supportive-housing/
+* https://safehousingpartnerships.org/sites/default/files/2017-01/TransHousingServices.pdf
+* https://www.treatmentadvocacycenter.org/key-issues/criminalization-of-mental-illness/2976-people-with-untreated-mental-illness-16-times-more-likely-to-be-killed-by-law-enforcement-
+* https://whitebirdclinic.org/when-mental-health-experts-not-police-are-the-first-responders/
+* https://www.alcohol.org/dui/drinking-and-driving-rates/
+* https://www.pewresearch.org/fact-tank/2017/03/01/most-violent-and-property-crimes-in-the-u-s-go-unsolved/

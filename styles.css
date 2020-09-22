@@ -864,7 +864,6 @@ p:last-child {
 }
 .form-wrapper label {
   font-size: 18px;
-  line-height: 30px;
 }
 .form-wrapper > div {
   display: flex;
@@ -955,7 +954,6 @@ blockquote strong {
   background-color: #ffea9b;
 }
 .table-cell {
-  flex: 1 1 86%;
   min-height: 100px;
   border: 1px solid #693b3b;
   display: flex;
@@ -1486,6 +1484,10 @@ blockquote strong {
     flex-direction: column;
     text-align: center;
   }
+  .form-wrapper label {
+    font-size: 18px;
+    line-height: 30px;
+  }
   .mobile-hidden {
     display: none;
   }
@@ -1493,6 +1495,9 @@ blockquote strong {
 @media (min-width: 800px) {
   .mobile-only {
     display: none;
+  }
+  .table-cell {
+    flex: 1 1 86%;
   }
 }
 .mute .infobox {

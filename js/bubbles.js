@@ -144,7 +144,7 @@ if (window.innerWidth < 451) {
   containerHeight = window.innerHeight * .9;
   diameterRatio = 10000;
   leftRatio = 13500;
-  topRatio = 1.5;
+  topRatio = 1.3;
 }
 
 var bubbles = document.getElementById('bubbles');

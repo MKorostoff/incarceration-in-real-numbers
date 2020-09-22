@@ -862,6 +862,16 @@ p:last-child {
   margin-bottom: 5px;
   display: flex;
 }
+.form-wrapper label {
+  font-size: 18px;
+  line-height: 30px;
+}
+.form-wrapper > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding-top: 10px;
+}
 #invest-in-prevention h2 {
   font-size: 100px;
   margin: 0;

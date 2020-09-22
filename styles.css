@@ -17,10 +17,15 @@ html, body {
 }
 .subtitle {
   text-align: center;
-  padding: 20px;
+  padding: 13px;
+}
+.subtitle .description {
+  font-size: 12px;
+  font-style: italic;
 }
 .scroll-down {
-  font-size: 30px;
+  font-size: 16px;
+  font-weight: bold;
 }
 h1 {
   font-family: sans-serif;
@@ -818,6 +823,7 @@ p:last-child {
   box-shadow: none;
   justify-content: flex-start;
 }
+.japan,
 .country-bubble-high-rate {
   color: black;
 }

@@ -204,6 +204,12 @@ data.forEach(function(country, i){
   div.style.width = diameter + 'px';
   div.style.height = diameter + 'px';
   div.style.zIndex = data.length - i;
+
+  if (country.name == 'Japan') {
+    div.classList.add('japan');
+    div.style.zIndex = 1000;
+  }
+
   bubblesInner.appendChild(div);
 })
 

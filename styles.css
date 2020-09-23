@@ -1079,6 +1079,7 @@ blockquote strong {
   }
   h1 {
     font-size: 14px;
+    line-height: 15px;
   }
   .subtitle {
     font-size: 14px;

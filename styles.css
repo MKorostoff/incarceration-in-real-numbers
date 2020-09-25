@@ -726,16 +726,20 @@ p:last-child {
 }
 #until-recently .infobox-inner,
 #since-it-began .infobox-inner {
-  box-shadow: none;
   width: 30%;
+  border: 2px solid;
+}
+#reverse-correlation-1 .infobox-inner,
+#reverse-correlation-2 .infobox-inner {
+  width: 50%;
   border: 2px solid;
 }
 #since-it-began {
   height: 2500px;
 }
 #curve-wrapper-outer {
-  height: 15000px;
-  margin-bottom: -15000px;
+  height: 27500px;
+  margin-bottom: -27500px;
 }
 .relative {
   position: relative;
@@ -1304,11 +1308,15 @@ blockquote strong {
     font-size: 40px;
   }
   #until-recently .infobox-inner,
+  #reverse-correlation-1 .infobox-inner,
+  #reverse-correlation-2 .infobox-inner,
   #since-it-began .infobox-inner {
     width: 90%;
     top: 100px;
+    box-shadow: none;
     background-color: lightblue;
     padding: 10px;
+    font-size: 14px;
   }
   .curve #correlation {
     width: 78%;

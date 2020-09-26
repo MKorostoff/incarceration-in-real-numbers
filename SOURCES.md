@@ -16,7 +16,7 @@ We should not regard human rights abuses abroad as somehow vindicating those com
 
 ## Incarceration Compared To Professions
 
-* There are about [1.3 active duty members of the US military](https://en.wikipedia.org/wiki/United_States_Armed_Forces) and 850,000 reservists.
+* There are about [1.3 million active duty members of the US military](https://en.wikipedia.org/wiki/United_States_Armed_Forces) and 850,000 reservists.
 * There are [613,350 bartenders](https://www.bls.gov/oes/2017/may/oes353011.htm)
 * There are [179,510 bus drivers](https://www.bls.gov/oes/current/oes533052.htm)
 * There are [385,960 hairdressers](https://www.bls.gov/oes/current/oes395012.htm).

@@ -12,7 +12,7 @@ The terms "jail" and "prison" are not interchangeable. A jail is a place where a
 
 [Click here to view a version with just the icons](https://mkorostoff.github.io/incarceration-in-real-numbers/?mute=1), without all the commentary
 
-## Outline
+## Table of Contents
 
 #### Understanding the size of the problem
 

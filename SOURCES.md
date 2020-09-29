@@ -68,7 +68,7 @@ Police are estimated to kill between [930 and 1,240](https://en.wikipedia.org/wi
 
 ## Legal Penalties For George Floyd
 
-The criminal penalties for counterfeiting in Minnesota can be found [here](https://www.revisor.mn.gov/statutes/cite/609.632#stat.609.632.4). Life expectancy data can be found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4984780/).
+The criminal penalties for counterfeiting in Minnesota can be found [here](https://www.revisor.mn.gov/statutes/cite/609.632#stat.609.632.4). Life expectancy data can be found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4984780/). Also note, life expectancy is [significantly lower](https://www.prisonpolicy.org/blog/2017/06/26/life_expectancy/) for people who have been incarcerated.
 
 ## Estimated Prison Populations
 

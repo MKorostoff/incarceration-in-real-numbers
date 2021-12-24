@@ -9,6 +9,9 @@ var mute = url_params.get('mute');
 var unscroll = url_params.get('unscroll');
 var scroll_count = 0;
 
+// If you want to translate this project to other languages you can change the parameter "en-US" to represent numbers in destination format.
+var number_formatter = new Intl.NumberFormat("en-US");
+
 if (mute) {
   html[0].classList.add('mute')
 }
@@ -19,7 +22,7 @@ if (unscroll) {
 if (!mute) {
   var citations = document.querySelectorAll('.citation');
   citations.forEach(function(citation, i){
-    citation.innerHTML = i+1;
+    citation.innerHTML = number_formatter.format(i+1);
   })
 
   var observer = new IntersectionObserver(function(entries){
@@ -116,7 +119,7 @@ if (!mute) {
 window.addEventListener('scroll', function(e) {
   scroll_count = getScrollCount();
   if (scroll_count > 2000) {
-    counter.innerHTML = scroll_count.toLocaleString();
+    counter.innerHTML = number_formatter.format(scroll_count);
   }
   else {
     counter.innerHTML = '';

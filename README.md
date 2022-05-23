@@ -2,7 +2,7 @@
 
 ## About
 
-[Incarceration in real numbers](https://mkorostoff.github.io/incarceration-in-real-numbers) is a data visualization project by [Matt Korostoff](https://mkorostoff.github.io/). It is not affaliated with or sponsored by any organization. It launched in autumn 2020.
+[Incarceration in real numbers](https://mkorostoff.github.io/incarceration-in-real-numbers) is a data visualization project by [Matt Korostoff](https://mkorostoff.github.io/). It is not affiliated with or sponsored by any organization. It launched in autumn 2020.
 
 ## A word about words
 

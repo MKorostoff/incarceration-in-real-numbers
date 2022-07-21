@@ -900,18 +900,20 @@ blockquote strong {
   max-width: 100%;
 }
 #animated-letters path {
+  fill: #ffd438;
+  stroke-width: 1px;
   stroke-dasharray: 330;
-  stroke-width: 12px;
-  fill: none;
-  transition: stroke-dashoffset 4s;
   stroke-dashoffset: 330;
   stroke-linecap: round;
+  transition: stroke-dashoffset 2s, fill 1s linear 2s, stroke-width 1s linear 2s;
 }
 #animated-letters.animate path {
   stroke-dashoffset: 660;
+  fill: #13bcbf;
+  stroke-width: 4px;
 }
 #animated-letters#animated-letters path {
-  stroke: #921f4b;
+  stroke: black;
 }
 .infobox-yellow .infobox-inner {
   background-color: #ffd438;
